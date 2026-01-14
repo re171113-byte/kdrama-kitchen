@@ -4,7 +4,7 @@ description: "CU 편의점에서 살 수 있는 다이어트 음식 15가지를 
 pubDate: "2026-01-15"
 category: "간편식"
 tags: ["CU 다이어트", "편의점 다이어트", "CU 저칼로리", "다이어트 음식", "편의점 추천"]
-image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
+image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445"
 author: "슬림한끼"
 ---
 
