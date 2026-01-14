@@ -10,7 +10,7 @@
 | 항목 | 내용 |
 |------|------|
 | **사이트명** | 슬림한끼 |
-| **도메인** | food-blog.pages.dev |
+| **도메인** | slimhanki-blog.pages.dev |
 | **주제** | 다이어트/건강식 레시피 |
 | **기술 스택** | Astro 4.x + TypeScript |
 | **수익 모델** | Google AdSense + 쿠팡 파트너스 |
