@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 export async function GET() {
   const posts = await getCollection('posts');
   const allTags = [...new Set(posts.flatMap(post => post.data.tags))];
-  const site = 'https://food-blog.pages.dev';
+  const site = 'https://slimhanki-blog.pages.dev';
 
   const staticPages = ['', '/about', '/contact', '/privacy', '/posts'];
 
