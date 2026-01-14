@@ -2,26 +2,26 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-// 영문 slug와 한글 카테고리 매핑
+// URL slug to category mapping for K-Drama genres
 const categoryMap: Record<string, { name: string, categories: string[] }> = {
-  'low-cal': { name: '저칼로리', categories: ['저칼로리', '저칼로리 레시피'] },
-  'k-diet': { name: 'K-다이어트', categories: ['K-다이어트'] },
-  'protein': { name: '단백질', categories: ['단백질 식단'] },
-  'quick': { name: '간편식', categories: ['간편식'] },
-  'mealprep': { name: '밀프렙', categories: ['밀프렙'] },
-  'diet-tips': { name: '다이어트 방법', categories: ['다이어트 방법'] },
-  'healthy': { name: '건강식', categories: ['건강식'] }
+  'romance': { name: 'Romance', categories: ['Romance'] },
+  'action': { name: 'Action', categories: ['Action'] },
+  'comedy': { name: 'Comedy', categories: ['Comedy'] },
+  'historical': { name: 'Historical', categories: ['Historical'] },
+  'thriller': { name: 'Thriller', categories: ['Thriller'] },
+  'comfort-food': { name: 'Comfort Food', categories: ['Comfort Food'] },
+  'street-food': { name: 'Street Food', categories: ['Street Food'] }
 };
 
 export function getStaticPaths() {
   const map = {
-    'low-cal': { name: '저칼로리', categories: ['저칼로리', '저칼로리 레시피'] },
-    'k-diet': { name: 'K-다이어트', categories: ['K-다이어트'] },
-    'protein': { name: '단백질', categories: ['단백질 식단'] },
-    'quick': { name: '간편식', categories: ['간편식'] },
-    'mealprep': { name: '밀프렙', categories: ['밀프렙'] },
-    'diet-tips': { name: '다이어트 방법', categories: ['다이어트 방법'] },
-    'healthy': { name: '건강식', categories: ['건강식'] }
+    'romance': { name: 'Romance', categories: ['Romance'] },
+    'action': { name: 'Action', categories: ['Action'] },
+    'comedy': { name: 'Comedy', categories: ['Comedy'] },
+    'historical': { name: 'Historical', categories: ['Historical'] },
+    'thriller': { name: 'Thriller', categories: ['Thriller'] },
+    'comfort-food': { name: 'Comfort Food', categories: ['Comfort Food'] },
+    'street-food': { name: 'Street Food', categories: ['Street Food'] }
   };
   return Object.keys(map).map(slug => ({
     params: { slug },
@@ -40,16 +40,16 @@ const posts = allPosts
     title: post.data.title,
     description: post.data.description,
     image: post.data.image + '?w=600',
-    category: post.data.category.replace(' 레시피', ''),
+    category: post.data.category,
     date: post.data.pubDate.replace(/-/g, '.')
   }));
 ---
 
-<BaseLayout title={`${categoryInfo.name} - 슬림한끼`} description={`${categoryInfo.name} 관련 다이어트 레시피와 건강식 정보`}>
+<BaseLayout title={`${categoryInfo.name} Recipes - K-Drama Kitchen`} description={`${categoryInfo.name} K-Drama recipes. Cook iconic dishes from your favorite Korean dramas.`}>
   <div class="category-page">
     <div class="category-header">
       <h1>{categoryInfo.name}</h1>
-      <p>{posts.length}개의 글</p>
+      <p>{posts.length} {posts.length === 1 ? 'recipe' : 'recipes'}</p>
     </div>
 
     <div class="posts-grid">

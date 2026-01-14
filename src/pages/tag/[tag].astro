@@ -22,16 +22,16 @@ const posts = allPosts
     title: post.data.title,
     description: post.data.description,
     image: post.data.image + '?w=600',
-    category: post.data.category.replace(' 레시피', ''),
+    category: post.data.category,
     date: post.data.pubDate.replace(/-/g, '.')
   }));
 ---
 
-<BaseLayout title={`#${tag} - 슬림한끼`} description={`${tag} 관련 다이어트 레시피와 건강식 정보`}>
+<BaseLayout title={`#${tag} - K-Drama Kitchen`} description={`Recipes tagged with ${tag}. Cook iconic dishes from your favorite Korean dramas.`}>
   <div class="tag-page">
     <div class="tag-header">
       <h1>#{tag}</h1>
-      <p>{posts.length}개의 글</p>
+      <p>{posts.length} {posts.length === 1 ? 'recipe' : 'recipes'}</p>
     </div>
 
     <div class="posts-grid">

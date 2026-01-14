@@ -13,7 +13,7 @@ interface Props {
 
 const {
   title,
-  description = "맛있게 먹고, 날씬하게 사는 비밀 - 슬림한끼",
+  description = "Cook What You Watch - Authentic Korean recipes from your favorite K-Dramas",
   image,
   type = 'website',
   pubDate,
@@ -22,7 +22,7 @@ const {
   slug
 } = Astro.props;
 
-const siteUrl = 'https://slimhanki-blog.pages.dev';
+const siteUrl = 'https://kdrama-kitchen.pages.dev';
 const canonicalUrl = slug ? `${siteUrl}/posts/${slug}` : new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = image || `${siteUrl}/og-default.jpg`;
 
@@ -40,12 +40,12 @@ const jsonLd = type === 'article' ? {
   "dateModified": pubDate,
   "author": {
     "@type": "Person",
-    "name": "슬림한끼",
+    "name": "K-Drama Kitchen",
     "url": `${siteUrl}/about`
   },
   "publisher": {
     "@type": "Organization",
-    "name": "슬림한끼",
+    "name": "K-Drama Kitchen",
     "logo": {
       "@type": "ImageObject",
       "url": `${siteUrl}/logo.png`
@@ -59,23 +59,21 @@ const jsonLd = type === 'article' ? {
 } : {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "슬림한끼",
-  "description": "맛있게 먹고, 날씬하게 사는 비밀 - 저칼로리 레시피와 다이어트 식단 정보",
+  "name": "K-Drama Kitchen",
+  "description": "Cook What You Watch - Authentic Korean recipes from your favorite K-Dramas",
   "url": siteUrl,
   "publisher": {
     "@type": "Organization",
-    "name": "슬림한끼"
+    "name": "K-Drama Kitchen"
   }
 };
 ---
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="naver-site-verification" content="6321beb598774af499ca1d1f6ae95cb154f31ebd" />
-  <meta name="msvalidate.01" content="2F20749EE40E4C5F8634518F3D97506D" />
   <meta name="description" content={description}>
 
   <!-- Canonical URL -->
@@ -87,8 +85,8 @@ const jsonLd = type === 'article' ? {
   <meta property="og:title" content={title}>
   <meta property="og:description" content={description}>
   <meta property="og:image" content={ogImage}>
-  <meta property="og:site_name" content="슬림한끼">
-  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="K-Drama Kitchen">
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -101,6 +99,11 @@ const jsonLd = type === 'article' ? {
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>{title}</title>
+
+  <!-- Google Fonts - Playfair Display for Magazine Logo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- 이미지 프리커넥트 -->
   <link rel="preconnect" href="https://images.unsplash.com">
@@ -134,107 +137,93 @@ const jsonLd = type === 'article' ? {
       }, 2000);
     });
   </script>
-  <!-- Kakao SDK (지연 로드) -->
-  <script>
-    window.kakaoLoaded = false;
-    function loadKakaoSDK(callback) {
-      if (window.Kakao) { callback && callback(); return; }
-      if (window.kakaoLoaded) { return; }
-      window.kakaoLoaded = true;
-      var script = document.createElement('script');
-      script.src = 'https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js';
-      script.onload = function() {
-        Kakao.init('25afa0ad4ddbd574de6d4f473d8af79a');
-        callback && callback();
-      };
-      document.head.appendChild(script);
-    }
-  </script>
 </head>
 <body>
-  <!-- 모바일 전용 추천 배너 (최상단) -->
-  <a href="#" class="mobile-recommend" id="mobile-recommend">
-    <span class="mobile-recommend-badge">추천</span>
-    <span class="mobile-recommend-title" id="mobile-recommend-title">추천 글을 불러오는 중...</span>
-    <span class="mobile-recommend-arrow">›</span>
-  </a>
-
-  <header class="header">
-    <div class="header-top">
+  <!-- Magazine Style Header -->
+  <header class="magazine-header">
+    <div class="header-top-bar">
       <div class="header-top-inner">
-        <a href="#" id="random-recommend">
-          <span class="label">오늘의 추천</span>
-          <span class="arrow">→</span>
-          <span class="title" id="random-title">추천 글을 불러오는 중...</span>
+        <a href="#" id="random-recommend" class="featured-article">
+          <span class="featured-label">Featured</span>
+          <span id="random-title" class="featured-title">Loading...</span>
         </a>
+        <div class="header-top-links">
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </div>
       </div>
     </div>
+
     <div class="header-main">
-      <a href="/" class="logo">
-        <div class="logo-mark"></div>
-        <div class="logo-text">
-          <span class="logo-title">슬림한끼</span>
-          <span class="logo-subtitle">SlimMeal</span>
-        </div>
+      <a href="/" class="magazine-logo">
+        <span class="logo-text">K-DRAMA</span>
+        <span class="logo-accent">KITCHEN</span>
+        <span class="logo-tagline">Cook What You Watch</span>
       </a>
-      <div class="search-container">
-        <div class="search-box">
-          <input type="text" id="search-input" placeholder="검색어를 입력하세요" autocomplete="off">
-          <span class="search-icon">🔍</span>
+    </div>
+
+    <nav class="magazine-nav">
+      <div class="nav-inner">
+        <a href="/" class={`nav-link ${currentPath === '/' ? 'active' : ''}`}>Home</a>
+        <a href="/category/romance" class={`nav-link ${currentPath.includes('romance') ? 'active' : ''}`}>Romance</a>
+        <a href="/category/thriller" class={`nav-link ${currentPath.includes('thriller') ? 'active' : ''}`}>Thriller</a>
+        <a href="/category/comedy" class={`nav-link ${currentPath.includes('comedy') ? 'active' : ''}`}>Comedy</a>
+        <a href="/category/historical" class={`nav-link ${currentPath.includes('historical') ? 'active' : ''}`}>Historical</a>
+        <a href="/posts" class={`nav-link ${currentPath === '/posts' ? 'active' : ''}`}>All Recipes</a>
+        <div class="nav-search">
+          <button class="search-toggle" id="search-toggle" aria-label="Search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+            </svg>
+          </button>
         </div>
-        <div class="search-results" id="search-results"></div>
       </div>
-      <!-- 모바일 전용 검색 아이콘 -->
-      <button class="mobile-search-icon-btn" id="mobile-search-icon-btn" aria-label="검색">
+    </nav>
+  </header>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-overlay-inner">
+      <input type="text" id="search-input" placeholder="Search recipes, dramas, ingredients..." autocomplete="off">
+      <button class="search-close" id="search-close">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/>
-          <path d="m21 21-4.35-4.35"/>
+          <path d="M18 6L6 18M6 6l12 12"/>
         </svg>
       </button>
     </div>
-  </header>
+    <div class="search-results" id="search-results"></div>
+  </div>
 
-  <!-- 모바일 검색 오버레이 -->
+  <!-- Mobile Search Overlay -->
   <div class="mobile-search-overlay" id="mobile-search-overlay">
     <div class="mobile-search-overlay-inner">
       <div class="mobile-search-input-wrapper">
-        <input type="text" class="mobile-search-input" id="mobile-search-input" placeholder="검색어를 입력하세요">
+        <input type="text" class="mobile-search-input" id="mobile-search-input" placeholder="Search recipes...">
         <svg class="mobile-search-input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"/>
           <path d="m21 21-4.35-4.35"/>
         </svg>
       </div>
-      <button class="mobile-search-close-btn" id="mobile-search-close-btn" aria-label="닫기">
+      <button class="mobile-search-close-btn" id="mobile-search-close-btn" aria-label="Close">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M18 6L6 18M6 6l12 12"/>
         </svg>
       </button>
     </div>
     <div class="mobile-search-tags">
-      <span class="mobile-search-tags-label">인기 검색어</span>
+      <span class="mobile-search-tags-label">Popular Searches</span>
       <div class="mobile-search-tags-list">
-        <button class="mobile-search-tag" data-query="두부">두부</button>
-        <button class="mobile-search-tag" data-query="닭가슴살">닭가슴살</button>
-        <button class="mobile-search-tag" data-query="오트밀">오트밀</button>
-        <button class="mobile-search-tag" data-query="샐러드">샐러드</button>
-        <button class="mobile-search-tag" data-query="간식">간식</button>
+        <button class="mobile-search-tag" data-query="Kimchi">Kimchi</button>
+        <button class="mobile-search-tag" data-query="Ramyeon">Ramyeon</button>
+        <button class="mobile-search-tag" data-query="Bibimbap">Bibimbap</button>
+        <button class="mobile-search-tag" data-query="Tteokbokki">Tteokbokki</button>
+        <button class="mobile-search-tag" data-query="Fried Chicken">Fried Chicken</button>
       </div>
     </div>
     <div class="mobile-search-results" id="mobile-search-results"></div>
   </div>
   <div class="mobile-search-backdrop" id="mobile-search-backdrop"></div>
-
-  <nav class="nav-bar">
-    <div class="nav-inner">
-      <a href="/" class={`nav-item ${currentPath === '/' ? 'active' : ''}`}>전체</a>
-      <a href="/category/low-cal" class={`nav-item ${currentPath === '/category/low-cal' ? 'active' : ''}`}>저칼로리</a>
-      <a href="/category/k-diet" class={`nav-item ${currentPath === '/category/k-diet' ? 'active' : ''}`}>K-다이어트</a>
-      <a href="/category/protein" class={`nav-item ${currentPath === '/category/protein' ? 'active' : ''}`}>단백질</a>
-      <a href="/category/quick" class={`nav-item ${currentPath === '/category/quick' ? 'active' : ''}`}>간편식</a>
-      <a href="/category/mealprep" class={`nav-item ${currentPath === '/category/mealprep' ? 'active' : ''}`}>밀프렙</a>
-      <a href="/category/diet-tips" class={`nav-item ${currentPath === '/category/diet-tips' ? 'active' : ''}`}>다이어트 방법</a>
-    </div>
-  </nav>
 
   <main>
     <slot />
@@ -265,7 +254,7 @@ const jsonLd = type === 'article' ? {
     })();
   </script>
 
-  <!-- 검색 기능 -->
+  <!-- Search Toggle & Search Functionality -->
   <script type="module">
     import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.mjs';
 
@@ -283,25 +272,43 @@ const jsonLd = type === 'article' ? {
       });
     }
 
+    // Search overlay toggle
+    const searchToggle = document.getElementById('search-toggle');
+    const searchOverlay = document.getElementById('search-overlay');
+    const searchClose = document.getElementById('search-close');
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
 
-    searchInput.addEventListener('focus', initSearch);
+    searchToggle?.addEventListener('click', () => {
+      searchOverlay?.classList.add('show');
+      searchInput?.focus();
+      initSearch();
+    });
 
-    searchInput.addEventListener('input', async (e) => {
+    searchClose?.addEventListener('click', () => {
+      searchOverlay?.classList.remove('show');
+      if (searchInput) searchInput.value = '';
+      if (searchResults) searchResults.innerHTML = '';
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && searchOverlay?.classList.contains('show')) {
+        searchOverlay.classList.remove('show');
+      }
+    });
+
+    searchInput?.addEventListener('input', async (e) => {
       const query = e.target.value.trim();
       if (!query) {
         searchResults.innerHTML = '';
-        searchResults.style.display = 'none';
         return;
       }
 
       await initSearch();
-      const results = fuse.search(query).slice(0, 5);
+      const results = fuse.search(query).slice(0, 6);
 
       if (results.length === 0) {
-        searchResults.innerHTML = '<div class="search-no-result">검색 결과가 없습니다</div>';
-        searchResults.style.display = 'block';
+        searchResults.innerHTML = '<div class="search-no-result">No results found</div>';
         return;
       }
 
@@ -314,13 +321,6 @@ const jsonLd = type === 'article' ? {
           </div>
         </a>
       `).join('');
-      searchResults.style.display = 'block';
-    });
-
-    document.addEventListener('click', (e) => {
-      if (!e.target.closest('.search-container')) {
-        searchResults.style.display = 'none';
-      }
     });
   </script>
 
@@ -374,7 +374,7 @@ const jsonLd = type === 'article' ? {
       const results = fuse.search(query).slice(0, 8);
 
       if (results.length === 0) {
-        mobileSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #888; font-size: 14px;">검색 결과가 없습니다</div>';
+        mobileSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #888; font-size: 14px;">No results found</div>';
         return;
       }
 
@@ -410,73 +410,21 @@ const jsonLd = type === 'article' ? {
       });
     });
   </script>
-
-  <!-- 쿠팡 파트너스 링크 변환 스크립트 -->
-  <script>
-    const COUPANG_PARTNER_ID = 'AF2391197';
-    document.addEventListener('DOMContentLoaded', () => {
-      const coupangLinks = document.querySelectorAll('a[href*="link.coupang.com"]');
-      coupangLinks.forEach(link => {
-        const linkText = link.textContent || '';
-        const keyword = linkText.replace(/s*보러가기.*$/, '').trim();
-        if (keyword) {
-          const searchUrl = 'https://www.coupang.com/np/search?q=' + encodeURIComponent(keyword) + '&channel=user&sorter=scoreDesc&listSize=36&aid=' + COUPANG_PARTNER_ID;
-          link.setAttribute('href', searchUrl);
-          link.setAttribute('target', '_blank');
-          link.setAttribute('rel', 'noopener noreferrer sponsored');
-        }
-      });
-    });
-  </script>
-
-  <!-- 4.1 소셜 공유 버튼 (플로팅) -->
-  <div class="share-floating" id="share-floating">
-    <button class="share-btn kakao" id="share-kakao" title="카카오톡 공유">
-      <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M12 3C6.5 3 2 6.58 2 11c0 2.83 1.82 5.32 4.56 6.72l-.96 3.56c-.08.3.24.54.5.38l4.08-2.72c.6.08 1.2.12 1.82.12 5.5 0 10-3.58 10-8s-4.5-8-10-8z"/>
-      </svg>
-    </button>
-    <button class="share-btn twitter" id="share-twitter" title="X 공유">
-      <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-      </svg>
-    </button>
-    <button class="share-btn facebook" id="share-facebook" title="페이스북 공유">
-      <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-      </svg>
-    </button>
-    <button class="share-btn copy" id="share-copy" title="링크 복사">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- 4.2 맨 위로 버튼 -->
-  <button class="scroll-top" id="scroll-top" title="맨 위로">
+  <!-- Back to Top Button -->
+  <button class="scroll-top" id="scroll-top" title="Back to Top">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
       <path d="M18 15l-6-6-6 6"/>
     </svg>
   </button>
 
-  <!-- 모바일 전용 하단 바 -->
+  <!-- Mobile Bottom Bar -->
   <div class="mobile-bottom-bar" id="mobile-bottom-bar">
-    <button class="mobile-share-btn" id="mobile-share-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
-        <polyline points="16 6 12 2 8 6"/>
-        <line x1="12" y1="2" x2="12" y2="15"/>
-      </svg>
-      공유하기
-    </button>
-    <button class="mobile-icon-btn" id="mobile-bookmark-btn" title="북마크">
+    <button class="mobile-icon-btn" id="mobile-bookmark-btn" title="Bookmark">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
       </svg>
     </button>
-    <button class="mobile-icon-btn" id="mobile-scroll-top-btn" title="맨 위로">
+    <button class="mobile-icon-btn" id="mobile-scroll-top-btn" title="Back to Top">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M18 15l-6-6-6 6"/>
       </svg>
@@ -503,52 +451,7 @@ const jsonLd = type === 'article' ? {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-    // 소셜 공유
-    const shareUrl = window.location.href;
-    const shareTitle = document.title;
-
-    // X (Twitter)
-    document.getElementById('share-twitter').addEventListener('click', () => {
-      window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareTitle)}`, '_blank', 'width=600,height=400');
-    });
-
-    // Facebook
-    document.getElementById('share-facebook').addEventListener('click', () => {
-      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, '_blank', 'width=600,height=400');
-    });
-
-    // 링크 복사
-    document.getElementById('share-copy').addEventListener('click', async () => {
-      try {
-        await navigator.clipboard.writeText(shareUrl);
-        const btn = document.getElementById('share-copy');
-        btn.classList.add('copied');
-        setTimeout(() => btn.classList.remove('copied'), 2000);
-      } catch (e) {
-        alert('링크 복사에 실패했습니다.');
-      }
-    });
-
-    // 카카오톡 공유 (지연 로드)
-    document.getElementById('share-kakao').addEventListener('click', () => {
-      loadKakaoSDK(function() {
-        if (window.Kakao) {
-          Kakao.Share.sendDefault({
-            objectType: 'feed',
-            content: {
-              title: shareTitle,
-              description: document.querySelector('meta[name="description"]')?.content || '맛있게 먹고, 날씬하게 사는 비밀',
-              imageUrl: document.querySelector('meta[property="og:image"]')?.content || 'https://slimhanki-blog.pages.dev/og-default.jpg',
-              link: { mobileWebUrl: shareUrl, webUrl: shareUrl },
-            },
-            buttons: [{ title: '자세히 보기', link: { mobileWebUrl: shareUrl, webUrl: shareUrl } }],
-          });
-        }
-      });
-    });
-
     // ==================== 모바일 하단 바 스크립트 ====================
-    const mobileShareBtn = document.getElementById('mobile-share-btn');
     const mobileBookmarkBtn = document.getElementById('mobile-bookmark-btn');
     const mobileScrollTopBtn = document.getElementById('mobile-scroll-top-btn');
     const toastNotification = document.getElementById('toast-notification');
@@ -559,31 +462,10 @@ const jsonLd = type === 'article' ? {
       setTimeout(() => toastNotification.classList.remove('show'), 2000);
     }
 
-    // 모바일 공유 버튼 (Web Share API)
-    mobileShareBtn?.addEventListener('click', async () => {
-      const shareData = {
-        title: shareTitle,
-        text: document.querySelector('meta[name="description"]')?.content || '',
-        url: shareUrl
-      };
-      if (navigator.share) {
-        try {
-          await navigator.share(shareData);
-        } catch (err) {}
-      } else {
-        try {
-          await navigator.clipboard.writeText(shareUrl);
-          showToast('링크가 복사되었습니다');
-        } catch (err) {
-          showToast('복사에 실패했습니다');
-        }
-      }
-    });
-
     // 모바일 북마크 버튼
     mobileBookmarkBtn?.addEventListener('click', function() {
       this.classList.toggle('active');
-      showToast(this.classList.contains('active') ? '북마크에 저장됨' : '북마크 해제됨');
+      showToast(this.classList.contains('active') ? 'Bookmarked!' : 'Bookmark removed');
     });
 
     // 모바일 맨 위로 버튼
@@ -594,46 +476,55 @@ const jsonLd = type === 'article' ? {
 
   <footer class="footer">
     <div class="footer-inner">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <a href="/" class="logo">
-            <div class="logo-mark"></div>
-            <div class="logo-text">
-              <span class="logo-title">슬림한끼</span>
-            </div>
+      <!-- Magazine-style Footer Top -->
+      <div class="footer-magazine-brand">
+        <a href="/" class="footer-logo">
+          <span class="footer-logo-text">K-DRAMA</span>
+          <span class="footer-logo-accent">KITCHEN</span>
+        </a>
+        <p class="footer-tagline">Cook What You Watch</p>
+        <p class="footer-desc">Bringing the flavors of Korean dramas to your kitchen. Authentic recipes inspired by iconic food scenes from your favorite K-Dramas.</p>
+        <div class="footer-social">
+          <a href="https://pinterest.com" target="_blank" rel="noopener" title="Pinterest">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+            </svg>
           </a>
-          <p>맛있게 먹고, 날씬하게 사는 비밀. 저칼로리 레시피와 다이어트 식단 정보를 공유합니다.</p>
-        </div>
-        <div class="footer-links">
-          <h5>카테고리</h5>
-          <ul>
-            <li><a href="/category/low-cal">저칼로리 레시피</a></li>
-            <li><a href="/category/k-diet">K-다이어트</a></li>
-            <li><a href="/category/protein">단백질 식단</a></li>
-            <li><a href="/category/quick">간편식</a></li>
-            <li><a href="/category/mealprep">밀프렙</a></li>
-            <li><a href="/category/diet-tips">다이어트 방법</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h5>정보</h5>
-          <ul>
-            <li><a href="/about">소개</a></li>
-            <li><a href="/contact">문의</a></li>
-            <li><a href="/privacy">개인정보처리방침</a></li>
-            <li><a href="/terms">이용약관</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h5>파트너</h5>
-          <ul>
-            <li><a href="/contact">광고 문의</a></li>
-            <li><a href="/contact">제휴 문의</a></li>
-          </ul>
+          <a href="https://instagram.com" target="_blank" rel="noopener" title="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+          </a>
+          <a href="https://x.com" target="_blank" rel="noopener" title="X">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" title="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener" title="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <p>&copy; 2026 슬림한끼. All rights reserved.</p>
+        <div class="footer-nav">
+          <a href="/about">About</a>
+          <span class="footer-nav-divider">·</span>
+          <a href="/contact">Contact</a>
+          <span class="footer-nav-divider">·</span>
+          <a href="/privacy">Privacy</a>
+          <span class="footer-nav-divider">·</span>
+          <a href="/terms">Terms</a>
+        </div>
+        <p class="footer-copyright">&copy; 2026 K-Drama Kitchen. All rights reserved.</p>
+        <p class="footer-disclaimer">This site is a fan-made project and is not affiliated with any drama production companies.</p>
       </div>
     </div>
   </footer>
@@ -642,17 +533,19 @@ const jsonLd = type === 'article' ? {
 
 <style is:global>
   :root {
-    --bg-primary: #FAFAF8;
-    --bg-secondary: #F5F4F1;
+    /* Newspaper Editorial Style */
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F7F7F7;
     --bg-card: #FFFFFF;
-    --text-primary: #1A1A1A;
-    --text-secondary: #6B6B6B;
-    --text-tertiary: #767676;  /* WCAG AA 대비율 4.54:1 */
-    --point: #2C2C2C;
-    --accent: #A08060;
-    --accent-light: #C4A882;
-    --border: #E8E6E3;
-    --border-light: #F0EEEB;
+    --text-primary: #121212;
+    --text-secondary: #545454;
+    --text-tertiary: #717171;
+    --point: #000000;
+    --accent: #121212;
+    --accent-light: #333333;
+    --border: #E0E0E0;
+    --border-light: #F0F0F0;
+    --link-color: #326891;
   }
 
   * {
@@ -686,67 +579,283 @@ const jsonLd = type === 'article' ? {
     height: auto;
   }
 
-  /* ==================== HEADER ==================== */
-  .header {
+  /* ==================== NEWSPAPER HEADER ==================== */
+  .magazine-header {
     background: var(--bg-card);
-    border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
     z-index: 100;
   }
 
-  .header-top {
-    background: var(--text-primary);
-    padding: 12px 24px;
+  .header-top-bar {
+    background: var(--point);
+    padding: 6px 24px;
+    border-bottom: 1px solid var(--point);
   }
 
   .header-top-inner {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
-  .header-top a {
-    color: #ccc;
-    font-size: 0.85rem;
+  .featured-article {
     display: flex;
     align-items: center;
     gap: 8px;
+    color: #CCCCCC;
+    text-decoration: none;
     transition: color 0.2s;
   }
 
-  .header-top a:hover {
-    color: #fff;
+  .featured-article:hover {
+    color: #FFFFFF;
   }
 
-  .header-top .label {
-    color: var(--accent);
-    font-weight: 500;
+  .featured-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #FFFFFF;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.12);
+    padding: 3px 10px;
+    border-radius: 2px;
   }
 
-  .header-top .arrow {
-    color: #666;
+  .featured-label::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #E53935;
+    border-radius: 50%;
+    animation: blink 2s ease-in-out infinite;
+    box-shadow: 0 0 4px rgba(229, 57, 53, 0.6);
   }
 
-  .header-top .title {
-    max-width: 400px;
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .featured-title {
+    font-size: 0.75rem;
+    font-weight: 400;
+    max-width: 280px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
-  .header-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 24px;
+  .header-top-links {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 20px;
   }
 
-  /* Logo */
+  .header-top-links a {
+    color: #CCCCCC;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    transition: color 0.2s;
+  }
+
+  .header-top-links a:hover {
+    color: #FFFFFF;
+  }
+
+  /* Newspaper Masthead */
+  .header-main {
+    text-align: center;
+    padding: 28px 24px 24px;
+    border-bottom: 3px double var(--point);
+    position: relative;
+  }
+
+  .header-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .magazine-logo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .logo-text {
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--point);
+    line-height: 1;
+  }
+
+  .logo-accent {
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.35em;
+    color: var(--point);
+    margin-top: 2px;
+    border-top: 1px solid var(--point);
+    border-bottom: 1px solid var(--point);
+    padding: 4px 0;
+  }
+
+  .logo-tagline {
+    font-size: 0.65rem;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-top: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* Newspaper Navigation */
+  .magazine-nav {
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-card);
+  }
+
+  .magazine-nav .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .magazine-nav .nav-link {
+    padding: 14px 28px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .magazine-nav .nav-link:hover {
+    color: var(--point);
+  }
+
+  .magazine-nav .nav-link.active {
+    color: var(--point);
+    border-bottom-color: var(--point);
+  }
+
+  .nav-search {
+    margin-left: auto;
+    padding-left: 24px;
+    border-left: 1px solid var(--border);
+  }
+
+  .search-toggle {
+    background: none;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: color 0.2s;
+  }
+
+  .search-toggle:hover {
+    color: var(--text-primary);
+  }
+
+  .search-toggle svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Search Overlay */
+  .search-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    z-index: 200;
+    padding: 24px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.15);
+  }
+
+  .search-overlay.show {
+    display: block;
+    animation: slideDown 0.3s ease-out;
+  }
+
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .search-overlay-inner {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .search-overlay input {
+    flex: 1;
+    padding: 16px 24px;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-overlay input:focus {
+    border-color: var(--accent);
+  }
+
+  .search-overlay input::placeholder {
+    color: var(--text-tertiary);
+  }
+
+  .search-close {
+    background: var(--bg-secondary);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: all 0.2s;
+  }
+
+  .search-close:hover {
+    background: var(--border);
+    color: var(--text-primary);
+  }
+
+  .search-close svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Legacy Logo styles (footer) */
   .logo {
     display: flex;
     align-items: center;
@@ -770,11 +879,6 @@ const jsonLd = type === 'article' ? {
     height: 20px;
     border: 2px solid var(--accent);
     border-radius: 50%;
-  }
-
-  .logo-text {
-    display: flex;
-    flex-direction: column;
   }
 
   .logo-title {
@@ -1129,11 +1233,11 @@ const jsonLd = type === 'article' ? {
     border-bottom-color: var(--accent);
   }
 
-  /* ==================== FOOTER ==================== */
+  /* ==================== MAGAZINE FOOTER ==================== */
   .footer {
     background: var(--text-primary);
-    color: var(--text-tertiary);
-    padding: 64px 24px 32px;
+    color: rgba(255,255,255,0.7);
+    padding: 80px 24px 40px;
     margin-top: auto;
   }
 
@@ -1142,91 +1246,110 @@ const jsonLd = type === 'article' ? {
     margin: 0 auto;
   }
 
-  .footer-top {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    gap: 48px;
-    padding-bottom: 48px;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+  /* Magazine Brand Section */
+  .footer-magazine-brand {
+    text-align: center;
+    margin-bottom: 32px;
   }
 
-  .footer-brand .logo {
-    margin-bottom: 20px;
+  .footer-logo {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
   }
 
-  .footer-brand .logo-mark {
-    background: #3a3a3a;
-  }
-
-  .footer-brand .logo-title {
+  .footer-logo-text {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
     color: #fff;
+    line-height: 1;
   }
 
-  .footer-brand p {
-    font-size: 0.9rem;
+  .footer-logo-accent {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    color: var(--accent-light);
+  }
+
+  .footer-tagline {
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 16px;
+  }
+
+  .footer-desc {
+    max-width: 500px;
+    margin: 0 auto 24px;
+    font-size: 0.95rem;
     line-height: 1.7;
-    color: var(--text-tertiary);
+    color: rgba(255,255,255,0.6);
   }
 
   .footer-social {
     display: flex;
-    gap: 12px;
-    margin-top: 24px;
+    justify-content: center;
+    gap: 16px;
   }
 
   .footer-social a {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
     background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    color: rgba(255,255,255,0.7);
     transition: all 0.2s;
   }
 
   .footer-social a:hover {
     background: var(--accent);
     border-color: var(--accent);
-  }
-
-  .footer-links h5 {
-    font-size: 0.9rem;
-    font-weight: 600;
     color: #fff;
-    margin-bottom: 20px;
   }
 
-  .footer-links ul {
-    list-style: none;
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
   }
 
-  .footer-links li {
-    margin-bottom: 12px;
+  .footer-nav {
+    margin-bottom: 16px;
   }
 
-  .footer-links a {
+  .footer-nav a {
     font-size: 0.85rem;
-    color: var(--text-tertiary);
+    color: rgba(255,255,255,0.6);
     transition: color 0.2s;
   }
 
-  .footer-links a:hover {
-    color: var(--accent-light);
+  .footer-nav a:hover {
+    color: #fff;
   }
 
-  .footer-bottom {
-    padding-top: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .footer-nav-divider {
+    color: rgba(255,255,255,0.3);
+    margin: 0 12px;
+  }
+
+  .footer-copyright {
     font-size: 0.8rem;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 8px;
   }
 
-  .footer-bottom .legal {
-    color: var(--text-tertiary);
+  .footer-disclaimer {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.3);
   }
 
   /* ==================== 모바일 전용 요소 (데스크톱에서 숨김) ==================== */
@@ -1256,68 +1379,6 @@ const jsonLd = type === 'article' ? {
 
   .toast-notification.show {
     opacity: 1;
-  }
-
-  /* ==================== 소셜 공유 버튼 ==================== */
-  .share-floating {
-    position: fixed;
-    right: 24px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    z-index: 90;
-  }
-
-  .share-btn {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-
-  .share-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  }
-
-  .share-btn svg {
-    width: 20px;
-    height: 20px;
-  }
-
-  .share-btn.kakao {
-    background: #FEE500;
-    color: #3C1E1E;
-  }
-
-  .share-btn.twitter {
-    background: #000000;
-    color: white;
-  }
-
-  .share-btn.facebook {
-    background: #1877F2;
-    color: white;
-  }
-
-  .share-btn.copy {
-    background: var(--bg-secondary);
-    color: var(--text-primary);
-    border: 1px solid var(--border);
-  }
-
-  .share-btn.copy.copied {
-    background: var(--accent);
-    color: white;
-    border-color: var(--accent);
   }
 
   /* ==================== 맨 위로 버튼 ==================== */
@@ -1358,65 +1419,83 @@ const jsonLd = type === 'article' ? {
   }
 
   /* ==================== RESPONSIVE ==================== */
-  @media (max-width: 1024px) {
-    .footer-top {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
   @media (max-width: 768px) {
-    /* 헤더 상단 추천바 - 모바일에서 숨김 */
-    .header-top {
+    /* Magazine Header - Mobile */
+    .header-top-bar {
       display: none;
     }
 
     .header-main {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      padding: 12px 16px;
+      padding: 20px 16px;
     }
 
-    /* 모바일에서 검색창 숨김 */
-    .search-container {
-      display: none;
+    .logo-text {
+      font-size: 1.8rem;
     }
 
-    /* 모바일 검색 아이콘 버튼 표시 */
-    .mobile-search-icon-btn {
-      display: flex;
+    .logo-accent {
+      font-size: 1.2rem;
     }
 
-    /* 네비게이션 - 가로 스크롤 */
-    .nav-inner {
+    .logo-tagline {
+      font-size: 0.65rem;
+      margin-top: 4px;
+    }
+
+    /* Magazine Nav - Mobile horizontal scroll */
+    .magazine-nav .nav-inner {
+      padding: 0 16px;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
       scrollbar-width: none;
-      -ms-overflow-style: none;
+      justify-content: flex-start;
     }
 
-    .nav-inner::-webkit-scrollbar {
+    .magazine-nav .nav-inner::-webkit-scrollbar {
       display: none;
     }
 
-    .nav-item {
+    .magazine-nav .nav-link {
+      padding: 14px 16px;
+      font-size: 0.75rem;
       white-space: nowrap;
       flex-shrink: 0;
     }
 
-    .footer-top {
-      grid-template-columns: 1fr;
-    }
-
-    .footer-bottom {
-      flex-direction: column;
-      gap: 16px;
-      text-align: center;
-    }
-
-    /* 모바일에서 소셜 공유 버튼 숨김 */
-    .share-floating {
+    .nav-search {
       display: none;
+    }
+
+    /* Mobile search icon in header */
+    .mobile-search-icon-btn {
+      display: flex;
+    }
+
+    /* Footer - Mobile */
+    .footer {
+      padding: 48px 16px 32px;
+    }
+
+    .footer-logo-text {
+      font-size: 1.8rem;
+    }
+
+    .footer-logo-accent {
+      font-size: 1.1rem;
+    }
+
+    .footer-desc {
+      font-size: 0.85rem;
+      padding: 0 16px;
+    }
+
+    .footer-nav-divider {
+      margin: 0 8px;
+    }
+
+    .footer-magazine-brand {
+      padding-bottom: 32px;
+      margin-bottom: 32px;
     }
 
     /* 모바일에서 기존 맨 위로 버튼 숨김 */
@@ -1475,33 +1554,6 @@ const jsonLd = type === 'article' ? {
       gap: 8px;
       z-index: 100;
       box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
-    }
-
-    .mobile-share-btn {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      background: #A08060;
-      color: #fff;
-      border: none;
-      padding: 14px;
-      border-radius: 10px;
-      font-size: 15px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .mobile-share-btn:active {
-      transform: scale(0.98);
-      background: #8B6914;
-    }
-
-    .mobile-share-btn svg {
-      width: 18px;
-      height: 18px;
     }
 
     .mobile-icon-btn {

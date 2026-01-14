@@ -2,71 +2,135 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="소개 - 슬림한끼">
-  <div class="page-container">
-    <h1>소개</h1>
+<BaseLayout title="About - K-Drama Kitchen">
+  <article class="page-container">
+    <header class="page-header">
+      <h1>About</h1>
+      <p class="tagline">Cook What You Watch</p>
+    </header>
 
-    <section class="about-content">
-      <p class="slogan">맛있게 먹고, 날씬하게 사는 비밀.</p>
-      <p>슬림한끼는 저칼로리 레시피와 다이어트 식단 정보를 제공하는 푸드 블로그입니다.</p>
-      <p>건강한 식단 관리에 도움이 되는 정보를 쉽고 보기 좋게 정리하여 공유합니다.</p>
+    <section class="page-content">
+      <p class="lead">
+        K-Drama Kitchen brings the flavors of Korean dramas to your kitchen.
+        We recreate the iconic dishes that make you hungry while watching your favorite shows.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        Every K-Drama fan knows the feeling: you're watching a cozy scene where characters
+        share a steaming bowl of ramyeon or gather around a sizzling Korean BBQ, and suddenly
+        you're craving that exact dish. We're here to help you recreate those moments.
+      </p>
+      <p>
+        Our recipes are designed to be accessible to home cooks worldwide, with clear
+        instructions and ingredient substitutions when needed.
+      </p>
+
+      <h2>What We Offer</h2>
+      <ul>
+        <li><strong>Drama-Inspired Recipes</strong> — Dishes featured in popular K-Dramas, from comfort food to street snacks</li>
+        <li><strong>Step-by-Step Guides</strong> — Easy-to-follow instructions for authentic Korean cooking</li>
+        <li><strong>Cultural Context</strong> — The stories behind the food and why it matters in Korean culture</li>
+      </ul>
+
+      <h2>Fan-Made Project</h2>
+      <p>
+        K-Drama Kitchen is a fan-made project created out of love for Korean dramas and cuisine.
+        We are not affiliated with any drama production companies, networks, or streaming services.
+      </p>
+      <p>
+        All drama references are used for educational and entertainment purposes.
+        We encourage viewers to support official releases and streaming platforms.
+      </p>
     </section>
-  </div>
+  </article>
 </BaseLayout>
 
 <style>
   .page-container {
-    max-width: 800px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 80px 24px;
   }
 
-  h1 {
-    font-size: 2.5rem;
+  .page-header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .page-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 3rem;
     font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+  }
+
+  .tagline {
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  .page-content .lead {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
     margin-bottom: 40px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid #000;
+    font-style: italic;
   }
 
-  .about-content h2 {
+  .page-content h2 {
+    font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.5rem;
-    font-weight: 600;
-    margin: 40px 0 20px;
+    font-weight: 700;
+    margin: 48px 0 20px;
+    color: var(--text-primary);
   }
 
-  .about-content p {
+  .page-content p {
     font-size: 1.05rem;
-    color: #444;
-    margin-bottom: 20px;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
     line-height: 1.8;
   }
 
-  .about-content .slogan {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #000;
-    margin-bottom: 30px;
+  .page-content ul {
+    margin: 24px 0;
+    padding: 0;
+    list-style: none;
   }
 
-  .about-content ul {
-    margin: 20px 0;
-    padding-left: 25px;
+  .page-content li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-secondary);
+    line-height: 1.6;
   }
 
-  .about-content li {
-    margin-bottom: 10px;
-    color: #444;
+  .page-content li:last-child {
+    border-bottom: none;
   }
 
-  .about-content a {
-    color: #000;
-    font-weight: 600;
-    border-bottom: 2px solid #000;
+  .page-content li strong {
+    color: var(--text-primary);
   }
 
-  .about-content a:hover {
-    background: #000;
-    color: #fff;
+  @media (max-width: 768px) {
+    .page-container {
+      padding: 60px 20px;
+    }
+
+    .page-header h1 {
+      font-size: 2.2rem;
+    }
+
+    .page-content .lead {
+      font-size: 1.1rem;
+    }
   }
 </style>

@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-// Content Collections에서 포스트 가져오기
+// Get posts from Content Collections
 const allPosts = await getCollection('posts');
 const posts = allPosts
   .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
@@ -11,15 +11,15 @@ const posts = allPosts
     title: post.data.title,
     description: post.data.description,
     image: post.data.image + '?w=600',
-    category: post.data.category.replace(' 레시피', ''),
+    category: post.data.category,
     date: post.data.pubDate.replace(/-/g, '.')
   }));
 
-// 추천 글: 최신 5개
+// Featured posts: Latest 5
 const recommendedPosts = posts.slice(0, 5);
 ---
 
-<BaseLayout title="슬림한끼 - 맛있게 먹고, 날씬하게 사는 비밀">
+<BaseLayout title="K-Drama Kitchen - Cook What You Watch">
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-single">
@@ -40,21 +40,10 @@ const recommendedPosts = posts.slice(0, 5);
   <!-- Main Content -->
   <div class="main-wrapper">
     <main>
-      <!-- Category Tabs -->
-      <div class="category-tabs">
-        <button class="category-tab active" data-category="전체">전체</button>
-        <button class="category-tab" data-category="저칼로리">저칼로리</button>
-        <button class="category-tab" data-category="K-다이어트">K-다이어트</button>
-        <button class="category-tab" data-category="단백질">단백질</button>
-        <button class="category-tab" data-category="간편식">간편식</button>
-        <button class="category-tab" data-category="밀프렙">밀프렙</button>
-        <button class="category-tab" data-category="다이어트 방법">다이어트 방법</button>
-      </div>
-
       <!-- Section Header -->
       <div class="section-header">
-        <h2 class="section-title">최신 글</h2>
-        <a href="/posts">전체보기 →</a>
+        <h2 class="section-title">Latest Recipes</h2>
+        <a href="/posts">View All →</a>
       </div>
 
       <!-- Posts Grid -->
@@ -81,59 +70,55 @@ const recommendedPosts = posts.slice(0, 5);
 
     <!-- Sidebar -->
     <aside class="sidebar">
-      <!-- 추천 글 -->
+      <!-- Editor's Picks -->
       <div class="sidebar-section">
-        <h4>✨ 추천 글</h4>
-        {recommendedPosts.map((post, index) => (
-          <a href={`/posts/${post.slug}`} class="popular-item">
-            <span class={`rank ${index < 3 ? 'top' : ''}`}>{index + 1}</span>
-            <div class="info">
-              <h5>{post.title}</h5>
-              <span>{post.category}</span>
-            </div>
-          </a>
-        ))}
+        <h4 class="section-header">Editor's Picks</h4>
+        <div class="picks-list">
+          {recommendedPosts.map((post, index) => (
+            <a href={`/posts/${post.slug}`} class="picks-item">
+              <span class="picks-number">{index + 1}</span>
+              <div class="picks-content">
+                <div class="picks-title">{post.title}</div>
+                <div class="picks-category">{post.category}</div>
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
 
-      <!-- Tags -->
+      <!-- Browse by Topic -->
       <div class="sidebar-section">
-        <h4>🏷️ 태그</h4>
-        <div class="tags-cloud">
-          <a href="/tag/다이어트" class="tag">#다이어트</a>
-          <a href="/tag/저칼로리" class="tag">#저칼로리</a>
-          <a href="/tag/단백질" class="tag">#단백질</a>
-          <a href="/tag/두부 다이어트" class="tag">#두부</a>
-          <a href="/tag/닭가슴살 레시피" class="tag">#닭가슴살</a>
-          <a href="/tag/밀프렙" class="tag">#밀프렙</a>
-          <a href="/tag/저탄고지" class="tag">#저탄고지</a>
-          <a href="/tag/건강식" class="tag">#건강식</a>
+        <h4 class="section-header">Browse by Topic</h4>
+        <div class="topics-list">
+          <a href="/tag/kimchi" class="topic-item">
+            <span class="topic-name">Kimchi Dishes</span>
+            <span class="topic-arrow">→</span>
+          </a>
+          <a href="/tag/ramyeon" class="topic-item">
+            <span class="topic-name">Ramyeon Recipes</span>
+            <span class="topic-arrow">→</span>
+          </a>
+          <a href="/tag/bibimbap" class="topic-item">
+            <span class="topic-name">Bibimbap</span>
+            <span class="topic-arrow">→</span>
+          </a>
+          <a href="/tag/tteokbokki" class="topic-item">
+            <span class="topic-name">Tteokbokki</span>
+            <span class="topic-arrow">→</span>
+          </a>
+          <a href="/tag/fried-chicken" class="topic-item">
+            <span class="topic-name">Fried Chicken</span>
+            <span class="topic-arrow">→</span>
+          </a>
+          <a href="/tag/street-food" class="topic-item">
+            <span class="topic-name">Street Food</span>
+            <span class="topic-arrow">→</span>
+          </a>
         </div>
       </div>
 
     </aside>
   </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const tabs = document.querySelectorAll('.category-tab');
-    const posts = document.querySelectorAll('.post-card');
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        const category = tab.dataset.category;
-        posts.forEach(post => {
-          const postCategory = post.dataset.category;
-          if (category === '전체' || postCategory === category) {
-            post.style.display = 'block';
-          } else {
-            post.style.display = 'none';
-          }
-        });
-      });
-    });
-  });
-</script>
 
 </BaseLayout>
 
@@ -263,37 +248,6 @@ const recommendedPosts = posts.slice(0, 5);
     gap: 48px;
   }
 
-  /* Category Tabs */
-  .category-tabs {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 32px;
-    flex-wrap: wrap;
-  }
-
-  .category-tab {
-    padding: 10px 20px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: var(--text-secondary);
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-
-  .category-tab:hover {
-    border-color: var(--text-tertiary);
-    color: var(--text-primary);
-  }
-
-  .category-tab.active {
-    background: var(--text-primary);
-    border-color: var(--text-primary);
-    color: var(--bg-primary);
-  }
-
   /* Section Header */
   .section-header {
     display: flex;
@@ -420,73 +374,76 @@ const recommendedPosts = posts.slice(0, 5);
   .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 24px;
   }
 
   .sidebar-section {
     background: var(--bg-card);
-    border-radius: 14px;
-    padding: 26px;
+    padding: 24px;
     border: 1px solid var(--border);
   }
 
-  .sidebar-section h4 {
-    font-size: 1rem;
+  .section-header {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.1rem;
     font-weight: 700;
+    color: var(--text-primary);
     margin-bottom: 20px;
-    padding-bottom: 14px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--text-primary);
+    letter-spacing: 0.02em;
   }
 
-  .sidebar-section h4::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: linear-gradient(to right, var(--accent), transparent);
-    margin-left: 8px;
+  /* Editor's Picks */
+  .picks-list {
+    display: flex;
+    flex-direction: column;
   }
 
-  /* Popular Posts */
-  .popular-item {
+  .picks-item {
     display: flex;
-    gap: 14px;
-    padding: 14px 0;
+    gap: 12px;
+    padding: 12px 0;
     border-bottom: 1px solid var(--border-light);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s;
   }
 
-  .popular-item:last-child {
+  .picks-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
   }
 
-  .popular-item:first-of-type {
+  .picks-item:first-child {
     padding-top: 0;
   }
 
-  .popular-item .rank {
-    width: 28px;
-    height: 28px;
-    background: var(--text-primary);
-    color: var(--bg-primary);
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
-    font-weight: 700;
-    flex-shrink: 0;
+  .picks-item:hover {
+    background: var(--bg-secondary);
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
-  .popular-item .rank.top {
-    background: var(--accent);
+  .picks-number {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 1;
+    min-width: 24px;
   }
 
-  .popular-item .info h5 {
+  .picks-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .picks-title {
     font-size: 0.9rem;
     font-weight: 500;
+    color: var(--text-primary);
     line-height: 1.4;
     margin-bottom: 4px;
     display: -webkit-box;
@@ -495,30 +452,56 @@ const recommendedPosts = posts.slice(0, 5);
     overflow: hidden;
   }
 
-  .popular-item .info span {
+  .picks-category {
     font-size: 0.75rem;
     color: var(--text-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
-  /* Tags */
-  .tags-cloud {
+  /* Browse by Topic */
+  .topics-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+    flex-direction: column;
   }
 
-  .tag {
-    padding: 8px 14px;
-    background: var(--bg-secondary);
-    border-radius: 6px;
+  .topic-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .topic-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .topic-item:first-child {
+    padding-top: 0;
+  }
+
+  .topic-item:hover {
+    color: var(--link-color, #326891);
+  }
+
+  .topic-item:hover .topic-arrow {
+    transform: translateX(3px);
+  }
+
+  .topic-name {
+    font-weight: 500;
+  }
+
+  .topic-arrow {
+    color: #AAAAAA;
     font-size: 0.8rem;
-    color: var(--text-secondary);
-    transition: all 0.2s;
-  }
-
-  .tag:hover {
-    background: var(--text-primary);
-    color: var(--bg-primary);
+    transition: transform 0.2s;
   }
 
   /* ==================== CTA SECTION ==================== */

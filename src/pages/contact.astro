@@ -2,114 +2,232 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="연락처 - 슬림한끼">
-  <div class="page-container">
-    <h1>연락처</h1>
+<BaseLayout title="Contact - K-Drama Kitchen">
+  <article class="page-container">
+    <header class="page-header">
+      <h1>Contact</h1>
+      <p class="tagline">Business & Partnership Inquiries</p>
+    </header>
 
-    <section class="contact-content">
-      <p>
-        문의사항이나 협업 제안이 있으시면 아래 방법으로 연락해주세요.
+    <section class="page-content">
+      <p class="lead">
+        Thank you for your interest in K-Drama Kitchen.
+        We welcome inquiries from potential partners, advertisers, and media representatives.
       </p>
 
-      <div class="contact-box">
-        <h2>이메일</h2>
-        <p>re171113@gmail.com</p>
-      </div>
-
-      <div class="contact-info">
-        <h2>문의 유형</h2>
+      <div class="inquiry-section">
+        <h2>Advertising</h2>
+        <p>
+          K-Drama Kitchen offers advertising opportunities for brands looking to reach
+          an engaged audience of K-Drama enthusiasts and food lovers worldwide.
+        </p>
         <ul>
-          <li><strong>일반 문의</strong> - 블로그 콘텐츠 관련 질문</li>
-          <li><strong>협업 제안</strong> - 광고, 협찬, 콘텐츠 제휴</li>
-          <li><strong>오류 신고</strong> - 사이트 오류나 잘못된 정보 제보</li>
-          <li><strong>기타</strong> - 그 외 문의사항</li>
+          <li>Display advertising (banner placements)</li>
+          <li>Sponsored content opportunities</li>
+          <li>Newsletter sponsorship</li>
         </ul>
       </div>
 
-      <div class="response-notice">
+      <div class="inquiry-section">
+        <h2>Partnerships</h2>
         <p>
-          문의 주신 내용은 확인 후 2-3일 내에 답변드리겠습니다.
-          감사합니다.
+          We are open to collaborations with brands, content creators, and organizations
+          that align with our mission of celebrating Korean cuisine and culture.
+        </p>
+        <ul>
+          <li>Brand partnerships and collaborations</li>
+          <li>Product features and reviews</li>
+          <li>Cross-promotional opportunities</li>
+        </ul>
+      </div>
+
+      <div class="inquiry-section">
+        <h2>Media & Press</h2>
+        <p>
+          For press inquiries, interview requests, or media-related questions,
+          please include your publication name and deadline in your message.
+        </p>
+      </div>
+
+      <div class="contact-box">
+        <p class="contact-label">For all inquiries, please contact</p>
+        <a href="mailto:re171113@gmail.com" class="contact-email">re171113@gmail.com</a>
+        <p class="contact-note">
+          Please include relevant details about your inquiry.
+          We aim to respond within 3-5 business days.
+        </p>
+      </div>
+
+      <div class="general-inquiry">
+        <h2>General Inquiries</h2>
+        <p>
+          For recipe questions, corrections, or general feedback,
+          please reach out via the email address above.
+          We appreciate your support and readership.
         </p>
       </div>
     </section>
-  </div>
+  </article>
 </BaseLayout>
 
 <style>
   .page-container {
-    max-width: 800px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 80px 24px;
   }
 
-  h1 {
-    font-size: 2.5rem;
+  .page-header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .page-header h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid #000;
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+    color: var(--text-primary);
   }
 
-  .contact-content > p {
+  .tagline {
+    font-size: 0.9rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+  }
+
+  .page-content .lead {
     font-size: 1.1rem;
-    color: #444;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  .inquiry-section {
     margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .inquiry-section:last-of-type {
+    border-bottom: none;
+    margin-bottom: 48px;
+  }
+
+  .inquiry-section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+  }
+
+  .inquiry-section p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+    line-height: 1.8;
+  }
+
+  .inquiry-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .inquiry-section li {
+    padding: 8px 0;
+    padding-left: 20px;
+    position: relative;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .inquiry-section li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--text-tertiary);
   }
 
   .contact-box {
-    background: #000;
-    color: #fff;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
     padding: 40px;
-    margin-bottom: 40px;
+    margin: 48px 0;
+    text-align: center;
   }
 
-  .contact-box h2 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #888;
-    margin-bottom: 10px;
+  .contact-label {
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+    margin-bottom: 12px;
   }
 
-  .contact-box p {
+  .contact-email {
+    display: block;
+    font-family: 'Playfair Display', Georgia, serif;
     font-size: 1.5rem;
-    font-weight: 600;
+    color: var(--text-primary);
+    text-decoration: none;
+    margin-bottom: 16px;
+    transition: color 0.2s;
   }
 
-  .contact-info h2 {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+  .contact-email:hover {
+    color: var(--text-secondary);
   }
 
-  .contact-info ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .contact-info li {
-    padding: 15px 0;
-    border-bottom: 1px solid #e8e8e8;
-    color: #444;
-  }
-
-  .contact-info li:last-child {
-    border-bottom: none;
-  }
-
-  .contact-info strong {
-    color: #000;
-  }
-
-  .response-notice {
-    margin-top: 40px;
-    padding: 25px;
-    background: #f8f8f8;
-    border-left: 4px solid #000;
-  }
-
-  .response-notice p {
-    color: #666;
+  .contact-note {
+    font-size: 0.9rem;
+    color: var(--text-tertiary);
+    line-height: 1.6;
     margin: 0;
+  }
+
+  .general-inquiry {
+    padding-top: 40px;
+    border-top: 1px solid var(--border-light);
+  }
+
+  .general-inquiry h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+  }
+
+  .general-inquiry p {
+    font-size: 0.95rem;
+    color: var(--text-tertiary);
+    line-height: 1.8;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .page-container {
+      padding: 60px 20px;
+    }
+
+    .page-header h1 {
+      font-size: 2.2rem;
+    }
+
+    .contact-box {
+      padding: 32px 24px;
+    }
+
+    .contact-email {
+      font-size: 1.2rem;
+    }
   }
 </style>

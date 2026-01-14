@@ -8,8 +8,8 @@ export async function GET(context) {
   );
   
   return rss({
-    title: '슬림한끼',
-    description: '맛있게 먹고, 날씬하게 사는 비밀 - 저칼로리 레시피와 다이어트 식단 정보',
+    title: 'K-Drama Kitchen',
+    description: 'Cook what you watch. Recreate iconic dishes from your favorite Korean dramas.',
     site: context.site,
     items: sortedPosts.map((post) => ({
       title: post.data.title,
@@ -17,6 +17,6 @@ export async function GET(context) {
       description: post.data.description,
       link: `/posts/${post.slug}/`,
     })),
-    customData: `<language>ko-KR</language>`,
+    customData: `<language>en-US</language>`,
   });
 }

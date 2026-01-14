@@ -10,7 +10,7 @@ const posts = allPosts
     title: post.data.title,
     description: post.data.description,
     image: post.data.image + '?w=600',
-    category: post.data.category.replace(' 레시피', ''),
+    category: post.data.category,
     date: post.data.pubDate.replace(/-/g, '.'),
     tags: post.data.tags
   }));
@@ -21,11 +21,11 @@ const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
 const paginatedPosts = posts.slice(0, POSTS_PER_PAGE);
 ---
 
-<BaseLayout title="전체 글 - 슬림한끼" description="슬림한끼의 모든 다이어트 레시피와 건강식 정보">
+<BaseLayout title="All Recipes - K-Drama Kitchen" description="Browse all K-Drama inspired recipes. Cook iconic dishes from your favorite Korean dramas.">
   <div class="posts-page">
     <div class="posts-header">
-      <h1>전체 글</h1>
-      <p>총 {posts.length}개의 글</p>
+      <h1>All Recipes</h1>
+      <p>{posts.length} {posts.length === 1 ? 'recipe' : 'recipes'}</p>
     </div>
 
     <div class="posts-list">
