@@ -4,7 +4,7 @@ description: "CU 편의점에서 살 수 있는 다이어트 음식 15가지를 
 pubDate: "2026-01-15"
 category: "간편식"
 tags: ["CU 다이어트", "편의점 다이어트", "CU 저칼로리", "다이어트 음식", "편의점 추천"]
-image: "https://images.unsplash.com/photo-1604719312566-8912e9227c6a"
+image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
 author: "슬림한끼"
 ---
 
@@ -20,7 +20,7 @@ CU에 다이어트에 딱 맞는 음식들이 꽤 많아요. 문제는 그걸 �
 
 그래서 오늘은 제가 6개월간 CU를 돌아다니며 찾아낸 **다이어트 음식 15가지**를 공유할게요. 칼로리, 단백질 함량까지 전부 정리했으니 이 글 저장해두고 CU 갈 때마다 보세요!
 
-![편의점 건강 음식](https://images.unsplash.com/photo-1604719312566-8912e9227c6a)
+![편의점 건강 음식](https://images.unsplash.com/photo-1498837167922-ddd27525d352)
 *사진 출처: Unsplash*
 
 ---
@@ -231,7 +231,7 @@ CU의 대표 다이어트 제품이에요. 저는 이거 냉장고에 항상 3�
 
 한 끼를 해결해야 할 때 먹을 수 있는 제품들이에요. 500kcal 이하로 든든하게 먹을 수 있어요.
 
-![건강한 도시락](https://images.unsplash.com/photo-1546069901-ba9599a7e63c)
+![건강한 도시락](https://images.unsplash.com/photo-1512621776951-a57141f2eefd)
 *사진 출처: Unsplash*
 
 ### 11. HEYROO 닭가슴살 샐러드
