@@ -394,25 +394,25 @@ GI지수가 55로 낮은 편이에요. 흰쌀밥(86)이나 식빵(75)보다 훨�
 
 오버나이트 오츠, 오트밀 죽에 가장 적합해요.
 
-👉 [롤드 오츠 보러가기](https://link.coupang.com/a/example1)
+👉 [롤드 오츠 보러가기](https://www.coupang.com/np/search?q=롤드오츠&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 퀵 오츠
 
 바쁜 아침에 전자레인지로 빠르게 먹기 좋아요.
 
-👉 [퀵 오츠 보러가기](https://link.coupang.com/a/example2)
+👉 [퀵 오츠 보러가기](https://www.coupang.com/np/search?q=퀵오츠&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 오트밀 보관 용기
 
 습기 차면 눅눅해지니까 밀폐 용기 필수예요.
 
-👉 [밀폐 용기 보러가기](https://link.coupang.com/a/example3)
+👉 [밀폐 용기 보러가기](https://www.coupang.com/np/search?q=밀폐용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 메이슨 자
 
 오버나이트 오츠 담기 딱 좋아요. 뚜껑 있어서 출근할 때 가져가기도 좋아요.
 
-👉 [메이슨 자 보러가기](https://link.coupang.com/a/example4)
+👉 [메이슨 자 보러가기](https://www.coupang.com/np/search?q=메이슨자&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

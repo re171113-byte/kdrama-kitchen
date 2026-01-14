@@ -402,25 +402,25 @@ SNS에서 핫한 예쁜 계란 요리예요. 의외로 쉬워요!
 
 직접 굽기 귀찮을 때 시판 제품도 괜찮아요. 1개씩 포장된 게 편해요.
 
-👉 [구운란 보러가기](https://link.coupang.com/a/example1)
+👉 [구운란 보러가기](https://www.coupang.com/np/search?q=구운란&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 미니 에어프라이어
 
 계란 굽기, 다이어트 요리에 필수예요. 1인 가구용 미니 사이즈면 충분해요.
 
-👉 [미니 에어프라이어 보러가기](https://link.coupang.com/a/example2)
+👉 [미니 에어프라이어 보러가기](https://www.coupang.com/np/search?q=미니에어프라이어&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 계란 보관 케이스
 
 냉장고 정리도 되고 신선하게 보관돼요.
 
-👉 [계란 보관 케이스 보러가기](https://link.coupang.com/a/example3)
+👉 [계란 보관 케이스 보러가기](https://www.coupang.com/np/search?q=계란보관케이스&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 계란 슬라이서
 
 계란 샐러드, 토핑용으로 예쁘게 잘라요.
 
-👉 [계란 슬라이서 보러가기](https://link.coupang.com/a/example4)
+👉 [계란 슬라이서 보러가기](https://www.coupang.com/np/search?q=계란슬라이서&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

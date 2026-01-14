@@ -489,25 +489,25 @@ image: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea"
 
 자주 먹으면 박스로 사는 게 저렴해요. 냉장고에 쟁여두고 드세요.
 
-👉 [곤약젤리 박스 보러가기](https://link.coupang.com/a/example1)
+👉 [곤약젤리 박스 보러가기](https://www.coupang.com/np/search?q=곤약젤리&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 무가당 그릭요거트
 
 당류 낮은 제품 추천. 무가당 확인 필수예요.
 
-👉 [무가당 그릭요거트 보러가기](https://link.coupang.com/a/example2)
+👉 [무가당 그릭요거트 보러가기](https://www.coupang.com/np/search?q=무가당그릭요거트&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 간식 소분 용기
 
 간식 미리 소분해두면 과식 방지돼요. 투명한 용기가 좋아요.
 
-👉 [소분 용기 세트 보러가기](https://link.coupang.com/a/example3)
+👉 [소분 용기 세트 보러가기](https://www.coupang.com/np/search?q=소분용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 곤약면
 
 야식용으로 딱이에요. 면 먹고 싶을 때 죄책감 없이!
 
-👉 [곤약면 박스 보러가기](https://link.coupang.com/a/example4)
+👉 [곤약면 박스 보러가기](https://www.coupang.com/np/search?q=곤약면&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

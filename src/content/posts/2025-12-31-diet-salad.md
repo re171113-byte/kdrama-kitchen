@@ -438,25 +438,25 @@ image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
 
 채소 물기 빼는 필수템이에요. 물기 있으면 드레싱이 안 배요.
 
-👉 [샐러드 스피너 보러가기](https://link.coupang.com/a/example1)
+👉 [샐러드 스피너 보러가기](https://www.coupang.com/np/search?q=샐러드스피너&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 어린잎 믹스
 
 루꼴라, 비타민, 적상추 등 여러 채소 섞인 거 사면 편해요.
 
-👉 [어린잎 믹스 보러가기](https://link.coupang.com/a/example2)
+👉 [어린잎 믹스 보러가기](https://www.coupang.com/np/search?q=어린잎믹스&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 드레싱 용기 세트
 
 소분해서 회사에 가져가기 좋아요. 작은 사이즈가 딱이에요.
 
-👉 [드레싱 용기 보러가기](https://link.coupang.com/a/example3)
+👉 [드레싱 용기 보러가기](https://www.coupang.com/np/search?q=드레싱용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 메이슨 자
 
 도시락 샐러드 담기 좋은 유리병이에요.
 
-👉 [메이슨 자 보러가기](https://link.coupang.com/a/example4)
+👉 [메이슨 자 보러가기](https://www.coupang.com/np/search?q=메이슨자&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

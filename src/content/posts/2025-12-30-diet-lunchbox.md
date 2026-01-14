@@ -387,25 +387,25 @@ image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
 
 칸막이 있고 전자레인지 가능한 제품이에요. 저는 이거 5개 돌려쓰고 있어요.
 
-👉 [밀프렙 용기 세트 보러가기](https://link.coupang.com/a/example1)
+👉 [밀프렙 용기 세트 보러가기](https://www.coupang.com/np/search?q=밀프렙용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 보냉 도시락 가방
 
 출퇴근 시간 음식 온도 유지에 필수예요. 여름엔 특히 꼭 필요해요.
 
-👉 [보냉 도시락 가방 보러가기](https://link.coupang.com/a/example2)
+👉 [보냉 도시락 가방 보러가기](https://www.coupang.com/np/search?q=보냉도시락가방&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 주방 전자저울
 
 칼로리 컨트롤하려면 양을 정확히 재야 해요. 밀프렙할 때 필수템이에요.
 
-👉 [주방 전자저울 보러가기](https://link.coupang.com/a/example3)
+👉 [주방 전자저울 보러가기](https://www.coupang.com/np/search?q=주방저울&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 소스 용기 세트
 
 드레싱, 양념 따로 담을 때 필요해요.
 
-👉 [소스 용기 세트 보러가기](https://link.coupang.com/a/example4)
+👉 [소스 용기 세트 보러가기](https://www.coupang.com/np/search?q=소스용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

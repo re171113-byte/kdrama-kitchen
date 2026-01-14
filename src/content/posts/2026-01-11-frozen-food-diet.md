@@ -276,19 +276,19 @@ image: "https://images.unsplash.com/photo-1488477181946-6428a0291777"
 
 훈제, 스팀, 소프트 등 다양한 종류가 있어요. 무염 제품으로 골라서 직접 양념하는 걸 추천해요.
 
-👉 [냉동 닭가슴살 보러가기](https://link.coupang.com/a/example1)
+👉 [냉동 닭가슴살 보러가기](https://www.coupang.com/np/search?q=냉동닭가슴살&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 냉동 채소 믹스
 
 브로콜리, 콜리플라워, 당근이 섞인 제품이 활용도 높아요.
 
-👉 [냉동 채소 믹스 보러가기](https://link.coupang.com/a/example2)
+👉 [냉동 채소 믹스 보러가기](https://www.coupang.com/np/search?q=냉동채소믹스&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 곤약밥
 
 일반 밥에 섞어 먹으면 칼로리를 확 줄일 수 있어요.
 
-👉 [곤약밥 보러가기](https://link.coupang.com/a/example3)
+👉 [곤약밥 보러가기](https://www.coupang.com/np/search?q=곤약밥&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

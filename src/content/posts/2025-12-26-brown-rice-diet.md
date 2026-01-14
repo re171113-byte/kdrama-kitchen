@@ -413,25 +413,25 @@ image: "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf"
 
 품질 좋은 국내산 현미 추천. 햇현미는 더 고소해요.
 
-👉 [국내산 현미 보러가기](https://link.coupang.com/a/example1)
+👉 [국내산 현미 보러가기](https://www.coupang.com/np/search?q=국내산현미&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 발아현미
 
 소화 잘 되고 영양 흡수율 높아요. 불리는 시간도 단축돼요.
 
-👉 [발아현미 보러가기](https://link.coupang.com/a/example2)
+👉 [발아현미 보러가기](https://www.coupang.com/np/search?q=발아현미&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 잡곡 세트
 
 현미 + 찹쌀 + 흑미 등 섞인 제품. 따로 사서 섞는 것보다 편해요.
 
-👉 [잡곡 세트 보러가기](https://link.coupang.com/a/example3)
+👉 [잡곡 세트 보러가기](https://www.coupang.com/np/search?q=잡곡세트&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 냉동 현미밥
 
 바쁠 때 간편하게. 전자레인지 3분이면 완성.
 
-👉 [냉동 현미밥 보러가기](https://link.coupang.com/a/example4)
+👉 [냉동 현미밥 보러가기](https://www.coupang.com/np/search?q=냉동현미밥&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

@@ -477,25 +477,25 @@ image: "https://images.unsplash.com/photo-1753541152123-5254349ce984"
 
 자주 먹는다면 대용량이 가성비 좋아요. 낱개로 사면 비싸요.
 
-👉 [곤약면 대용량 보러가기](https://link.coupang.com/a/example1)
+👉 [곤약면 대용량 보러가기](https://www.coupang.com/np/search?q=곤약면&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 곤약밥
 
 밥에 섞어 먹기 편한 쌀알 타입이에요.
 
-👉 [곤약밥 보러가기](https://link.coupang.com/a/example2)
+👉 [곤약밥 보러가기](https://www.coupang.com/np/search?q=곤약밥&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 곤약젤리 (박스)
 
 간식용으로 사무실이나 집에 두고 먹기 좋아요.
 
-👉 [곤약젤리 박스 보러가기](https://link.coupang.com/a/example3)
+👉 [곤약젤리 박스 보러가기](https://www.coupang.com/np/search?q=곤약젤리&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 곤약떡
 
 떡볶이 만들 때 활용하면 좋아요.
 
-👉 [곤약떡 보러가기](https://link.coupang.com/a/example4)
+👉 [곤약떡 보러가기](https://www.coupang.com/np/search?q=곤약떡&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

@@ -339,19 +339,19 @@ image: "https://images.unsplash.com/photo-1604503468506-a8da13d82791"
 
 기름 없이 닭가슴살 굽기에 필수예요. 저는 거의 매일 쓰고 있어요.
 
-👉 [에어프라이어 보러가기](https://link.coupang.com/a/example1)
+👉 [에어프라이어 보러가기](https://www.coupang.com/np/search?q=에어프라이어&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 전자저울
 
 닭가슴살 양 재려면 필수예요. 눈대중으로 하면 칼로리 계산이 안 맞아요.
 
-👉 [주방 전자저울 보러가기](https://link.coupang.com/a/example2)
+👉 [주방 전자저울 보러가기](https://www.coupang.com/np/search?q=주방저울&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 밀프렙 용기
 
 일주일치 만들어두고 먹으려면 용기가 있어야 해요. 전자레인지 가능한 거로 사세요.
 
-👉 [밀프렙 용기 세트 보러가기](https://link.coupang.com/a/example3)
+👉 [밀프렙 용기 세트 보러가기](https://www.coupang.com/np/search?q=밀프렙용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

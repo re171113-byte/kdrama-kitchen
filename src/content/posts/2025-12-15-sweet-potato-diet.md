@@ -354,25 +354,25 @@ image: "https://images.unsplash.com/photo-1680472628312-9ff2605ee718"
 
 고구마칩 만들거나, 고구마 굽지 않고 익히기에 좋아요. 기름 없이 바삭하게 만들 수 있어서 다이어트 필수템이에요.
 
-👉 [에어프라이어 보러가기](https://link.coupang.com/a/example1)
+👉 [에어프라이어 보러가기](https://www.coupang.com/np/search?q=에어프라이어&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 고구마 (산지 직송)
 
 마트보다 저렴하고 신선해요. 5kg 사서 한 달 먹어요. 해남이나 여주 고구마가 유명해요.
 
-👉 [해남 꿀고구마 보러가기](https://link.coupang.com/a/example2)
+👉 [해남 꿀고구마 보러가기](https://www.coupang.com/np/search?q=해남꿀고구마&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 전자저울
 
 고구마 양 재려면 필수예요. 눈대중으로 하면 과식하기 쉬워요. 정확한 양을 재서 먹으면 칼로리 계산도 쉬워져요.
 
-👉 [주방 전자저울 보러가기](https://link.coupang.com/a/example3)
+👉 [주방 전자저울 보러가기](https://www.coupang.com/np/search?q=주방저울&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 밀프렙 용기
 
 고구마 도시락 싸가기 좋아요. 전자레인지 가능한 유리 용기 추천해요.
 
-👉 [유리 밀폐용기 세트 보러가기](https://link.coupang.com/a/example4)
+👉 [유리 밀폐용기 세트 보러가기](https://www.coupang.com/np/search?q=유리밀폐용기&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 

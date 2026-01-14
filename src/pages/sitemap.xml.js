@@ -5,7 +5,7 @@ export async function GET() {
   const allTags = [...new Set(posts.flatMap(post => post.data.tags))];
   const site = 'https://slimhanki-blog.pages.dev';
 
-  const staticPages = ['', '/about', '/contact', '/privacy', '/posts'];
+  const staticPages = ['', '/about', '/contact', '/privacy', '/terms', '/posts'];
 
   let urls = staticPages.map(page =>
     '  <url><loc>' + site + page + '</loc></url>'

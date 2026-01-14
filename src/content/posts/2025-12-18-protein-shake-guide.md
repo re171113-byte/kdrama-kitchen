@@ -377,31 +377,31 @@ WPC는 유당이 있어서 배탈이 날 수 있어요. 우유 마시면 배탈 
 
 처음이라 뭘 사야 할지 모르겠다면, **WPI 초코맛**으로 시작하세요. 유당 부담 적고, 맛도 무난해요.
 
-👉 [WPI 단백질 보러가기](https://link.coupang.com/a/example1)
+👉 [WPI 단백질 보러가기](https://www.coupang.com/np/search?q=WPI단백질&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 유당불내증용
 
 우유 마시면 배탈 나는 분은 **소이 프로틴**이나 **WPI**를 선택하세요.
 
-👉 [소이 프로틴 보러가기](https://link.coupang.com/a/example2)
+👉 [소이 프로틴 보러가기](https://www.coupang.com/np/search?q=대두단백질&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 자기 전 섭취용
 
 취침 전에 먹으려면 천천히 흡수되는 **카제인**이 좋아요.
 
-👉 [카제인 단백질 보러가기](https://link.coupang.com/a/example3)
+👉 [카제인 단백질 보러가기](https://www.coupang.com/np/search?q=카제인단백질&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 쉐이커 (필수템)
 
 물과 섞을 때 덩어리 없이 섞으려면 쉐이커가 필수예요. 스푼으로 휘저으면 덩어리가 남아요.
 
-👉 [단백질 쉐이커 보러가기](https://link.coupang.com/a/example4)
+👉 [단백질 쉐이커 보러가기](https://www.coupang.com/np/search?q=단백질쉐이커&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ### 전자저울
 
 단백질 섭취량을 정확히 관리하려면 전자저울로 재서 먹는 게 좋아요.
 
-👉 [주방 전자저울 보러가기](https://link.coupang.com/a/example5)
+👉 [주방 전자저울 보러가기](https://www.coupang.com/np/search?q=주방저울&channel=user&sorter=scoreDesc&listSize=36&aid=AF2391197)
 
 ---
 
