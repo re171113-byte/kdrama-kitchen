@@ -122,9 +122,18 @@ const faqSchema = faqs.length > 0 ? {
         </ol>
       </nav>
 
-      <!-- 모바일: 히어로 이미지 + 오버레이 -->
+      <!-- 모바일: 히어로 이미지 + 오버레이 (최적화) -->
       <div class="post-hero-mobile">
-        <img src={post.data.image} alt={post.data.title} class="hero-image" />
+        <img
+          src={`${post.data.image}?w=800&q=80&fm=webp`}
+          srcset={`${post.data.image}?w=400&q=80&fm=webp 400w, ${post.data.image}?w=800&q=80&fm=webp 800w`}
+          sizes="100vw"
+          alt={post.data.title}
+          class="hero-image"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
         <div class="hero-overlay">
           <div class="hero-meta">
             <span class="hero-category">{post.data.category}</span>
@@ -156,9 +165,17 @@ const faqSchema = faqs.length > 0 ? {
         </div>
       </div>
 
-      <!-- PC: 히어로 이미지 -->
+      <!-- PC: 히어로 이미지 (최적화) -->
       <div class="post-hero-pc">
-        <img src={post.data.image} alt={post.data.title} />
+        <img
+          src={`${post.data.image}?w=1200&q=80&fm=webp`}
+          srcset={`${post.data.image}?w=800&q=80&fm=webp 800w, ${post.data.image}?w=1200&q=80&fm=webp 1200w`}
+          sizes="(max-width: 800px) 100vw, 800px"
+          alt={post.data.title}
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
       </div>
 
       <!-- 목차 (인라인) -->
@@ -204,7 +221,7 @@ const faqSchema = faqs.length > 0 ? {
           <div class="related-grid">
             {relatedPosts.map((related) => (
               <a href={`/posts/${related.slug}`} class="related-item">
-                <img src={related.image} alt={related.title} loading="lazy" />
+                <img src={`${related.image}&fm=webp`} alt={related.title} loading="lazy" decoding="async" />
                 <div class="related-info">
                   <span class="related-category">{related.category}</span>
                   <h4>{related.title}</h4>
