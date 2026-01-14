@@ -113,9 +113,16 @@ const jsonLd = type === 'article' ? {
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9510318471579312" crossorigin="anonymous"></script>
   <!-- Kakao SDK -->
-  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js" integrity="sha384-DKYJZ8NLiK8MN4/C5P2dtSmLQ4KwPaoqAfyA/DfmEc1VDxu4yyC7wy6K1Ber8ya8" crossorigin="anonymous"></script>
+  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- 모바일 전용 추천 배너 (최상단) -->
+  <a href="#" class="mobile-recommend" id="mobile-recommend">
+    <span class="mobile-recommend-badge">추천</span>
+    <span class="mobile-recommend-title" id="mobile-recommend-title">추천 글을 불러오는 중...</span>
+    <span class="mobile-recommend-arrow">›</span>
+  </a>
+
   <header class="header">
     <div class="header-top">
       <div class="header-top-inner">
@@ -141,8 +148,45 @@ const jsonLd = type === 'article' ? {
         </div>
         <div class="search-results" id="search-results"></div>
       </div>
+      <!-- 모바일 전용 검색 아이콘 -->
+      <button class="mobile-search-icon-btn" id="mobile-search-icon-btn" aria-label="검색">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+      </button>
     </div>
   </header>
+
+  <!-- 모바일 검색 오버레이 -->
+  <div class="mobile-search-overlay" id="mobile-search-overlay">
+    <div class="mobile-search-overlay-inner">
+      <div class="mobile-search-input-wrapper">
+        <input type="text" class="mobile-search-input" id="mobile-search-input" placeholder="검색어를 입력하세요">
+        <svg class="mobile-search-input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+      </div>
+      <button class="mobile-search-close-btn" id="mobile-search-close-btn" aria-label="닫기">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-search-tags">
+      <span class="mobile-search-tags-label">인기 검색어</span>
+      <div class="mobile-search-tags-list">
+        <button class="mobile-search-tag" data-query="두부">두부</button>
+        <button class="mobile-search-tag" data-query="닭가슴살">닭가슴살</button>
+        <button class="mobile-search-tag" data-query="오트밀">오트밀</button>
+        <button class="mobile-search-tag" data-query="샐러드">샐러드</button>
+        <button class="mobile-search-tag" data-query="간식">간식</button>
+      </div>
+    </div>
+    <div class="mobile-search-results" id="mobile-search-results"></div>
+  </div>
+  <div class="mobile-search-backdrop" id="mobile-search-backdrop"></div>
 
   <nav class="nav-bar">
     <div class="nav-inner">
@@ -167,11 +211,19 @@ const jsonLd = type === 'article' ? {
         const res = await fetch('/search.json');
         const posts = await res.json();
         const randomPost = posts[Math.floor(Math.random() * posts.length)];
+        // 데스크톱 버전
         const link = document.getElementById('random-recommend');
         const title = document.getElementById('random-title');
         if (link && title && randomPost) {
           link.href = '/posts/' + randomPost.slug;
           title.textContent = randomPost.title;
+        }
+        // 모바일 버전
+        const mobileLink = document.getElementById('mobile-recommend');
+        const mobileTitle = document.getElementById('mobile-recommend-title');
+        if (mobileLink && mobileTitle && randomPost) {
+          mobileLink.href = '/posts/' + randomPost.slug;
+          mobileTitle.textContent = randomPost.title;
         }
       } catch (e) {}
     })();
@@ -236,6 +288,93 @@ const jsonLd = type === 'article' ? {
     });
   </script>
 
+  <!-- 모바일 검색 오버레이 스크립트 -->
+  <script type="module">
+    import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.mjs';
+
+    const mobileSearchIconBtn = document.getElementById('mobile-search-icon-btn');
+    const mobileSearchOverlay = document.getElementById('mobile-search-overlay');
+    const mobileSearchBackdrop = document.getElementById('mobile-search-backdrop');
+    const mobileSearchCloseBtn = document.getElementById('mobile-search-close-btn');
+    const mobileSearchInput = document.getElementById('mobile-search-input');
+    const mobileSearchResults = document.getElementById('mobile-search-results');
+    const mobileSearchTags = document.querySelectorAll('.mobile-search-tag');
+
+    let fuse = null;
+    let searchData = null;
+
+    async function initMobileSearch() {
+      if (searchData) return;
+      const res = await fetch('/search.json');
+      searchData = await res.json();
+      fuse = new Fuse(searchData, {
+        keys: ['title', 'description', 'category', 'tags'],
+        threshold: 0.4,
+        includeScore: true
+      });
+    }
+
+    function openMobileSearch() {
+      mobileSearchOverlay?.classList.add('show');
+      mobileSearchBackdrop?.classList.add('show');
+      mobileSearchInput?.focus();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobileSearch() {
+      mobileSearchOverlay?.classList.remove('show');
+      mobileSearchBackdrop?.classList.remove('show');
+      if (mobileSearchInput) mobileSearchInput.value = '';
+      if (mobileSearchResults) mobileSearchResults.innerHTML = '';
+      document.body.style.overflow = '';
+    }
+
+    function performMobileSearch(query) {
+      if (!query || !fuse) {
+        if (mobileSearchResults) mobileSearchResults.innerHTML = '';
+        return;
+      }
+
+      const results = fuse.search(query).slice(0, 8);
+
+      if (results.length === 0) {
+        mobileSearchResults.innerHTML = '<div style="padding: 20px; text-align: center; color: #888; font-size: 14px;">검색 결과가 없습니다</div>';
+        return;
+      }
+
+      mobileSearchResults.innerHTML = results.map(({ item }) => `
+        <a href="/posts/${item.slug}" class="mobile-search-result-item">
+          <div class="mobile-search-result-title">${item.title}</div>
+          <div class="mobile-search-result-desc">${item.description || ''}</div>
+        </a>
+      `).join('');
+    }
+
+    mobileSearchIconBtn?.addEventListener('click', () => {
+      initMobileSearch();
+      openMobileSearch();
+    });
+
+    mobileSearchCloseBtn?.addEventListener('click', closeMobileSearch);
+    mobileSearchBackdrop?.addEventListener('click', closeMobileSearch);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeMobileSearch();
+    });
+
+    mobileSearchInput?.addEventListener('input', (e) => {
+      performMobileSearch(e.target.value.trim());
+    });
+
+    mobileSearchTags.forEach(tag => {
+      tag.addEventListener('click', () => {
+        const query = tag.dataset.query;
+        if (mobileSearchInput) mobileSearchInput.value = query;
+        performMobileSearch(query);
+      });
+    });
+  </script>
+
   <!-- 쿠팡 파트너스 링크 변환 스크립트 -->
   <script>
     const COUPANG_PARTNER_ID = 'AF2391197';
@@ -285,6 +424,31 @@ const jsonLd = type === 'article' ? {
       <path d="M18 15l-6-6-6 6"/>
     </svg>
   </button>
+
+  <!-- 모바일 전용 하단 바 -->
+  <div class="mobile-bottom-bar" id="mobile-bottom-bar">
+    <button class="mobile-share-btn" id="mobile-share-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+        <polyline points="16 6 12 2 8 6"/>
+        <line x1="12" y1="2" x2="12" y2="15"/>
+      </svg>
+      공유하기
+    </button>
+    <button class="mobile-icon-btn" id="mobile-bookmark-btn" title="북마크">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+      </svg>
+    </button>
+    <button class="mobile-icon-btn" id="mobile-scroll-top-btn" title="맨 위로">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 15l-6-6-6 6"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- 토스트 알림 -->
+  <div class="toast-notification" id="toast-notification"></div>
 
   <!-- 소셜 공유 & 스크롤 스크립트 -->
   <script>
@@ -346,6 +510,50 @@ const jsonLd = type === 'article' ? {
           buttons: [{ title: '자세히 보기', link: { mobileWebUrl: shareUrl, webUrl: shareUrl } }],
         });
       }
+    });
+
+    // ==================== 모바일 하단 바 스크립트 ====================
+    const mobileShareBtn = document.getElementById('mobile-share-btn');
+    const mobileBookmarkBtn = document.getElementById('mobile-bookmark-btn');
+    const mobileScrollTopBtn = document.getElementById('mobile-scroll-top-btn');
+    const toastNotification = document.getElementById('toast-notification');
+
+    function showToast(message) {
+      toastNotification.textContent = message;
+      toastNotification.classList.add('show');
+      setTimeout(() => toastNotification.classList.remove('show'), 2000);
+    }
+
+    // 모바일 공유 버튼 (Web Share API)
+    mobileShareBtn?.addEventListener('click', async () => {
+      const shareData = {
+        title: shareTitle,
+        text: document.querySelector('meta[name="description"]')?.content || '',
+        url: shareUrl
+      };
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+        } catch (err) {}
+      } else {
+        try {
+          await navigator.clipboard.writeText(shareUrl);
+          showToast('링크가 복사되었습니다');
+        } catch (err) {
+          showToast('복사에 실패했습니다');
+        }
+      }
+    });
+
+    // 모바일 북마크 버튼
+    mobileBookmarkBtn?.addEventListener('click', function() {
+      this.classList.toggle('active');
+      showToast(this.classList.contains('active') ? '북마크에 저장됨' : '북마크 해제됨');
+    });
+
+    // 모바일 맨 위로 버튼
+    mobileScrollTopBtn?.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   </script>
 
@@ -659,6 +867,200 @@ const jsonLd = type === 'article' ? {
     font-size: 0.9rem;
   }
 
+  /* 모바일 검색 아이콘 버튼 - 기본 숨김 */
+  .mobile-search-icon-btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .mobile-search-icon-btn:active {
+    background: #eee;
+  }
+
+  .mobile-search-icon-btn svg {
+    width: 20px;
+    height: 20px;
+    color: #666;
+  }
+
+  /* 모바일 검색 오버레이 */
+  .mobile-search-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 2000;
+    padding: 12px 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+
+  .mobile-search-overlay.show {
+    display: block;
+    animation: mobileSearchSlideDown 0.2s ease-out;
+  }
+
+  @keyframes mobileSearchSlideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .mobile-search-overlay-inner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .mobile-search-input-wrapper {
+    flex: 1;
+    position: relative;
+  }
+
+  .mobile-search-input {
+    width: 100%;
+    padding: 12px 16px;
+    padding-right: 40px;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background: #FAFAF8;
+  }
+
+  .mobile-search-input::placeholder {
+    color: #999;
+  }
+
+  .mobile-search-input-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent);
+  }
+
+  .mobile-search-close-btn {
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .mobile-search-close-btn:active {
+    background: #eee;
+  }
+
+  .mobile-search-close-btn svg {
+    width: 20px;
+    height: 20px;
+    color: #666;
+  }
+
+  /* 인기 검색어 태그 */
+  .mobile-search-tags {
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .mobile-search-tags-label {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .mobile-search-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .mobile-search-tag {
+    background: #f5f5f5;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 13px;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .mobile-search-tag:active {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  /* 모바일 검색 결과 */
+  .mobile-search-results {
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  .mobile-search-result-item {
+    display: block;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+  }
+
+  .mobile-search-result-item:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-search-result-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+  }
+
+  .mobile-search-result-desc {
+    font-size: 12px;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* 오버레이 배경 */
+  .mobile-search-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 1999;
+  }
+
+  .mobile-search-backdrop.show {
+    display: block;
+  }
+
   /* Navigation */
   .nav-bar {
     background: var(--bg-card);
@@ -791,6 +1193,35 @@ const jsonLd = type === 'article' ? {
     color: var(--text-tertiary);
   }
 
+  /* ==================== 모바일 전용 요소 (데스크톱에서 숨김) ==================== */
+  .mobile-recommend {
+    display: none;
+  }
+
+  .mobile-bottom-bar {
+    display: none;
+  }
+
+  .toast-notification {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 200;
+    pointer-events: none;
+  }
+
+  .toast-notification.show {
+    opacity: 1;
+  }
+
   /* ==================== 소셜 공유 버튼 ==================== */
   .share-floating {
     position: fixed;
@@ -904,22 +1335,20 @@ const jsonLd = type === 'article' ? {
     }
 
     .header-main {
-      flex-direction: column;
-      gap: 16px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
     }
 
+    /* 모바일에서 검색창 숨김 */
     .search-container {
-      width: 100%;
+      display: none;
     }
 
-    .search-box {
-      width: 100%;
-    }
-
-    .search-results {
-      width: 100%;
-      left: 0;
-      right: 0;
+    /* 모바일 검색 아이콘 버튼 표시 */
+    .mobile-search-icon-btn {
+      display: flex;
     }
 
     /* 네비게이션 - 가로 스크롤 */
@@ -954,17 +1383,127 @@ const jsonLd = type === 'article' ? {
       display: none;
     }
 
-    /* 맨 위로 버튼 크기 조정 */
+    /* 모바일에서 기존 맨 위로 버튼 숨김 */
     .scroll-top {
-      width: 44px;
-      height: 44px;
-      right: 16px;
-      bottom: 16px;
+      display: none;
     }
 
-    .scroll-top svg {
-      width: 20px;
-      height: 20px;
+    /* ==================== 모바일 추천 배너 (버전 B) ==================== */
+    .mobile-recommend {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: #FFF8E7;
+      border-bottom: 1px solid #F0E6D3;
+      padding: 10px 16px;
+      text-decoration: none;
+    }
+
+    .mobile-recommend-badge {
+      background: #A08060;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .mobile-recommend-title {
+      color: #5C4A32;
+      font-size: 13px;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      flex: 1;
+    }
+
+    .mobile-recommend-arrow {
+      color: #A08060;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    /* ==================== 모바일 하단 바 ==================== */
+    .mobile-bottom-bar {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-top: 1px solid #eee;
+      padding: 10px 16px;
+      padding-bottom: calc(10px + env(safe-area-inset-bottom));
+      gap: 8px;
+      z-index: 100;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    }
+
+    .mobile-share-btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #A08060;
+      color: #fff;
+      border: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .mobile-share-btn:active {
+      transform: scale(0.98);
+      background: #8B6914;
+    }
+
+    .mobile-share-btn svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    .mobile-icon-btn {
+      width: 50px;
+      height: 50px;
+      background: #f5f5f5;
+      border: none;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .mobile-icon-btn:active {
+      background: #eee;
+    }
+
+    .mobile-icon-btn svg {
+      width: 22px;
+      height: 22px;
+      color: #666;
+    }
+
+    .mobile-icon-btn.active svg {
+      color: #A08060;
+      fill: #A08060;
+    }
+
+    /* 모바일에서 본문 하단 여백 (하단 바 공간 확보) */
+    main {
+      padding-bottom: 80px;
+    }
+
+    /* 토스트 위치 조정 */
+    .toast-notification {
+      bottom: 90px;
     }
   }
 </style>
