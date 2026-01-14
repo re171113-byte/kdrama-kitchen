@@ -182,6 +182,12 @@ const jsonLd = type === 'article' ? {
     </nav>
   </header>
 
+  <!-- Mobile Featured Banner (shown only on mobile) -->
+  <a href="#" id="mobile-recommend" class="mobile-recommend">
+    <span class="mobile-recommend-label">Featured</span>
+    <span class="mobile-recommend-title" id="mobile-recommend-title">Loading...</span>
+  </a>
+
   <!-- Search Overlay -->
   <div class="search-overlay" id="search-overlay">
     <div class="search-overlay-inner">
@@ -417,21 +423,7 @@ const jsonLd = type === 'article' ? {
     </svg>
   </button>
 
-  <!-- Mobile Bottom Bar -->
-  <div class="mobile-bottom-bar" id="mobile-bottom-bar">
-    <button class="mobile-icon-btn" id="mobile-bookmark-btn" title="Bookmark">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
-      </svg>
-    </button>
-    <button class="mobile-icon-btn" id="mobile-scroll-top-btn" title="Back to Top">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M18 15l-6-6-6 6"/>
-      </svg>
-    </button>
-  </div>
-
-  <!-- 토스트 알림 -->
+  <!-- Toast notification -->
   <div class="toast-notification" id="toast-notification"></div>
 
   <!-- 소셜 공유 & 스크롤 스크립트 -->
@@ -448,28 +440,6 @@ const jsonLd = type === 'article' ? {
     });
 
     scrollTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-
-    // ==================== 모바일 하단 바 스크립트 ====================
-    const mobileBookmarkBtn = document.getElementById('mobile-bookmark-btn');
-    const mobileScrollTopBtn = document.getElementById('mobile-scroll-top-btn');
-    const toastNotification = document.getElementById('toast-notification');
-
-    function showToast(message) {
-      toastNotification.textContent = message;
-      toastNotification.classList.add('show');
-      setTimeout(() => toastNotification.classList.remove('show'), 2000);
-    }
-
-    // 모바일 북마크 버튼
-    mobileBookmarkBtn?.addEventListener('click', function() {
-      this.classList.toggle('active');
-      showToast(this.classList.contains('active') ? 'Bookmarked!' : 'Bookmark removed');
-    });
-
-    // 모바일 맨 위로 버튼
-    mobileScrollTopBtn?.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   </script>
@@ -1357,10 +1327,6 @@ const jsonLd = type === 'article' ? {
     display: none;
   }
 
-  .mobile-bottom-bar {
-    display: none;
-  }
-
   .toast-notification {
     position: fixed;
     bottom: 100px;
@@ -1498,100 +1464,57 @@ const jsonLd = type === 'article' ? {
       margin-bottom: 32px;
     }
 
-    /* 모바일에서 기존 맨 위로 버튼 숨김 */
+    /* 모바일 플로팅 맨 위로 버튼 */
     .scroll-top {
-      display: none;
+      right: 16px;
+      bottom: 16px;
+      width: 44px;
+      height: 44px;
     }
 
-    /* ==================== 모바일 추천 배너 (버전 B) ==================== */
+    /* ==================== 모바일 추천 배너 (PC 스타일) ==================== */
     .mobile-recommend {
       display: flex;
       align-items: center;
       gap: 8px;
-      background: #FFF8E7;
-      border-bottom: 1px solid #F0E6D3;
+      background: var(--point);
       padding: 10px 16px;
       text-decoration: none;
     }
 
-    .mobile-recommend-badge {
-      background: #A08060;
-      color: #fff;
-      font-size: 11px;
+    .mobile-recommend-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #FFFFFF;
+      font-size: 0.7rem;
       font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 4px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
       white-space: nowrap;
     }
 
+    .mobile-recommend-label::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #E53935;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
     .mobile-recommend-title {
-      color: #5C4A32;
-      font-size: 13px;
-      font-weight: 500;
+      color: #CCCCCC;
+      font-size: 0.8rem;
+      font-weight: 400;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       flex: 1;
     }
 
-    .mobile-recommend-arrow {
-      color: #A08060;
-      font-size: 16px;
-      font-weight: 600;
-    }
-
-    /* ==================== 모바일 하단 바 ==================== */
-    .mobile-bottom-bar {
-      display: flex;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: #fff;
-      border-top: 1px solid #eee;
-      padding: 10px 16px;
-      padding-bottom: calc(10px + env(safe-area-inset-bottom));
-      gap: 8px;
-      z-index: 100;
-      box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
-    }
-
-    .mobile-icon-btn {
-      width: 50px;
-      height: 50px;
-      background: #f5f5f5;
-      border: none;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-
-    .mobile-icon-btn:active {
-      background: #eee;
-    }
-
-    .mobile-icon-btn svg {
-      width: 22px;
-      height: 22px;
-      color: #666;
-    }
-
-    .mobile-icon-btn.active svg {
-      color: #A08060;
-      fill: #A08060;
-    }
-
-    /* 모바일에서 본문 하단 여백 (하단 바 공간 확보) */
-    main {
-      padding-bottom: 80px;
-    }
-
-    /* 토스트 위치 조정 */
-    .toast-notification {
-      bottom: 90px;
+    .mobile-recommend:active .mobile-recommend-title {
+      color: #FFFFFF;
     }
   }
 </style>
