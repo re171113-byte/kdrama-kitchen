@@ -179,6 +179,19 @@ Very. It's mostly vegetables with small amounts of lean protein, cooked with min
 
 ---
 
+## Shop Ingredients
+
+Ready to make gujeolpan at home? Here are the essential ingredients available on Amazon:
+
+- [Dried Shiitake Mushrooms](https://www.amazon.com/dp/B0001DMTMW?tag=kdramacitchen-20) - Earthy umami filling
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - For seasoning
+- [Bellflower Root (Doraji)](https://www.amazon.com/dp/B00FRKTSCE?tag=kdramacitchen-20) - Traditional royal ingredient
+- [Gujeolpan Serving Platter](https://www.amazon.com/dp/B07VWMHQMQ?tag=kdramacitchen-20) - Authentic nine-section presentation
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 Making gujeolpan is a labor of love—perfect for a special celebration or when you want to impress guests with the elegance of Korean royal cuisine. Put on *Dae Jang Geum* and spend an afternoon creating this edible work of art.

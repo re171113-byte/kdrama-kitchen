@@ -184,6 +184,19 @@ You can prep all ingredients in advance and arrange them in the pot. Refrigerate
 
 ---
 
+## Shop Ingredients
+
+Ready to make haemul jeongol at home? Here are the essential ingredients available on Amazon:
+
+- [Gochugaru (Korean Red Pepper Flakes)](https://www.amazon.com/dp/B005G8IDTQ?tag=kdramacitchen-20) - For spicy seafood broth
+- [Gochujang (Korean Red Pepper Paste)](https://www.amazon.com/dp/B002WTE0MK?tag=kdramacitchen-20) - Adds depth to the stew
+- [Korean Glass Noodles (Dangmyeon)](https://www.amazon.com/dp/B00LMG7BJ6?tag=kdramacitchen-20) - For the finishing touch
+- [Korean Jeongol Pot](https://www.amazon.com/dp/B00HI0XVQW?tag=kdramacitchen-20) - Traditional wide Korean stew pot
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's a reason *Hometown Cha-Cha-Cha* became a comfort drama for millions. It's not the dramatic plot twists or the love triangles—it's the warmth. The feeling of community. The sense that somewhere, there's a village where everyone knows your name and your favorite dish.

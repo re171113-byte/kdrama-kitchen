@@ -136,6 +136,19 @@ Samyang Foods introduced Korea's first instant ramyeon in 1963, adapting Japanes
 
 ---
 
+## Shop Ingredients
+
+Ready to make Korean ramyeon at home? Here are the essential ingredients available on Amazon:
+
+- [Nongshim Shin Ramyun (20 Pack)](https://www.amazon.com/dp/B00778B90S?tag=kdramacitchen-20) - Korea's most iconic spicy noodles
+- [Ottogi Jin Ramen Mild (20 Pack)](https://www.amazon.com/dp/B004863B4K?tag=kdramacitchen-20) - Milder option for beginners
+- [Korean Aluminum Pot (Yangeuun Naembi)](https://www.amazon.com/dp/B003HIK3S0?tag=kdramacitchen-20) - Authentic Korean cooking pot
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - For finishing drizzle
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 Tonight, why not put on *Crash Landing on You* Episode 4, cook yourself a pot of ramyeon, and experience that scene from Se-ri's perspective? Sometimes the simplest meals carry the most meaning.

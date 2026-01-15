@@ -148,6 +148,19 @@ Without beef: approximately 900-1000 calories for the full two-pack serving. Wit
 
 ---
 
+## Shop Ingredients
+
+Ready to make jjapaguri at home? Here are the essential ingredients available on Amazon:
+
+- [Nongshim Chapagetti (4 Pack)](https://www.amazon.com/dp/B00COQBZ7I?tag=kdramacitchen-20) - The black bean noodle base
+- [Nongshim Neoguri Spicy (4 Pack)](https://www.amazon.com/dp/B00778B90S?tag=kdramacitchen-20) - Adds the seafood kick
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - For finishing
+- [Korean Green Onion Seeds](https://www.amazon.com/dp/B07R8BVLCX?tag=kdramacitchen-20) - Grow your own garnish
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 The next time you watch *Parasite*, make yourself a pot of jjapaguri. There's something fitting about eating what's on screen—experiencing the same flavors the characters do, even as the tension builds around them.

@@ -183,6 +183,19 @@ You can air-fry at 200°C for 20-25 minutes, flipping halfway. Results won't be 
 
 ---
 
+## Shop Ingredients
+
+Ready to make Korean fried chicken at home? Here are the essential ingredients available on Amazon:
+
+- [Potato Starch](https://www.amazon.com/dp/B000EDK5LM?tag=kdramacitchen-20) - For the crispiest double-fried coating
+- [Gochujang (Korean Red Pepper Paste)](https://www.amazon.com/dp/B002WTE0MK?tag=kdramacitchen-20) - For yangnyeom sauce
+- [Korean Corn Syrup (Mullyeot)](https://www.amazon.com/dp/B00B5788YU?tag=kdramacitchen-20) - For glossy sauce finish
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - Essential finishing touch
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's something magical about biting into perfectly crispy Korean fried chicken while snow falls outside your window—or while watching Cheon Song-yi dramatically proclaim her love of chimaek on screen. The crunch, the sauce, the cold beer... it's pure comfort.

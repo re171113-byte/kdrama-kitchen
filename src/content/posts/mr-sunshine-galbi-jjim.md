@@ -181,6 +181,19 @@ Restaurant versions are often simplified for commercial production. Traditional 
 
 ---
 
+## Shop Ingredients
+
+Ready to make galbi-jjim at home? Here are the essential ingredients available on Amazon:
+
+- [Korean Soy Sauce (Joseon Ganjang)](https://www.amazon.com/dp/B0040R6WXU?tag=kdramacitchen-20) - Traditional Korean soy sauce
+- [Korean Rice Wine (Cheongju)](https://www.amazon.com/dp/B00NM9QCYE?tag=kdramacitchen-20) - For authentic marinade
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - Finishing touch
+- [Dried Jujubes (Daechu)](https://www.amazon.com/dp/B00FRBGHXO?tag=kdramacitchen-20) - Traditional garnish
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's something profound about cooking a dish that your ancestors might have made. When you braise galbi-jjim, you're not just preparing dinner—you're connecting to centuries of Korean culinary tradition. You're doing what the characters in *Mr. Sunshine* fought to preserve.

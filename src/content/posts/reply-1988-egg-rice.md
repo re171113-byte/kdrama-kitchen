@@ -136,6 +136,19 @@ Approximately 350-400 calories for one bowl, depending on rice portion and oil/b
 
 ---
 
+## Shop Ingredients
+
+Ready to make gyeran-bap at home? Here are the essential ingredients available on Amazon:
+
+- [Korean Short-Grain Rice](https://www.amazon.com/dp/B07PLKWC6Y?tag=kdramacitchen-20) - Authentic Korean rice
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - Essential for authentic flavor
+- [Roasted Seaweed Sheets (Gim)](https://www.amazon.com/dp/B07BFST4VG?tag=kdramacitchen-20) - For crumbled topping
+- [Roasted Sesame Seeds](https://www.amazon.com/dp/B000EXUNWI?tag=kdramacitchen-20) - Classic garnish
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's something beautifully simple about gyeran-bap. When you're tired, broke, alone, or just craving comfort without complexity, this is the meal that asks nothing of you but gives everything back.

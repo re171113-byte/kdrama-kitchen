@@ -170,6 +170,19 @@ Yes. Skip the egg and use vegetable-based fish sauce or soy sauce only. The core
 
 ---
 
+## Shop Ingredients
+
+Ready to make makguksu at home? Here are the essential ingredients available on Amazon:
+
+- [Korean Buckwheat Noodles (Memil Guksu)](https://www.amazon.com/dp/B00CPR3XWC?tag=kdramacitchen-20) - Authentic Korean buckwheat noodles
+- [Gochugaru (Korean Red Pepper Flakes)](https://www.amazon.com/dp/B005G8IDTQ?tag=kdramacitchen-20) - For spicy bibim sauce
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - Essential for authentic flavor
+- [Korean Rice Vinegar](https://www.amazon.com/dp/B000LWOXG0?tag=kdramacitchen-20) - For tangy sauce balance
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's poetry in the idea of a 900-year-old being preparing something as humble as buckwheat noodles. In *Goblin*, Kim Shin's cooking represents not just skill, but accumulated love—centuries of memories folded into each dish he makes.

@@ -183,6 +183,19 @@ Refrigerate leftover *juk* in an airtight container for up to 3 days. The porrid
 
 ---
 
+## Shop Ingredients
+
+Ready to make Korean juk at home? Here are the essential ingredients available on Amazon:
+
+- [Korean Short-Grain Rice](https://www.amazon.com/dp/B07PLKWC6Y?tag=kdramacitchen-20) - Essential for creamy porridge
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - For toasting and finishing
+- [Dried Shiitake Mushrooms](https://www.amazon.com/dp/B0001DMTMW?tag=kdramacitchen-20) - Umami depth
+- [Korean Stone Pot (Ttukbaegi)](https://www.amazon.com/dp/B005UGD89Q?tag=kdramacitchen-20) - Traditional serving bowl
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 In *Kingdom*, the apocalypse doesn't announce itself with sirens or explosions. It creeps in through empty rice stores and hollow stomachs. The monsters come later. The hunger comes first.

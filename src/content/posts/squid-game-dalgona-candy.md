@@ -144,6 +144,19 @@ Sales exploded globally. Korean vendors reported 2-3 times normal sales. New dal
 
 ---
 
+## Shop Ingredients
+
+Ready to make dalgona at home? Here are the essential supplies available on Amazon:
+
+- [Dalgona Candy Making Kit](https://www.amazon.com/dp/B09HGZJ5TW?tag=kdramacitchen-20) - Complete set with ladle, molds, and press
+- [Stainless Steel Ladle](https://www.amazon.com/dp/B07BXBP8BT?tag=kdramacitchen-20) - For melting sugar
+- [Cookie Cutter Set (Circle, Star, Triangle)](https://www.amazon.com/dp/B07FLB8VKW?tag=kdramacitchen-20) - For stamping shapes
+- [Silicone Baking Mat](https://www.amazon.com/dp/B0725GYNG6?tag=kdramacitchen-20) - Non-stick surface for pressing
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's something beautifully ironic about *Squid Game*'s dalgona scene. A show about capitalism's cruelty turned a poor child's candy into a global trend. The same snack that Korean kids bought for pocket change now appears in upscale cafes worldwide.

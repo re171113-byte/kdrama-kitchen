@@ -158,6 +158,18 @@ For an extra creamy, sweet version, some recipes add condensed milk. This create
 
 ---
 
+## Shop Ingredients
+
+Ready to make Korean corn salad at home? Here are the essential ingredients available on Amazon:
+
+- [Sweet Corn Kernels (Canned)](https://www.amazon.com/dp/B00F3RLXQU?tag=kdramacitchen-20) - Convenient and delicious
+- [Kewpie Mayonnaise](https://www.amazon.com/dp/B0000WKU6Y?tag=kdramacitchen-20) - Japanese mayo popular in Korea
+- [Ottogi Mayonnaise](https://www.amazon.com/dp/B00BNWF5V2?tag=kdramacitchen-20) - Authentic Korean mayo option
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's something beautifully ironic about a mafia consigliere finding peace in a bowl of corn salad. Vincenzo Cassano, who dined in the finest Italian restaurants and tasted wines that cost more than most people's monthly rent, ultimately finds comfort in the simplest Korean dishes.

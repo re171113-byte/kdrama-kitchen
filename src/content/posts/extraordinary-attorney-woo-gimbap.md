@@ -192,6 +192,19 @@ Many people with autism find comfort in routine and predictability. Eating the s
 
 ---
 
+## Shop Ingredients
+
+Ready to make gimbap at home? Here are the essential ingredients available on Amazon:
+
+- [Roasted Seaweed Sheets (Gim)](https://www.amazon.com/dp/B07BFST4VG?tag=kdramacitchen-20) - Premium Korean seaweed for rolling
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - Essential for seasoning rice
+- [Danmuji (Yellow Pickled Radish)](https://www.amazon.com/dp/B01MSGJWK7?tag=kdramacitchen-20) - The classic crunchy filling
+- [Bamboo Rolling Mat](https://www.amazon.com/dp/B0001VQIDK?tag=kdramacitchen-20) - For perfect rolls every time
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 There's something beautifully simple about gimbap. Rice, seaweed, whatever fillings bring you joy—rolled together into something greater than its parts. It's the kind of food that asks nothing of you except to enjoy it.

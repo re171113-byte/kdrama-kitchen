@@ -165,6 +165,19 @@ Koreans jokingly call their fried chicken "KFC" (Korean Fried Chicken) to distin
 
 ---
 
+## Shop Ingredients
+
+Ready to make Korean fried chicken at home? Here are the essential ingredients available on Amazon:
+
+- [Potato Starch](https://www.amazon.com/dp/B000EDK5LM?tag=kdramacitchen-20) - For the crispiest coating
+- [Gochujang (Korean Red Pepper Paste)](https://www.amazon.com/dp/B002WTE0MK?tag=kdramacitchen-20) - For yangnyeom sauce
+- [Korean Sesame Oil](https://www.amazon.com/dp/B004TEFQVO?tag=kdramacitchen-20) - Finishing touch
+- [Cooking Thermometer](https://www.amazon.com/dp/B01M63E64T?tag=kdramacitchen-20) - Perfect oil temperature every time
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 Order some Korean beer, put on *Weightlifting Fairy Kim Bok-joo*, and fry up a batch of chicken. There's something liberating about indulging in exactly what Bok-joo craved during her strict training days.

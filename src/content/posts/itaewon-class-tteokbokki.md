@@ -140,6 +140,19 @@ The original royal court version from Joseon Dynasty. It uses soy sauce instead 
 
 ---
 
+## Shop Ingredients
+
+Ready to make tteokbokki at home? Here are the essential ingredients available on Amazon:
+
+- [Korean Rice Cakes (Garae-tteok)](https://www.amazon.com/dp/B086JVBQ2L?tag=kdramacitchen-20) - Authentic cylindrical rice cakes
+- [Gochujang (Korean Red Pepper Paste)](https://www.amazon.com/dp/B002WTE0MK?tag=kdramacitchen-20) - The essential spicy-sweet sauce base
+- [Gochugaru (Korean Red Pepper Flakes)](https://www.amazon.com/dp/B005G8IDTQ?tag=kdramacitchen-20) - For authentic spice
+- [Korean Fish Cakes (Eomuk)](https://www.amazon.com/dp/B00BVKPTO4?tag=kdramacitchen-20) - Classic tteokbokki topping
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 Tteokbokki is the ultimate Korean comfort food—easy to make, deeply satisfying, and perfect for late-night cravings. Put on *Itaewon Class* and make yourself a pot of these chewy, spicy rice cakes.

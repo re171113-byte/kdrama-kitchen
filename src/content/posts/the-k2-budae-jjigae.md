@@ -147,6 +147,20 @@ Budae jjigae is traditionally a sharing dish. The pot sits on a burner at the ta
 
 ---
 
+## Shop Ingredients
+
+Ready to make budae jjigae at home? Here are the essential ingredients available on Amazon:
+
+- [SPAM Classic](https://www.amazon.com/dp/B000W1NFZ0?tag=kdramacitchen-20) - The essential protein
+- [Gochujang (Korean Red Pepper Paste)](https://www.amazon.com/dp/B002WTE0MK?tag=kdramacitchen-20) - Spicy stew base
+- [Gochugaru (Korean Red Pepper Flakes)](https://www.amazon.com/dp/B005G8IDTQ?tag=kdramacitchen-20) - For authentic spice
+- [Shin Ramyun Noodles](https://www.amazon.com/dp/B00778B90S?tag=kdramacitchen-20) - Classic noodle addition
+- [Korean Jeongol Pot](https://www.amazon.com/dp/B00HI0XVQW?tag=kdramacitchen-20) - Traditional Korean stew pot
+
+*As an Amazon Associate I earn from qualifying purchases.*
+
+---
+
 ## Make It Tonight
 
 Budae jjigae is the ultimate comfort food for cold nights or when you need something hearty and warming. Put on an action-packed K-drama, gather some friends around a bubbling pot, and taste a piece of Korean history.
