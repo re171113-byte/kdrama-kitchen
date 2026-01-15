@@ -1,7 +1,7 @@
 ---
 title: "Budae Jjigae - Korean Army Stew Born from War"
 description: "Learn to make Budae Jjigae (Korean Army Stew), the fusion dish born from post-Korean War necessity. Spam, hot dogs, kimchi, and ramyeon in one pot."
-pubDate: "2026-01-15"
+pubDate: "2026-01-09"
 category: "Action"
 tags: ["Budae Jjigae", "Korean Army Stew", "K-Drama Recipe", "Korean War Food", "Comfort Food", "Uijeongbu"]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Budae-jjigae.jpg/1280px-Budae-jjigae.jpg"

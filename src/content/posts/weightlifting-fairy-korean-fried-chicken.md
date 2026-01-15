@@ -1,7 +1,7 @@
 ---
 title: "Weightlifting Fairy's Korean Fried Chicken - The Ultimate Chimaek Guide"
 description: "Master Korean Fried Chicken (KFC) as seen in Weightlifting Fairy Kim Bok-joo. Learn the double-fry technique and the history of Korea's chimaek culture."
-pubDate: "2026-01-15"
+pubDate: "2026-01-07"
 category: "Comedy"
 tags: ["Korean Fried Chicken", "Chimaek", "Weightlifting Fairy Kim Bok-joo", "K-Drama Recipe", "Yangnyeom Chicken"]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Old-style_Korean_fried_chicken.jpg/1280px-Old-style_Korean_fried_chicken.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Tteokbokki - Korea's Most Beloved Street Food"
 description: "Master authentic tteokbokki, Korea's iconic spicy rice cakes. From royal court origins to Ma Bok-rim's 1953 invention, learn the complete history and recipe."
-pubDate: "2026-01-15"
+pubDate: "2026-01-03"
 category: "Street Food"
 tags: ["Tteokbokki", "Korean Street Food", "K-Drama Recipe", "Spicy Rice Cakes", "Sindang-dong", "Ma Bok-rim"]
 image: "https://images.pexels.com/photos/12963392/pexels-photo-12963392.jpeg?auto=compress&cs=tinysrgb&w=800"

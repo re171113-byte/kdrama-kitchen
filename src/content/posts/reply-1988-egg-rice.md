@@ -1,7 +1,7 @@
 ---
 title: "Gyeran-bap (Korean Egg Rice) - The Ultimate Simple Comfort Food"
 description: "Make Gyeran-bap, Korea's simplest comfort food perfect for Reply 1988 nostalgia. Just rice, egg, soy sauce, and sesame oil for instant satisfaction."
-pubDate: "2026-01-15"
+pubDate: "2026-01-05"
 category: "Comfort Food"
 tags: ["Gyeran-bap", "Reply 1988", "Egg Rice", "K-Drama Recipe", "Korean Comfort Food", "Simple Recipe"]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ganjang-gyeran-bap_1.jpg/1280px-Ganjang-gyeran-bap_1.jpg"

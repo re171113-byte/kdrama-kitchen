@@ -1,7 +1,7 @@
 ---
 title: "Parasite Jjapaguri (Ram-don) - The Oscar-Winning Noodle Dish"
 description: "Learn to make the famous jjapaguri from Parasite. This Korean instant noodle mashup became a global sensation after winning Best Picture."
-pubDate: "2026-01-15"
+pubDate: "2026-01-01"
 category: "Thriller"
 tags: ["Jjapaguri", "Parasite", "Ram-don", "Korean Noodles", "K-Drama Recipe", "Chapagetti", "Neoguri"]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ram-don.jpg/1280px-Ram-don.jpg"

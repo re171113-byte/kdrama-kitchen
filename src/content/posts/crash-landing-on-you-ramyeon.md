@@ -1,7 +1,7 @@
 ---
 title: "Crash Landing on You Ramyeon - The Recipe Behind the Iconic Scene"
 description: "Learn to make the exact ramyeon from CLOY Episode 4. Discover the history of Korean instant noodles and why this scene became a global phenomenon."
-pubDate: "2026-01-14"
+pubDate: "2026-01-02"
 category: "Romance"
 tags: ["Ramyeon", "Crash Landing on You", "Korean Drama Food", "Instant Noodles", "K-Drama Recipe"]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rameyon.jpg/1280px-Rameyon.jpg"

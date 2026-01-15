@@ -91,18 +91,15 @@ After the hook, explain WHY this food matters:
 
 #### 3. Recipe Section
 Clear, practical instructions:
-- Ingredient list with alternatives
-- Step-by-step with timing
-- Pro tips from Korean home cooks
-- Common mistakes to avoid
+- Ingredient list (Essential + Optional)
+- Equipment list
+- Step-by-step instructions
+- YouTube video tutorial (백종원 등)
 
-#### 4. The Epilogue
-End with emotion, not "enjoy your meal":
-```
-It's now 3:15 AM. Your pot is empty, the broth drunk down to the
-last drop. Tomorrow, you might try something elaborate. But tonight,
-you made ramyeon. And that was exactly enough.
-```
+#### 4. Make It Tonight
+Short emotional closing (1-2 paragraphs):
+- Call to action
+- Korean sentence at the end
 
 ### Article Structure Template
 
@@ -111,33 +108,31 @@ you made ramyeon. And that was exactly enough.
 title: "[Drama Name] [Food Name] - [Catchy Subtitle]"
 description: "150 characters meta description with drama name + food"
 pubDate: "YYYY-MM-DD"
-category: "Romance|Thriller|Comedy|Historical|Action"
+category: "Romance|Thriller|Comedy|Historical|Action|Comfort Food|Street Food"
 tags: ["Drama Name", "Food Name", "Korean Food", "K-Drama Recipe"]
-image: "https://images.unsplash.com/photo-xxx"
+image: "https://upload.wikimedia.org/wikipedia/commons/..."
 ---
 
-[HOOK: 2-3 paragraphs describing the drama scene cinematically]
-
----
-
-## The Scene That Made Us Hungry
-[Context about the specific episode/scene]
-
-![Image with caption](url)
-*Caption describing the image*
+## The Drama: [Drama Name] and [Context]
+[2-3 paragraphs: Drama introduction, food scene context, why this food matters]
 
 ---
 
-## Understanding [Food Name]: More Than Just [Simple Description]
-[Cultural deep dive - 3-4 paragraphs]
+## The History of [Food Name]
 
-| Aspect | Meaning |
-|--------|---------|
-| [Element] | [Cultural significance] |
+### What Is [Food Name]?
+[Etymology, basic explanation]
+
+### [Historical Context]
+[Origin story, cultural significance - 3-4 paragraphs]
+
+| Feature | Detail |
+|---------|--------|
+| [Aspect] | [Explanation] |
 
 ---
 
-## The Recipe: [Character]'s [Food Name]
+## The Recipe: [Food Name]
 
 ### Ingredients
 
@@ -145,7 +140,7 @@ image: "https://images.unsplash.com/photo-xxx"
 - Item 1
 - Item 2
 
-**Optional Upgrades**
+**Optional**
 - Item 1
 - Item 2
 
@@ -153,51 +148,53 @@ image: "https://images.unsplash.com/photo-xxx"
 - Item 1
 - Item 2
 
----
+### Instructions
 
-## Step-by-Step Instructions
+**Step 1: [Action]**
+[Instructions]
 
-### Step 1: [Action Name]
-[Instructions with cultural notes in italics]
-
-*[Character] Note: [In-character tip]*
-
-### Step 2: [Action Name]
+**Step 2: [Action]**
 [Continue...]
 
-![Progress image](url)
-*Caption*
+### Video Tutorial
 
----
+<iframe
+  src="https://www.youtube-nocookie.com/embed/[VIDEO_ID]"
+  title="[Video Title]"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
 
-## Pro Tips from Korean Home Cooks
-
-### The [Tip Name]
-[Explanation]
-
-### The [Tip Name]
-[Explanation]
+*Video by [Channel Name](URL)*
 
 ---
 
 ## FAQ
 
-### Q1. [Question about the drama/food]?
-[Answer with personality]
+### [Question]?
+[Answer - conversational tone]
 
-### Q2. [Question]?
+### [Question]?
 [Answer]
 
-[Continue for 5-7 FAQs]
+[5-7 FAQs total]
 
 ---
 
-## The Last Word
-[Emotional epilogue - 2-3 paragraphs bringing it back to the drama/feeling]
+## Make It Tonight
+
+[1-2 paragraphs: Short emotional closing + call to action]
+
+오늘 밤, *[Drama Korean Title]* 정주행하면서 직접 만든 [food]과 함께하는 건 어떨까요?
 
 ---
 
-*This recipe is part of our K-Drama Kitchen series...*
+*Hero image: "[Image Title]" by [Author], [License], via [Source]*
+
+*Part of our K-Drama Kitchen series—cooking the dishes that made us hungry while watching.*
 ```
 
 ### Markdown Formatting Rules
@@ -272,8 +269,8 @@ PC와 모바일에서 아티클 레이아웃이 다릅니다. 글 작성 및 스
 | Element | Requirement |
 |---------|-------------|
 | Total length | 1,500 - 2,500 words |
-| Images | 3-5 from Unsplash |
-| Internal links | 3-5 to related posts |
+| Hero image | Wikimedia Commons (CC license) |
+| Video | YouTube embed (백종원 등) |
 | FAQ | 5-7 questions |
 | Reading time | 6-10 minutes |
 
@@ -284,7 +281,20 @@ PC와 모바일에서 아티클 레이아웃이 다릅니다. 글 작성 및 스
 - [ ] H2/H3 hierarchy correct
 - [ ] Alt text on all images
 - [ ] FAQ section for featured snippets
-- [ ] Internal links to related content
+- [ ] Video tutorial included
+
+### 발행 프로세스
+1. **1개씩 발행** - 한 번에 하나의 포스트만 작성
+2. **브라우저에서 직접 확인** - 발행 후 실제 페이지 확인
+3. **문제점 체크** - 오류, 버그, 레이아웃, 이미지 깨짐 등
+4. **수정 작업** - 발견된 문제 즉시 수정
+5. **완료 확인 후 다음 포스트** - 문제없을 때만 다음 진행
+
+### YouTube 영상 규칙
+1. **한국어로 검색** - 음식명은 한국어로 검색 (예: "dalgona" ❌ → "달고나 만들기" ✅)
+2. **고품질 영상 선택** - 조회수 높고, 채널 신뢰도 있는 영상 우선
+3. **업로드 후 확인 필수** - 포스트 발행 후 영상이 정상 재생되는지 브라우저에서 직접 확인
+4. **추천 채널** - 백종원, 우리의식탁, 쿠킹트리 등 검증된 요리 채널 우선
 
 ---
 
@@ -380,14 +390,22 @@ Check for bugs and issues across the site
 ## Important Notes
 
 ### Image Sources
-- Use Unsplash for all images
-- Format: `https://images.unsplash.com/photo-xxx?w=800`
-- Always verify images exist and match content
 
-### Internal Linking Strategy
-- Link to related drama recipes
-- Link to same-category posts
-- Link to culture/guide posts when relevant
+**사용 가능한 소스:**
+| Source | License | Credit 필요 |
+|--------|---------|-------------|
+| Wikimedia Commons | CC BY, CC BY-SA 등 | ✅ 필수 |
+| Wikimedia Commons | CC0 (Public Domain) | ⚪ 권장 |
+| Pexels | Pexels License | ❌ 불필요 |
+| Unsplash | Unsplash License | ❌ 불필요 |
+| Pixabay | Pixabay License | ❌ 불필요 |
+
+**규칙:**
+- 글에 맞는 이미지를 위 소스에서 자유롭게 선택
+- **고화질 유지 필수** (최소 1280px 이상, 원본 해상도 사용 권장)
+- **출처 기재가 필요한 이미지는 반드시 글 하단에 크레딧 추가**
+- 크레딧 포맷: `*Hero image: "[Title]" by [Author], [License], via [Source]*`
+- 상업적 사용 가능 여부 확인 필수
 
 ### Monetization (Future)
 - Google AdSense: Pending approval

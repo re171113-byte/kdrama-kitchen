@@ -1,7 +1,7 @@
 ---
 title: "Dae Jang Geum's Gujeolpan - The Royal Nine-Section Platter"
 description: "Learn to make Gujeolpan, the elegant Joseon royal court dish featured in Dae Jang Geum. Eight colorful fillings wrapped in delicate crepes, rooted in obangsaek philosophy."
-pubDate: "2026-01-15"
+pubDate: "2026-01-14"
 category: "Historical"
 tags: ["Gujeolpan", "Dae Jang Geum", "Royal Korean Cuisine", "K-Drama Recipe", "Joseon Food", "Obangsaek"]
 image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Gujeolpan.jpg/1280px-Gujeolpan.jpg"
@@ -186,5 +186,7 @@ Making gujeolpan is a labor of love—perfect for a special celebration or when 
 오늘 밤, *대장금* 정주행하면서 직접 만든 구절판과 함께하는 건 어떨까요?
 
 ---
+
+*Hero image: "Gujeolpan" via Wikimedia Commons, [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)*
 
 *Part of our K-Drama Kitchen series—cooking the dishes that made us hungry while watching.*
