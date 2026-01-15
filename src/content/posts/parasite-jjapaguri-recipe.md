@@ -4,7 +4,7 @@ description: "Learn to make the famous jjapaguri from Parasite. This Korean inst
 pubDate: "2026-01-15"
 category: "Thriller"
 tags: ["Jjapaguri", "Parasite", "Ram-don", "Korean Noodles", "K-Drama Recipe", "Chapagetti", "Neoguri"]
-image: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Ram-don.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ram-don.jpg/1280px-Ram-don.jpg"
 ---
 
 ## The Scene: Parasite's Most Delicious Moment

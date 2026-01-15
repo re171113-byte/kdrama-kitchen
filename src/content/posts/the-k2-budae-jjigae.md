@@ -4,7 +4,7 @@ description: "Learn to make Budae Jjigae (Korean Army Stew), the fusion dish bor
 pubDate: "2026-01-15"
 category: "Action"
 tags: ["Budae Jjigae", "Korean Army Stew", "K-Drama Recipe", "Korean War Food", "Comfort Food", "Uijeongbu"]
-image: "https://upload.wikimedia.org/wikipedia/commons/8/83/Budae-jjigae.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Budae-jjigae.jpg/1280px-Budae-jjigae.jpg"
 ---
 
 ## The Perfect Pairing: Action Dramas and Survival Food

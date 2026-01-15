@@ -4,7 +4,7 @@ description: "Learn to make the exact ramyeon from CLOY Episode 4. Discover the 
 pubDate: "2026-01-14"
 category: "Romance"
 tags: ["Ramyeon", "Crash Landing on You", "Korean Drama Food", "Instant Noodles", "K-Drama Recipe"]
-image: "https://upload.wikimedia.org/wikipedia/commons/1/13/Rameyon.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rameyon.jpg/1280px-Rameyon.jpg"
 ---
 
 ## The Scene: Episode 4 - A Bowl of Trust

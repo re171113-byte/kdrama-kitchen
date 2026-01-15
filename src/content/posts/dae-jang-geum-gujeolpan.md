@@ -4,7 +4,7 @@ description: "Learn to make Gujeolpan, the elegant Joseon royal court dish featu
 pubDate: "2026-01-15"
 category: "Historical"
 tags: ["Gujeolpan", "Dae Jang Geum", "Royal Korean Cuisine", "K-Drama Recipe", "Joseon Food", "Obangsaek"]
-image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gujeolpan.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Gujeolpan.jpg/1280px-Gujeolpan.jpg"
 ---
 
 ## The Drama: Dae Jang Geum (2003-2004)
