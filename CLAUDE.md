@@ -349,7 +349,6 @@ kdrama-kitchen/
 - [x] Domain configuration
 
 ### In Progress 🔄
-- [ ] Color palette refinement
 - [ ] Content creation (drama recipes)
 
 ### Pending ⏳
