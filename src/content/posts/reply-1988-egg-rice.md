@@ -53,20 +53,71 @@ The sesame oil gives Korean gyeran-bap its distinctive nutty aroma and marks it 
 ### Ingredients
 
 **Essential**
-- 1 bowl hot cooked rice (short-grain Korean rice)
-- 1 fresh egg (room temperature)
-- 1 tablespoon soy sauce
-- 1 teaspoon sesame oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 bowl hot cooked rice (short-grain Korean rice)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 fresh egg (room temperature)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 teaspoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 **Optional Additions**
-- 1 tablespoon butter
-- Roasted seaweed (*gim*), crumbled
-- Sesame seeds
-- Green onion, sliced
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon butter</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Roasted seaweed</span>
+      <span class="item-note">(김, crumbled)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+roasted+seaweed+gim&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sesame seeds</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Green onion, sliced</span>
+  </li>
+</ul>
 
 ### Equipment
-- One bowl
-- Chopsticks or spoon
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">One bowl</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Chopsticks or spoon</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/01snsHZK6Ns"
+  title="백종원의 초간단 햄 계란밥 (Simple Egg Rice by Paik Jong Won)"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@paik_jongwon) - Korea's most famous chef*
 
 ### Instructions
 
@@ -87,20 +138,6 @@ Use chopsticks or a spoon to mix everything together for about 30 seconds. The h
 
 **Step 6: Top and Eat**
 Add crumbled seaweed and sesame seeds if desired. Eat immediately—gyeran-bap doesn't wait.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/01snsHZK6Ns"
-  title="백종원의 초간단 햄 계란밥 (Simple Egg Rice by Paik Jong Won)"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@paik_jongwon) - Korea's most famous chef*
 
 ---
 
@@ -145,6 +182,8 @@ Put on *Reply 1988*, crack an egg over hot rice, and transport yourself to Ssang
 오늘 밤, *응답하라 1988* 정주행하면서 직접 만든 계란밥과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Ganjang-gyeran-bap" by 건강한 레시피, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons*
 

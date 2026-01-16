@@ -49,23 +49,91 @@ Today, Sindang-dong's "Tteokbokki Town" (떡볶이 타운) remains a pilgrimage 
 ### Ingredients
 
 **Essential**
-- 500g Korean rice cakes (*garae-tteok*), cylindrical
-- 3 cups anchovy-kelp broth (or water + dashi)
-- 2 tablespoons gochugaru (Korean red pepper flakes)
-- 1 tablespoon gochujang (Korean red pepper paste)
-- 2 tablespoons soy sauce
-- 2 tablespoons sugar (or Korean corn syrup)
-- 1 tablespoon minced garlic
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean rice cakes</span>
+      <span class="item-note">(가래떡, 500g, cylindrical)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+rice+cakes+tteokbokki&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">3 cups anchovy-kelp broth (or water + dashi)</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochugaru</span>
+      <span class="item-note">(Korean red pepper flakes, 2 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochugaru+korean+red+pepper+flakes&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochujang</span>
+      <span class="item-note">(Korean red pepper paste, 1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochujang+korean+red+pepper+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons sugar (or Korean corn syrup)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon minced garlic</span>
+  </li>
+</ul>
 
 **Traditional Additions**
-- 150g Korean fish cakes (*eomuk*), sliced
-- 2 hard-boiled eggs
-- 2 green onions, cut into 2-inch pieces
-- ¼ cabbage, roughly chopped (optional)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean fish cakes</span>
+      <span class="item-note">(어묵, 150g, sliced)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+fish+cake+eomuk&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 hard-boiled eggs</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 green onions, cut into 2-inch pieces</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">¼ cabbage, roughly chopped</span>
+      <span class="item-note">(optional)</span>
+    </span>
+  </li>
+</ul>
 
 ### Equipment
-- Wide, shallow pan or pot
-- Wooden spoon
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Wide, shallow pan or pot</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Wooden spoon</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/t4Es8mwdYlE"
+  title="백종원의 떡볶이 레시피 (Tteokbokki by Paik Jong Won)"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@백종원PAIK) - Korea's most famous chef (14M+ views)*
 
 ### Instructions
 
@@ -91,20 +159,6 @@ Reduce heat to medium. Cook 8-10 minutes, stirring frequently. The rice cakes wi
 
 **Step 6: Finish**
 When rice cakes are soft and chewy (not mushy), add green onions. Stir 30 seconds more. Add hard-boiled eggs. Serve immediately.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/t4Es8mwdYlE"
-  title="백종원의 떡볶이 레시피 (Tteokbokki by Paik Jong Won)"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@백종원PAIK) - Korea's most famous chef (14M+ views)*
 
 ---
 
@@ -147,5 +201,7 @@ Tteokbokki is the ultimate Korean comfort food—easy to make, deeply satisfying
 오늘 밤, *이태원 클라쓰* 정주행하면서 직접 만든 떡볶이와 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Part of our K-Drama Kitchen series—cooking the dishes that made us hungry while watching.*

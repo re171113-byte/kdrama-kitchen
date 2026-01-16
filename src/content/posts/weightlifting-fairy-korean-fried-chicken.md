@@ -57,42 +57,139 @@ Korean fried chicken franchises like Kyochon, BBQ Chicken, and Bonchon expanded 
 ### Ingredients
 
 **For the Chicken**
-- 1 kg chicken wings or drumettes (about 2 lbs)
-- 1 cup potato starch (or cornstarch)
-- ½ cup rice flour
-- 1 teaspoon baking powder
-- 1 teaspoon salt
-- ½ teaspoon white pepper
-- 1 cup cold water
-- Oil for deep frying
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 kg chicken wings or drumettes (about 2 lbs)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 cup potato starch (or cornstarch)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ cup rice flour</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon baking powder</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon salt</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ teaspoon white pepper</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 cup cold water</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Oil for deep frying</span>
+  </li>
+</ul>
 
 **Yangnyeom Sauce (Sweet-Spicy)**
-- 3 tablespoons gochujang
-- 2 tablespoons ketchup
-- 2 tablespoons honey
-- 1 tablespoon soy sauce
-- 1 tablespoon rice vinegar
-- 2 cloves garlic, minced
-- 1 teaspoon sesame oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochujang</span>
+      <span class="item-note">(Korean red pepper paste, 3 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochujang+korean+red+pepper+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons ketchup</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons honey</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon rice vinegar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 cloves garlic, minced</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 teaspoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 **Soy-Garlic Sauce**
-- 3 tablespoons soy sauce
-- 2 tablespoons honey
-- 1 tablespoon brown sugar
-- 4 cloves garlic, minced
-- 1 tablespoon mirin
-- 1 teaspoon sesame oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">3 tablespoons soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons honey</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon brown sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4 cloves garlic, minced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon mirin</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sesame oil</span>
+  </li>
+</ul>
 
 **Garnish**
-- Sesame seeds
-- Green onions
-- Pickled radish (chicken mu)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Sesame seeds</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Green onions</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Pickled radish</span>
+      <span class="item-note">(치킨무, chicken mu)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+chicken+mu+pickled+radish&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 ### Equipment
-- Deep pot or Dutch oven
-- Cooking thermometer
-- Wire rack
-- Tongs
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Deep pot or Dutch oven</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Cooking thermometer</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Wire rack</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Tongs</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/2HZO-YNHFPk"
+  title="백종원의 후라이드 & 양념치킨 레시피 (Korean Fried Chicken by Paik Jong Won)"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@paik_jongwon) - Korea's most famous chef (3.3M views)*
 
 ### Instructions
 
@@ -116,20 +213,6 @@ Increase oil to 180°C (350°F). Fry chicken again for 3-4 minutes until deeply 
 
 **Step 7: Sauce and Serve**
 For yangnyeom or soy-garlic style: Toss hot chicken immediately in warm sauce. For plain (*huraideu*): Season with fine salt. Serve immediately with pickled radish.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/2HZO-YNHFPk"
-  title="백종원의 후라이드 & 양념치킨 레시피 (Korean Fried Chicken by Paik Jong Won)"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@paik_jongwon) - Korea's most famous chef (3.3M views)*
 
 ---
 
@@ -172,6 +255,8 @@ Order some Korean beer, put on *Weightlifting Fairy Kim Bok-joo*, and fry up a b
 오늘 밤, *역도요정 김복주* 정주행하면서 직접 만든 치킨과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Old-style Korean fried chicken" by Kjoonlee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons*
 

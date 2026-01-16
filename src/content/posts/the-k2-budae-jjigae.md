@@ -50,34 +50,127 @@ Uijeongbu, located near the former U.S. military base Camp Casey, is considered 
 ### Ingredients
 
 **Proteins**
-- 200g Spam, sliced
-- 2 hot dogs or sausages, sliced diagonally
-- 200g firm tofu, cubed
-- 100g ground pork (optional)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Spam</span>
+      <span class="item-note">(200g, sliced)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=spam+luncheon+meat&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 hot dogs or sausages, sliced diagonally</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g firm tofu, cubed</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">100g ground pork (optional)</span>
+  </li>
+</ul>
 
 **Vegetables & Fermented**
-- 1 cup aged kimchi (묵은지), chopped
-- 4 green onions, cut into 2-inch pieces
-- ½ onion, sliced
-- 4 cloves garlic, minced
-- Mushrooms (optional)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Aged kimchi</span>
+      <span class="item-note">(묵은지, 1 cup, chopped)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+kimchi&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4 green onions, cut into 2-inch pieces</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ onion, sliced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4 cloves garlic, minced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Mushrooms (optional)</span>
+  </li>
+</ul>
 
 **Stew Base**
-- 4 cups anchovy/kelp broth (or water with dashi)
-- 2 tablespoons gochugaru (Korean red pepper flakes)
-- 1 tablespoon gochujang (Korean red pepper paste)
-- 1 tablespoon soy sauce
-- 1 teaspoon sugar
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">4 cups anchovy/kelp broth (or water with dashi)</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochugaru</span>
+      <span class="item-note">(Korean red pepper flakes, 2 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochugaru+korean+red+pepper+flakes&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochujang</span>
+      <span class="item-note">(Korean red pepper paste, 1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochujang+korean+red+pepper+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sugar</span>
+  </li>
+</ul>
 
 **Finishers**
-- 1 pack Korean ramyeon noodles
-- 2 slices American cheese
-- ½ cup canned baked beans (traditional)
-- 1 egg (optional)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean ramyeon noodles</span>
+      <span class="item-note">(1 pack)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+ramyeon+noodles&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 slices American cheese</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ cup canned baked beans (traditional)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 egg (optional)</span>
+  </li>
+</ul>
 
 ### Equipment
-- Wide, shallow pot or Korean *jeongol* pan
-- Portable burner for tableside cooking
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean hot pot pan</span>
+      <span class="item-note">(전골냄비, wide and shallow)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+hot+pot+pan+jeongol&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Portable burner for tableside cooking</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/8uwmFQH614M"
+  title="백종원의 부대찌개 레시피 (Budae Jjigae by Paik Jong Won)"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@백종원PAIK) - Korea's most famous chef*
 
 ### Instructions
 
@@ -98,20 +191,6 @@ Add ramyeon noodles, pushing them into the broth. Add baked beans if using. Cook
 
 **Step 6: Finish**
 Lay American cheese slices on top (don't stir—let them melt). Optionally crack an egg into the center. Serve immediately, keeping pot on low heat at the table.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/8uwmFQH614M"
-  title="백종원의 부대찌개 레시피 (Budae Jjigae by Paik Jong Won)"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@백종원PAIK) - Korea's most famous chef*
 
 ---
 
@@ -154,6 +233,8 @@ Budae jjigae is the ultimate comfort food for cold nights or when you need somet
 오늘 밤, 액션 드라마 정주행하면서 직접 만든 부대찌개와 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Budae-jjigae" by Jo del Corro, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons*
 

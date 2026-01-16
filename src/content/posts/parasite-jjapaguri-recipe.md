@@ -56,24 +56,82 @@ This recipe follows the traditional Korean method, with the option to add *hanwo
 ### Ingredients
 
 **Essential**
-- 1 pack Chapagetti (짜파게티)
-- 1 pack Neoguri (너구리) - spicy version (빨간 너구리)
-- 600ml water (about 2.5 cups)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Chapagetti</span>
+      <span class="item-note">(짜파게티, 1 pack)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=chapagetti+korean+noodles&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Neoguri</span>
+      <span class="item-note">(너구리, 1 pack, spicy version 빨간 너구리)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=neoguri+korean+noodles+spicy&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">600ml water (about 2.5 cups)</span>
+  </li>
+</ul>
 
 **Parasite Upgrade**
-- 150g beef sirloin or ribeye, cut into 1-inch cubes
-- 1 tablespoon vegetable oil
-- Salt and pepper to taste
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">150g beef sirloin or ribeye, cut into 1-inch cubes</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon vegetable oil</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Salt and pepper to taste</span>
+  </li>
+</ul>
 
 **Optional**
-- 1 egg
-- Green onions, sliced
-- Sesame seeds
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 egg</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Green onions, sliced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sesame seeds</span>
+  </li>
+</ul>
 
 ### Equipment
-- Medium pot
-- Chopsticks
-- Bowl for serving
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Medium pot</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Chopsticks</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Bowl for serving</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/ZsTXzO-tk8M"
+  title="Jjapaguri with steak (Ram-don from Parasite) by Maangchi"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [Maangchi](https://www.youtube.com/@Maangchi) - the legendary Korean cooking YouTuber*
 
 ### Instructions
 
@@ -99,20 +157,6 @@ Return seared beef to the pot. Toss everything together. If adding an egg, crack
 
 **Step 6: Serve Immediately**
 Transfer to a bowl. Garnish with green onions and sesame seeds. Eat immediately—jjapaguri doesn't wait.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/ZsTXzO-tk8M"
-  title="Jjapaguri with steak (Ram-don from Parasite) by Maangchi"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [Maangchi](https://www.youtube.com/@Maangchi) - the legendary Korean cooking YouTuber*
 
 ---
 
@@ -155,6 +199,8 @@ The next time you watch *Parasite*, make yourself a pot of jjapaguri. There's so
 오늘 밤, *기생충* 다시 보면서 직접 만든 짜파구리와 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Ram-don" by Jens Ohlig, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons*
 

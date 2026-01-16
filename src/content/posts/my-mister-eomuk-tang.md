@@ -62,31 +62,111 @@ It's democracy in soup form. Everyone reaches into the same pot. Everyone shares
 ### Ingredients
 
 **For the Broth**
-- 8 cups water
-- 10-12 dried anchovies (heads and guts removed)
-- 1 piece dried kelp (5x5 cm)
-- 1 medium Korean radish, sliced
-- 1 large green onion, halved
-- 1 tablespoon soy sauce
-- 1 teaspoon salt (adjust to taste)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">8 cups water</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Dried anchovies</span>
+      <span class="item-note">(10-12, heads and guts removed)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+dried+anchovies+soup&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Dried kelp</span>
+      <span class="item-note">(다시마, 5x5 cm piece)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+dried+kelp+dashima&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 medium Korean radish, sliced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 large green onion, halved</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon salt (adjust to taste)</span>
+  </li>
+</ul>
 
 **For the Soup**
-- 300g Korean fish cakes (*eomuk*), various types
-- 10-12 bamboo skewers
-- 2 green onions, sliced (for garnish)
-- 1 fresh chili, sliced (optional)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean fish cakes</span>
+      <span class="item-note">(어묵, 300g, various types)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+fish+cake+eomuk&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">10-12 bamboo skewers</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 green onions, sliced (for garnish)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 fresh chili, sliced (optional)</span>
+  </li>
+</ul>
 
 **Optional Additions**
-- Rice cakes (*tteok*)
-- Boiled eggs
-- Tofu
-- Kongnamul (bean sprouts)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean rice cakes</span>
+      <span class="item-note">(떡)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+rice+cakes+tteok&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Boiled eggs</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Tofu</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Kongnamul (bean sprouts)</span>
+  </li>
+</ul>
 
 ### Equipment
-- Large pot
-- Fine mesh strainer or cheesecloth
-- Bamboo skewers
-- Ladle
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Large pot</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Fine mesh strainer or cheesecloth</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Bamboo skewers</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Ladle</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/u4et_lPhUOE"
+  title="어묵탕 끓이는법 - Korean Fish Cake Soup Recipe"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [엄마의손맛](https://www.youtube.com/@ummarecipe)*
 
 ### Instructions
 
@@ -117,20 +197,6 @@ Bring the broth back to a gentle simmer. Add the fish cake skewers, standing the
 Keep the pot simmering on low heat. Serve the skewers directly from the pot. Provide small cups for guests to ladle broth.
 
 Garnish the broth with sliced green onions and fresh chili if desired.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/u4et_lPhUOE"
-  title="어묵탕 끓이는법 - Korean Fish Cake Soup Recipe"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [엄마의손맛](https://www.youtube.com/@ummarecipe)*
 
 ---
 
@@ -181,6 +247,8 @@ Make *eomuk-tang* tonight. Find someone who needs to sit in comfortable silence.
 오늘 밤, *나의 아저씨* 정주행하면서 직접 만든 어묵탕과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Korea fish cake soup-Eomuk-Tang" by Chloe Lim, CC BY 2.0, via Wikimedia Commons*
 

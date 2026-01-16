@@ -68,27 +68,87 @@ There's something deeply comforting about the combination of sweet corn and crea
 ### Ingredients
 
 **Essential**
-- 2 cups sweet corn kernels (canned, frozen, or fresh)
-- 3 tablespoons mayonnaise
-- 1 tablespoon sugar
-- Pinch of salt
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">2 cups sweet corn kernels (canned, frozen, or fresh)</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean mayonnaise</span>
+      <span class="item-note">(3 tablespoons, Ottogi or Kewpie recommended)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+mayonnaise+ottogi&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Pinch of salt</span>
+  </li>
+</ul>
 
 **Optional Additions**
-- 1/4 cup diced cucumber
-- 1/4 cup finely shredded cabbage
-- 2 tablespoons diced carrot
-- 1 tablespoon diced onion
-- 1 hard-boiled egg, diced
-- Parsley for garnish
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1/4 cup diced cucumber</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1/4 cup finely shredded cabbage</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons diced carrot</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon diced onion</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 hard-boiled egg, diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Parsley for garnish</span>
+  </li>
+</ul>
 
 **Variation: Creamy Style**
-- 1 tablespoon heavy cream or condensed milk
-- Additional mayonnaise to taste
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon heavy cream or condensed milk</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Additional mayonnaise to taste</span>
+  </li>
+</ul>
 
 ### Equipment
-- Mixing bowl
-- Strainer (for canned corn)
-- Spoon or spatula for mixing
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Mixing bowl</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Strainer (for canned corn)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Spoon or spatula for mixing</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/9qdyjIAO188"
+  title="성시경의 콘샐러드 레시피 - Korean Corn Salad Recipe"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [성시경 Sung Si Kyung](https://www.youtube.com/@sikimdouble) - Korean singer and cooking enthusiast*
 
 ### Instructions
 
@@ -109,20 +169,6 @@ Refrigerate for at least 30 minutes before serving. This allows flavors to meld 
 
 **Step 6: Garnish (Optional)**
 Top with a sprinkle of parsley or a few reserved corn kernels for presentation.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/9qdyjIAO188"
-  title="성시경의 콘샐러드 레시피 - Korean Corn Salad Recipe"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [성시경 Sung Si Kyung](https://www.youtube.com/@sikimdouble) - Korean singer and cooking enthusiast*
 
 ---
 
@@ -169,6 +215,8 @@ You don't need to be a reformed mafia lawyer to appreciate a good corn salad. Yo
 오늘 밤, *빈센조* 정주행하면서 직접 만든 콘 샐러드와 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Sweet corn salad" by Jirka Matousek, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons*
 

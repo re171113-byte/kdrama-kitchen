@@ -62,29 +62,102 @@ It's self-deprecating humor, Korean-style. And it's delicious.
 ### Ingredients
 
 **Essential**
-- 400g fresh jjajangmyeon noodles (or thick udon)
-- 200g pork belly or shoulder, diced into 1cm cubes
-- 4 tablespoons chunjang (Korean black bean paste)
-- 1 large onion, diced
-- 1 medium zucchini, diced
-- 1 medium potato, diced
-- 4 cloves garlic, minced
-- 2 tablespoons vegetable oil
-- 1 tablespoon sugar
-- 2 cups water or pork/chicken stock
-- 1 tablespoon potato starch + 2 tablespoons water (slurry)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Fresh jjajangmyeon noodles</span>
+      <span class="item-note">(짜장면, 400g, or thick udon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=jjajangmyeon+noodles+korean&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g pork belly or shoulder, diced into 1cm cubes</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Chunjang</span>
+      <span class="item-note">(Korean black bean paste, 4 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=chunjang+korean+black+bean+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 large onion, diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 medium zucchini, diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 medium potato, diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4 cloves garlic, minced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons vegetable oil</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 cups water or pork/chicken stock</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon potato starch + 2 tablespoons water (slurry)</span>
+  </li>
+</ul>
 
 **Optional**
-- 1/2 cup diced cabbage
-- Fresh cucumber, julienned (for garnish)
-- Pickled radish (danmuji)
-- Raw onion slices in black vinegar
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1/2 cup diced cabbage</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Fresh cucumber, julienned (for garnish)</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Pickled radish</span>
+      <span class="item-note">(단무지)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=danmuji+pickled+radish+korean&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Raw onion slices in black vinegar</span>
+  </li>
+</ul>
 
 ### Equipment
-- Large wok or deep frying pan
-- Large pot for boiling noodles
-- Cutting board and knife
-- Measuring cups and spoons
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Large wok or deep frying pan</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Large pot for boiling noodles</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Cutting board and knife</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Measuring cups and spoons</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/Fams-foFYI8"
+  title="짜장면 소스 만들기 - Korean Jjajangmyeon Recipe"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [맛펙토리](https://www.youtube.com/@matfactory)*
 
 ### Instructions
 
@@ -117,20 +190,6 @@ While the sauce simmers, cook the noodles according to package directions. Fresh
 **Step 7: Serve**
 
 Place noodles in a bowl. Ladle the sauce generously over the top. Garnish with julienned cucumber if desired. Serve immediately with pickled radish on the side.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/Fams-foFYI8"
-  title="짜장면 소스 만들기 - Korean Jjajangmyeon Recipe"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [맛펙토리](https://www.youtube.com/@matfactory)*
 
 ---
 
@@ -179,6 +238,8 @@ Make jjajangmyeon tonight. Call someone you haven't talked to in too long. Eat t
 오늘 밤, *슬기로운 의사생활* 정주행하면서 직접 만든 짜장면과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Korean.cuisine-Jajangmyeon-01" by CIAT, CC BY-SA 2.0, via Wikimedia Commons*
 

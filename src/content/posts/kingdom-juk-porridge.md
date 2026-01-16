@@ -83,31 +83,103 @@ This recipe creates a simple, nourishing *juk* similar to what Joseon-era Korean
 ### Ingredients
 
 **For the Porridge Base**
-- 1 cup short-grain rice
-- 8-10 cups water or stock
-- 1 tablespoon sesame oil
-- Salt to taste
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 cup short-grain rice</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">8-10 cups water or stock</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Salt to taste</span>
+  </li>
+</ul>
 
 **For the Beef and Vegetables**
-- 150g ground beef or finely diced beef
-- 1 medium carrot, finely diced
-- 1 medium zucchini, finely diced
-- 3 shiitake mushrooms, finely diced
-- 2 cloves garlic, minced
-- 1 tablespoon soy sauce
-- 1 teaspoon sesame oil
-- Pinch of black pepper
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">150g ground beef or finely diced beef</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 medium carrot, finely diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 medium zucchini, finely diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">3 shiitake mushrooms, finely diced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 cloves garlic, minced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sesame oil</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Pinch of black pepper</span>
+  </li>
+</ul>
 
 **For Serving**
-- Toasted sesame seeds
-- Sliced green onions
-- Additional sesame oil
-- Soy sauce for dipping
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Toasted sesame seeds</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sliced green onions</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Additional sesame oil</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Soy sauce for dipping</span>
+  </li>
+</ul>
 
 ### Equipment
-- Heavy-bottomed pot or Korean stone pot (*ttukbaegi*)
-- Wooden spoon
-- Ladle
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean stone pot</span>
+      <span class="item-note">(뚝배기, or heavy-bottomed pot)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+stone+pot+ttukbaegi&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Wooden spoon</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Ladle</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/jjTOcr1pd-M"
+  title="Beef and Vegetable Rice Porridge (Yachae-juk) - Maangchi"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [Maangchi](https://www.youtube.com/@Maangchi) - The legendary Korean cooking teacher*
 
 ### Instructions
 
@@ -134,20 +206,6 @@ After 30 minutes, add the diced zucchini. Continue cooking for another 10 minute
 
 **Step 8: Season and Serve**
 Taste and add salt as needed. Ladle into bowls. Top with toasted sesame seeds, sliced green onions, and a drizzle of sesame oil. Serve with additional soy sauce on the side.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/jjTOcr1pd-M"
-  title="Beef and Vegetable Rice Porridge (Yachae-juk) - Maangchi"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [Maangchi](https://www.youtube.com/@Maangchi) - The legendary Korean cooking teacher*
 
 ---
 
@@ -196,6 +254,8 @@ You probably aren't facing a zombie apocalypse. But we all have hard days. And o
 오늘 밤, *킹덤* 정주행하면서 직접 만든 죽과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Korean Juk (Rice Porridge)" by Satomi Abe, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons*
 

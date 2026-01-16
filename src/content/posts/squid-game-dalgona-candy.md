@@ -63,18 +63,61 @@ In *Squid Game*, protagonist Seong Gi-hun (Player 456) receives the dreaded umbr
 ### Ingredients
 
 **Essential**
-- 2 tablespoons white sugar
-- A pinch of baking soda (about 1/8 teaspoon)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons white sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">A pinch of baking soda (about 1/8 teaspoon)</span>
+  </li>
+</ul>
 
 **Optional**
-- Cookie cutters for shapes (circle, star, triangle, umbrella)
-- A needle or toothpick for the challenge
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Dalgona candy mold set</span>
+      <span class="item-note">(with shapes and press)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=dalgona+candy+mold+squid+game&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">A needle or toothpick for the challenge</span>
+  </li>
+</ul>
 
 ### Equipment
-- Stainless steel ladle or small non-stick pan
-- Long-handled spoon or chopstick
-- Flat surface (marble, silicone mat, or parchment paper)
-- Flat press (can use the bottom of a glass)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Stainless steel ladle or small non-stick pan</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Long-handled spoon or chopstick</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Flat surface (marble, silicone mat, or parchment paper)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Flat press (can use the bottom of a glass)</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/np6xuWQR_1U"
+  title="완벽하게 성공하는 달고나 만들기 - How to Make Dalgona"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [오픈키친 OpenKitchen](https://www.youtube.com/@OpenKitchen)*
 
 ### Instructions
 
@@ -95,20 +138,6 @@ Before the candy fully hardens (but after it's set enough to hold its shape), ge
 
 **Step 6: Cool and Challenge**
 Let cool completely for 2-3 minutes. Then, using a needle or toothpick, try to extract the shape without breaking the candy. Good luck—you'll need it for the umbrella!
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/np6xuWQR_1U"
-  title="완벽하게 성공하는 달고나 만들기 - How to Make Dalgona"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [오픈키친 OpenKitchen](https://www.youtube.com/@OpenKitchen)*
 
 ---
 
@@ -153,6 +182,8 @@ But at home, with just sugar and baking soda, you can experience what millions o
 오늘 밤, *오징어 게임* 정주행하면서 직접 만든 달고나와 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Squid Game dalgona cookies" via Wikimedia Commons, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)*
 

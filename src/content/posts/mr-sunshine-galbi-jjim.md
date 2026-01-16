@@ -77,38 +77,128 @@ When noble families in *Mr. Sunshine* gather around a table laden with galbi-jji
 ### Ingredients
 
 **For the Ribs**
-- 2 kg beef short ribs, cut into 5-6 cm pieces
-- Cold water for soaking
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">2 kg beef short ribs, cut into 5-6 cm pieces</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Cold water for soaking</span>
+  </li>
+</ul>
 
 **For the Marinade**
-- 1 cup soy sauce
-- 1/2 cup water
-- 1/4 cup rice wine (*cheongju*) or mirin
-- 3 tablespoons sugar
-- 2 tablespoons honey or corn syrup
-- 1 Asian pear, grated (or 1 apple + 2 tablespoons pear juice)
-- 1 onion, roughly chopped
-- 6 cloves garlic, minced
-- 1 tablespoon sesame oil
-- 1 teaspoon black pepper
-- 1 inch ginger, minced
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 cup soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1/2 cup water</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean rice wine</span>
+      <span class="item-note">(청주, 1/4 cup, or mirin)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+rice+wine+cheongju&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">3 tablespoons sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons honey or corn syrup</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 Asian pear, grated (or 1 apple + 2 tablespoons pear juice)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 onion, roughly chopped</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">6 cloves garlic, minced</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon black pepper</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 inch ginger, minced</span>
+  </li>
+</ul>
 
 **Vegetables and Garnishes**
-- 2 medium carrots, cut into chunks
-- 1 large Korean radish (*mu*), cut into chunks
-- 8-10 dried jujubes (*daechu*)
-- 12-15 peeled chestnuts (fresh or vacuum-packed)
-- 8 ginkgo nuts (optional)
-- 10 shiitake mushrooms, halved
-- 4 green onions, cut into 2-inch pieces
-- Pine nuts for garnish
-- Egg jidan (thinly sliced egg crepe) for garnish
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">2 medium carrots, cut into chunks</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 large Korean radish (무), cut into chunks</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Dried jujubes</span>
+      <span class="item-note">(대추, 8-10 pieces)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+dried+jujubes+daechu&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">12-15 peeled chestnuts (fresh or vacuum-packed)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">8 ginkgo nuts (optional)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">10 shiitake mushrooms, halved</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4 green onions, cut into 2-inch pieces</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Pine nuts for garnish</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Egg jidan (thinly sliced egg crepe) for garnish</span>
+  </li>
+</ul>
 
 ### Equipment
-- Large pot or Dutch oven
-- Blender or food processor
-- Fine mesh strainer
-- Heavy-bottomed pan
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Large pot or Dutch oven</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Blender or food processor</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Fine mesh strainer</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Heavy-bottomed pan</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/vtGzj6cUn7Q"
+  title="Galbi-jjim (Braised beef short ribs) 갈비찜 - Maangchi"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [Maangchi](https://www.youtube.com/@Maangchi) - The legendary Korean cooking teacher*
 
 ### Instructions
 
@@ -132,20 +222,6 @@ In the last 15 minutes, add shiitake mushrooms and green onions. Increase heat s
 
 **Step 7: Garnish and Serve**
 Transfer to a serving platter. Arrange vegetables around the ribs. Garnish with pine nuts and egg jidan strips. Serve immediately with steamed rice.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/vtGzj6cUn7Q"
-  title="Galbi-jjim (Braised beef short ribs) 갈비찜 - Maangchi"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [Maangchi](https://www.youtube.com/@Maangchi) - The legendary Korean cooking teacher*
 
 ---
 
@@ -192,6 +268,8 @@ You don't need to be fighting for independence to appreciate a good galbi-jjim. 
 오늘 밤, *미스터 션샤인* 정주행하면서 직접 만든 갈비찜과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Korean braised beef short ribs-Galbijjim" by Junho Jung, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons*
 

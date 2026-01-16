@@ -75,36 +75,118 @@ The crispy warmth of fried chicken contrasts perfectly with cold, quiet snowfall
 ### Ingredients
 
 **For the Chicken**
-- 1 kg chicken wings or drumettes
-- 1 cup potato starch or cornstarch
-- ½ cup all-purpose flour
-- 1 teaspoon salt
-- ½ teaspoon black pepper
-- ½ teaspoon garlic powder
-- 1 cup cold water (or cold sparkling water for extra crispiness)
-- Vegetable oil for deep frying
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 kg chicken wings or drumettes</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 cup potato starch or cornstarch</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ cup all-purpose flour</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon salt</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ teaspoon black pepper</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ teaspoon garlic powder</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 cup cold water (or cold sparkling water for extra crispiness)</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Vegetable oil for deep frying</span>
+  </li>
+</ul>
 
 **For Yangnyeom Sauce (Sweet-Spicy)**
-- 3 tablespoons gochujang (Korean red pepper paste)
-- 2 tablespoons ketchup
-- 2 tablespoons honey or corn syrup
-- 1 tablespoon soy sauce
-- 1 tablespoon minced garlic
-- 1 tablespoon rice vinegar
-- 1 teaspoon sesame oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochujang</span>
+      <span class="item-note">(Korean red pepper paste, 3 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochujang+korean+red+pepper+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons ketchup</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons honey or corn syrup</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon minced garlic</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon rice vinegar</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 teaspoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 **For Soy Garlic Sauce**
-- 3 tablespoons soy sauce
-- 2 tablespoons honey
-- 1 tablespoon minced garlic
-- 1 tablespoon butter
-- 1 teaspoon sesame seeds
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">3 tablespoons soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons honey</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon minced garlic</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon butter</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sesame seeds</span>
+  </li>
+</ul>
 
 ### Equipment
-- Deep pot or fryer
-- Cooking thermometer
-- Wire rack
-- Mixing bowls
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Deep pot or fryer</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Cooking thermometer</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Wire rack</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Mixing bowls</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/2HZO-YNHFPk"
+  title="백종원의 치킨 레시피 - Korean Fried Chicken"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@백종원PAIKJONGWON) - Korea's most famous chef*
 
 ### Instructions
 
@@ -127,20 +209,6 @@ While chicken rests, prepare your sauce of choice:
 
 **Step 6: Toss and Serve**
 Toss hot chicken in sauce immediately, or serve sauce on the side for dipping. Sprinkle with sesame seeds. Serve with pickled radish and cold beer.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/2HZO-YNHFPk"
-  title="백종원의 치킨 레시피 - Korean Fried Chicken"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@백종원PAIKJONGWON) - Korea's most famous chef*
 
 ---
 
@@ -192,6 +260,8 @@ You don't need to be a 400-year-old alien or a top actress to enjoy this experie
 오늘 밤, *별에서 온 그대* 정주행하면서 직접 만든 치맥과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Yangnyeom Chicken Korean fried chicken" by Startandstar, [CC0](https://creativecommons.org/publicdomain/zero/1.0/), via Wikimedia Commons*
 
