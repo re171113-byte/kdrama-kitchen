@@ -136,25 +136,33 @@ image: "https://upload.wikimedia.org/wikipedia/commons/..."
 
 ### Ingredients
 
-**Essential**
-- Item 1
-- Item 2
-
-**Optional**
-- Item 1
-- Item 2
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">[Korean specialty item]</span>
+      <span class="item-note">(brand recommendation)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=search+keywords&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">[General item - no link needed]</span>
+  </li>
+</ul>
 
 ### Equipment
-- Item 1
-- Item 2
 
-### Instructions
-
-**Step 1: [Action]**
-[Instructions]
-
-**Step 2: [Action]**
-[Continue...]
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">[Korean cookware]</span>
+      <span class="item-note">(Korean name)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=search+keywords&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">[General item - no link needed]</span>
+  </li>
+</ul>
 
 ### Video Tutorial
 
@@ -169,6 +177,14 @@ image: "https://upload.wikimedia.org/wikipedia/commons/..."
 </iframe>
 
 *Video by [Channel Name](URL)*
+
+### Instructions
+
+**Step 1: [Action]**
+[Instructions]
+
+**Step 2: [Action]**
+[Continue...]
 
 ---
 
@@ -295,6 +311,48 @@ PC와 모바일에서 아티클 레이아웃이 다릅니다. 글 작성 및 스
 2. **고품질 영상 선택** - 조회수 높고, 채널 신뢰도 있는 영상 우선
 3. **업로드 후 확인 필수** - 포스트 발행 후 영상이 정상 재생되는지 브라우저에서 직접 확인
 4. **추천 채널** - 백종원, 우리의식탁, 쿠킹트리 등 검증된 요리 채널 우선
+
+### Amazon 제휴 링크 규칙
+
+**Affiliate Tag:** `kdramacitchen-20`
+
+**링크 형식:**
+```
+https://www.amazon.com/s?k=검색어+검색어&tag=kdramacitchen-20
+```
+
+**Amazon 링크 추가 기준:**
+
+| 카테고리 | 링크 필요 | 예시 |
+|----------|----------|------|
+| 한국 식품 | ✅ | 라면, 김치, 고추장, 된장, 떡 |
+| 한국 조리도구 | ✅ | 양은냄비, 뚝배기, 한국 젓가락, 돌솥 |
+| 일반 식재료 | ❌ | 계란, 파, 마늘, 소금, 물 |
+| 일반 조리도구 | ❌ | 뚜껑, 냄비받침, 일반 프라이팬 |
+
+**이유:** 외국인은 한국 특산품만 온라인 주문, 일반 재료는 동네 마트에서 구매
+
+**HTML 템플릿:**
+```html
+<!-- Amazon 링크 있는 아이템 -->
+<li class="recipe-item">
+  <span>
+    <span class="item-name">Korean ramyeon</span>
+    <span class="item-note">(Shin Ramyun recommended)</span>
+  </span>
+  <a href="https://www.amazon.com/s?k=shin+ramyun&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+</li>
+
+<!-- Amazon 링크 없는 아이템 -->
+<li class="recipe-item">
+  <span class="item-name">2 eggs</span>
+</li>
+```
+
+**필수 Disclosure (글 하단에 추가):**
+```markdown
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
+```
 
 ---
 

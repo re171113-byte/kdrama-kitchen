@@ -53,21 +53,73 @@ This recipe recreates the simple, comforting ramyeon from the *Crash Landing on 
 
 ### Ingredients
 
-**Essential**
-- 1 pack Korean ramyeon (Shin Ramyun or Jin Ramen recommended)
-- 550ml water
-- 1 fresh egg
-- 2 stalks green onion, chopped
-
-**Optional**
-- 1 slice American cheese
-- Kimchi (2-3 tablespoons)
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">1 pack Korean ramyeon</span>
+      <span class="item-note">(Shin Ramyun or Jin Ramen)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=shin+ramyun+nongshim&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">550ml water</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 fresh egg</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 stalks green onion, chopped</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">1 slice American cheese</span>
+      <span class="item-note">(optional)</span>
+    </span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Kimchi</span>
+      <span class="item-note">(2-3 tablespoons, optional)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+kimchi+jar&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 ### Equipment
-- Small pot or Korean *yangeuun naembi* (aluminum pot)
-- Lid
-- Chopsticks
-- Trivet or heat-safe surface
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean ramen pot</span>
+      <span class="item-note">(양은냄비)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+ramen+pot+aluminum&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Lid</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Stainless steel chopsticks</span>
+    <a href="https://www.amazon.com/s?k=korean+chopsticks+stainless+steel&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Trivet or heat-safe surface</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/Jj4oB1LW9Z8"
+  title="백종원의 스페셜 라면 (Paik Jong Won's Special Ramen)"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@paik_jongwon) - Korea's most famous chef (6.8M views)*
 
 ### Instructions
 
@@ -87,20 +139,6 @@ At the 2-minute mark, reduce heat to medium. Push noodles aside to create a well
 Remove from heat. Add chopped green onions. If using cheese, lay it over the noodles to melt from residual heat.
 
 **Important**: Do not transfer to a bowl. Eat directly from the pot—this is the Korean way.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/Jj4oB1LW9Z8"
-  title="백종원의 스페셜 라면 (Paik Jong Won's Special Ramen)"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원 PAIK JONG WON](https://www.youtube.com/@paik_jongwon) - Korea's most famous chef (6.8M views)*
 
 ---
 
@@ -143,6 +181,8 @@ Tonight, why not put on *Crash Landing on You* Episode 4, cook yourself a pot of
 오늘 밤, *사랑의 불시착* 정주행하면서 직접 만든 라면과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Rameyon" by Jordi Sanchez, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons*
 

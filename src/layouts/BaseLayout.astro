@@ -1526,4 +1526,90 @@ const jsonLd = type === 'article' ? {
       color: #FFFFFF;
     }
   }
+
+  /* ==================== AMAZON INLINE BUTTON (Recipe) ==================== */
+  .recipe-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .recipe-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    gap: 8px;
+  }
+
+  .recipe-item::before {
+    content: "•";
+    color: #1a1a1a;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+
+  .recipe-item > span:first-of-type {
+    flex: 1;
+  }
+
+  .recipe-item:last-child {
+    border-bottom: none;
+  }
+
+  .item-name {
+    font-size: 1rem;
+    color: #1a1a1a;
+  }
+
+  .item-note {
+    font-size: 0.85rem;
+    color: #888;
+    margin-left: 8px;
+  }
+
+  .buy-buttons {
+    display: flex;
+    gap: 6px;
+    flex-shrink: 0;
+  }
+
+  .buy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #FF9900;
+    color: #fff !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+
+  .buy-btn:hover {
+    background: #e68a00;
+  }
+
+  .buy-btn.iherb {
+    background: #3A7D2A;
+  }
+
+  .buy-btn.iherb:hover {
+    background: #2d6321;
+  }
+
+  @media (max-width: 500px) {
+    .recipe-item {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .buy-btn {
+      align-self: flex-end;
+    }
+  }
 </style>

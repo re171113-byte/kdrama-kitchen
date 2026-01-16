@@ -74,33 +74,129 @@ In traditional Korean medicine, buckwheat is considered "cooling" food, which is
 ### Ingredients
 
 **For the Noodles**
-- 200g dried buckwheat noodles (*memil guksu*)
-- Ice water for rinsing
-- Ice cubes for serving
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Dried buckwheat noodles</span>
+      <span class="item-note">(메밀국수, 200g)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+buckwheat+noodles+memil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Ice water for rinsing</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Ice cubes for serving</span>
+  </li>
+</ul>
 
 **For the Sauce**
-- 2 tablespoons gochugaru (Korean red pepper flakes)
-- 1 tablespoon gochujang (Korean red pepper paste)
-- 2 tablespoons soy sauce
-- 1 tablespoon sugar
-- 1 tablespoon rice vinegar
-- 1 tablespoon sesame oil
-- 1 teaspoon minced garlic
-- 1 teaspoon toasted sesame seeds
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochugaru</span>
+      <span class="item-note">(Korean red pepper flakes, 2 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochugaru+korean+red+pepper+flakes&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochujang</span>
+      <span class="item-note">(Korean red pepper paste, 1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochujang+korean+red+pepper+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon rice vinegar</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon minced garlic</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon toasted sesame seeds</span>
+  </li>
+</ul>
 
 **Toppings**
-- 1/2 cucumber, julienned
-- 1/2 Asian pear or apple, julienned
-- 1 hard-boiled egg, halved
-- Kimchi (optional)
-- Pickled radish (*danmuji*)
-- Toasted seaweed strips (*gim*)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1/2 cucumber, julienned</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1/2 Asian pear or apple, julienned</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 hard-boiled egg, halved</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Kimchi</span>
+      <span class="item-note">(optional)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+kimchi+jar&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Pickled radish</span>
+      <span class="item-note">(단무지)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=danmuji+pickled+radish+korean&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Toasted seaweed strips</span>
+      <span class="item-note">(김)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+roasted+seaweed+strips&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 ### Equipment
-- Large pot for boiling
-- Colander
-- Mixing bowl
-- Chopsticks for tossing
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Large pot for boiling</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Colander</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Mixing bowl</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Chopsticks for tossing</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/6ZRLdW-E91M"
+  title="메밀국수 만들기 - Korean Cold Buckwheat Noodles Recipe"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [강쉪 KangchefTV](https://www.youtube.com/@KangchefTV) - Korean chef's simple buckwheat noodles*
 
 ### Instructions
 
@@ -121,20 +217,6 @@ Drain the noodles thoroughly—excess water will dilute the sauce. Transfer to a
 
 **Step 6: Assemble and Serve**
 Arrange toppings over the dressed noodles. Add a few ice cubes to keep everything cold. Serve immediately with scissors for cutting noodles and extra sauce on the side.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/6ZRLdW-E91M"
-  title="메밀국수 만들기 - Korean Cold Buckwheat Noodles Recipe"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [강쉪 KangchefTV](https://www.youtube.com/@KangchefTV) - Korean chef's simple buckwheat noodles*
 
 ---
 
@@ -179,6 +261,8 @@ You might not have 900 years of experience, but you have something the Goblin do
 오늘 밤, *도깨비* 정주행하면서 직접 만든 막국수와 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Memil guksu, Korean buckwheat noodles" by jetohs, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons*
 

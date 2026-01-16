@@ -77,41 +77,152 @@ The Korean East Sea (also called the Sea of Japan) is famous for its cold, clear
 ### Ingredients
 
 **Seafood (Choose 4-5 varieties)**
-- 2 blue crabs, cleaned and halved
-- 200g squid, cleaned and scored
-- 200g large shrimp, deveined
-- 300g clams, scrubbed
-- 200g mussels, scrubbed and debearded
-- 100g small octopus (*nakji*), cleaned
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">2 blue crabs, cleaned and halved</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g squid, cleaned and scored</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g large shrimp, deveined</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">300g clams, scrubbed</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g mussels, scrubbed and debearded</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">100g small octopus</span>
+      <span class="item-note">(낙지, cleaned)</span>
+    </span>
+  </li>
+</ul>
 
 **Vegetables**
-- 1/2 Napa cabbage, cut into chunks
-- 1 zucchini, sliced
-- 200g Korean radish (*mu*), thinly sliced
-- 1 onion, sliced
-- 4 green onions, cut into 3-inch pieces
-- 1 bunch chrysanthemum greens (*ssukgat*) - optional
-- 200g enoki mushrooms
-- 4-5 shiitake mushrooms, sliced
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1/2 Napa cabbage, cut into chunks</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 zucchini, sliced</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">200g Korean radish</span>
+      <span class="item-note">(무, thinly sliced)</span>
+    </span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 onion, sliced</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4 green onions, cut into 3-inch pieces</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">1 bunch chrysanthemum greens</span>
+      <span class="item-note">(쑥갓, optional)</span>
+    </span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g enoki mushrooms</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">4-5 shiitake mushrooms, sliced</span>
+  </li>
+</ul>
 
 **Broth**
-- 6 cups water or anchovy-kelp stock
-- 3 tablespoons gochugaru (Korean red pepper flakes)
-- 2 tablespoons gochujang (Korean red pepper paste)
-- 3 tablespoons soy sauce
-- 2 tablespoons minced garlic
-- 1 tablespoon fish sauce
-- 1 tablespoon sugar
-- Salt to taste
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">6 cups water or anchovy-kelp stock</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochugaru</span>
+      <span class="item-note">(Korean red pepper flakes, 3 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochugaru+korean+red+pepper+flakes&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gochujang</span>
+      <span class="item-note">(Korean red pepper paste, 2 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gochujang+korean+red+pepper+paste&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">3 tablespoons soy sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 tablespoons minced garlic</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon fish sauce</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 tablespoon sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Salt to taste</span>
+  </li>
+</ul>
 
 **Finishing**
-- 200g Korean glass noodles (*dangmyeon*) or udon
-- 2 eggs (optional, for finishing)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean glass noodles</span>
+      <span class="item-note">(당면, 200g)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+glass+noodles+dangmyeon&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">2 eggs</span>
+      <span class="item-note">(optional, for finishing)</span>
+    </span>
+  </li>
+</ul>
 
 ### Equipment
-- Wide, shallow pot (*jeongol* pot or Korean brass pot)
-- Portable burner for table cooking
-- Ladle and long chopsticks
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean hot pot</span>
+      <span class="item-note">(전골냄비, wide shallow pot)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+hot+pot+jeongol&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Portable burner for table cooking</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Ladle and long chopsticks</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/Ir8709D0O-s"
+  title="최고의 요리 비결 - 해물전골 레시피"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [EBSCulture](https://www.youtube.com/@EBSCulture) - Korea's educational broadcasting channel*
 
 ### Instructions
 
@@ -135,20 +246,6 @@ Once boiling, reduce heat to maintain a gentle simmer. Cook until all seafood is
 
 **Step 7: Finish with Noodles**
 After most of the seafood is eaten, add soaked glass noodles to the remaining broth. Cook until tender. For extra richness, crack eggs into the pot and let them poach.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/Ir8709D0O-s"
-  title="최고의 요리 비결 - 해물전골 레시피"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [EBSCulture](https://www.youtube.com/@EBSCulture) - Korea's educational broadcasting channel*
 
 ---
 
@@ -195,6 +292,8 @@ You don't need to live by the sea. You just need good ingredients, a wide pot, a
 오늘 밤, *갯마을 차차차* 정주행하면서 직접 만든 해물전골과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Haemul jeongol, Korean seafood stew" by Kai Hendry, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Wikimedia Commons*
 

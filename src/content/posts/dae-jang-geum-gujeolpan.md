@@ -59,53 +59,139 @@ The crepes serve as wraps. Diners take one crepe, add fillings of their choice, 
 ### Ingredients
 
 **Miljeonbyeong (Crepes)**
-- 1 cup all-purpose flour
-- 1 cup water
-- ½ teaspoon salt
-- 1 egg white
-- Vegetable oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 cup all-purpose flour</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 cup water</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">½ teaspoon salt</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 egg white</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Vegetable oil</span>
+  </li>
+</ul>
 
 **Eight Fillings**
 
 *Beef (Brown)*
-- 150g beef sirloin, julienned
-- 1 tablespoon soy sauce
-- 1 teaspoon sesame oil
-- 1 teaspoon sugar
-- 1 clove garlic, minced
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">150g beef sirloin, julienned</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean soy sauce</span>
+      <span class="item-note">(1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+soy+sauce&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(1 teaspoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sugar, 1 clove garlic minced</span>
+  </li>
+</ul>
 
 *Shiitake Mushrooms (Dark Brown)*
-- 6 shiitake mushrooms, julienned
-- Soy sauce, sesame oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Dried shiitake mushrooms</span>
+      <span class="item-note">(6 pieces, julienned)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=dried+shiitake+mushrooms&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
 
 *Carrots (Orange/Red)*
-- 1 medium carrot, julienned
-- Salt, vegetable oil
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 medium carrot, julienned</span>
+  </li>
+</ul>
 
 *Cucumber (Green)*
-- 1 medium cucumber, seeded and julienned
-- Salt, vegetable oil
 
-*Egg Yolk (Yellow)*
-- 2 egg yolks
-- Pinch of salt
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 medium cucumber, seeded and julienned</span>
+  </li>
+</ul>
 
-*Egg White (White)*
-- 2 egg whites
-- Pinch of salt
+*Egg Yolk & White (Yellow/White)*
 
-*Fernbrake/Bellflower Root (Dark/Earthy)*
-- 50g bellflower root (doraji) or fernbrake
-- Soy sauce, sesame oil
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">2 egg yolks + 2 egg whites, pinch of salt</span>
+  </li>
+</ul>
 
-*Radish or Bean Sprouts (White)*
-- 50g blanched bean sprouts or julienned radish
-- Salt, sesame oil
+*Bellflower Root (Dark/Earthy)*
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Bellflower root</span>
+      <span class="item-note">(도라지, 50g)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+bellflower+root+doraji&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
+
+*Bean Sprouts (White)*
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">50g blanched bean sprouts or julienned radish</span>
+  </li>
+</ul>
 
 ### Equipment
-- Non-stick pan
-- Sharp knife for julienning
-- Gujeolpan platter (or large round plate)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">Non-stick pan</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sharp knife for julienning</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Gujeolpan platter</span>
+      <span class="item-note">(구절판, 9-section dish)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=gujeolpan+platter+korean&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/C96i1IRThzA"
+  title="구절판 레시피 (Gujeolpan by W TABLE)"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [우리의식탁 W TABLE](https://www.youtube.com/@wtable6077) - Korea's popular cooking channel*
 
 ### Instructions
 
@@ -130,20 +216,6 @@ Place folded crepes in center section. Arrange eight fillings in surrounding sec
 
 **Step 6: Serve**
 Serve at room temperature. To eat: take one crepe, add desired fillings, roll, and enjoy.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/C96i1IRThzA"
-  title="구절판 레시피 (Gujeolpan by W TABLE)"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [우리의식탁 W TABLE](https://www.youtube.com/@wtable6077) - Korea's popular cooking channel*
 
 ---
 
@@ -186,6 +258,8 @@ Making gujeolpan is a labor of love—perfect for a special celebration or when 
 오늘 밤, *대장금* 정주행하면서 직접 만든 구절판과 함께하는 건 어떨까요?
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Gujeolpan" via Wikimedia Commons, [CC0 Public Domain](https://creativecommons.org/publicdomain/zero/1.0/)*
 

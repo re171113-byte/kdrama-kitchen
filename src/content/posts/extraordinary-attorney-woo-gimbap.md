@@ -80,40 +80,146 @@ The drama beautifully portrays how food preferences aren't just quirks—they're
 ### Ingredients
 
 **For the Rice**
-- 4 cups short-grain rice, cooked and warm
-- 2 tablespoons sesame oil
-- 1 teaspoon salt
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">4 cups short-grain rice, cooked and warm</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean sesame oil</span>
+      <span class="item-note">(2 tablespoons)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+sesame+oil&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon salt</span>
+  </li>
+</ul>
 
 **For the Fillings**
-- 4 eggs, beaten and cooked into thin omelets
-- 200g beef (or ham), cut into strips and seasoned
-- 4 strips pickled yellow radish (*danmuji*)
-- 1 bunch spinach, blanched and seasoned
-- 2 carrots, julienned and sautéed
-- 4 strips imitation crab (optional)
-- 4 strips cucumber (optional)
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">4 eggs, beaten and cooked into thin omelets</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">200g beef (or ham), cut into strips and seasoned</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Pickled yellow radish</span>
+      <span class="item-note">(단무지, 4 strips)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=danmuji+pickled+radish+korean&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 bunch spinach, blanched and seasoned</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">2 carrots, julienned and sautéed</span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">4 strips imitation crab</span>
+      <span class="item-note">(optional)</span>
+    </span>
+  </li>
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">4 strips cucumber</span>
+      <span class="item-note">(optional)</span>
+    </span>
+  </li>
+</ul>
 
 **For Assembly**
-- 4-5 sheets roasted seaweed (*gim*)
-- Sesame oil for brushing
-- Sesame seeds for garnish
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Roasted seaweed sheets</span>
+      <span class="item-note">(김, 4-5 sheets)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+roasted+seaweed+gim+gimbap&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sesame oil for brushing</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sesame seeds for garnish</span>
+  </li>
+</ul>
 
 **Seasoning for Spinach**
-- 1 teaspoon sesame oil
-- 1/2 teaspoon salt
-- 1/2 teaspoon minced garlic
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sesame oil</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1/2 teaspoon salt</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1/2 teaspoon minced garlic</span>
+  </li>
+</ul>
 
 **Seasoning for Beef**
-- 1 tablespoon soy sauce
-- 1 teaspoon sugar
-- 1 teaspoon sesame oil
-- Black pepper to taste
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Korean soy sauce</span>
+      <span class="item-note">(1 tablespoon)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=korean+soy+sauce&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sugar</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">1 teaspoon sesame oil</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Black pepper to taste</span>
+  </li>
+</ul>
 
 ### Equipment
-- Bamboo rolling mat (*gimbal*)
-- Sharp knife
-- Large cutting board
-- Mixing bowls
+
+<ul class="recipe-list">
+  <li class="recipe-item">
+    <span>
+      <span class="item-name">Bamboo rolling mat</span>
+      <span class="item-note">(김발)</span>
+    </span>
+    <a href="https://www.amazon.com/s?k=bamboo+sushi+rolling+mat+gimbap&tag=kdramacitchen-20" class="buy-btn" target="_blank" rel="nofollow noopener">Amazon →</a>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Sharp knife</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Large cutting board</span>
+  </li>
+  <li class="recipe-item">
+    <span class="item-name">Mixing bowls</span>
+  </li>
+</ul>
+
+### Video Tutorial
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/10fl2mebYHs"
+  title="김밥의 모든 것 - 백종원의 김밥 레시피"
+  loading="lazy"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="width: 100%; aspect-ratio: 16/9;">
+</iframe>
+
+*Video by [백종원의 요리비책 Paik's Cuisine](https://www.youtube.com/@paaboratory) - Korea's most famous chef*
 
 ### Instructions
 
@@ -137,20 +243,6 @@ Using the bamboo mat, lift the bottom edge and roll away from you, tucking the f
 
 **Step 7: Finish**
 Brush the outside of the roll with sesame oil. Using a sharp, wet knife, cut into 1-inch rounds. Arrange on a plate with the colorful cross-section facing up. Sprinkle with sesame seeds.
-
-### Video Tutorial
-
-<iframe
-  src="https://www.youtube-nocookie.com/embed/10fl2mebYHs"
-  title="김밥의 모든 것 - 백종원의 김밥 레시피"
-  loading="lazy"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  style="width: 100%; aspect-ratio: 16/9;">
-</iframe>
-
-*Video by [백종원의 요리비책 Paik's Cuisine](https://www.youtube.com/@paaboratory) - Korea's most famous chef*
 
 ---
 
@@ -203,6 +295,8 @@ You don't need to eat gimbap every day to understand this. You just need to make
 Tonight, try making gimbap. Maybe it won't be perfect. Maybe the roll will fall apart or the rice will be uneven. But you'll be doing what generations of Korean parents have done for their children: wrapping care and comfort in seaweed and rice.
 
 ---
+
+*This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
 *Hero image: "Gimbap" via Wikimedia Commons*
 
