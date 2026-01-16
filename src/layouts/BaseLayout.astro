@@ -1603,13 +1603,21 @@ const jsonLd = type === 'article' ? {
 
   @media (max-width: 500px) {
     .recipe-item {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 8px;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .recipe-item::before {
+      display: none;
+    }
+
+    .recipe-item > span:first-of-type {
+      flex: 1 1 100%;
+      padding-left: 0;
     }
 
     .buy-btn {
-      align-self: flex-end;
+      margin-left: auto;
     }
   }
 </style>
