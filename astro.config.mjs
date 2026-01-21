@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx';
 
 export default defineConfig({
   site: 'https://kdrama-kitchen.pages.dev',
+  trailingSlash: 'always',
   integrations: [mdx()],
   markdown: {
     shikiConfig: {
