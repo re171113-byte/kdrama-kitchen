@@ -4,7 +4,7 @@ description: "Make crispy Korean fish-shaped bread from Lovely Runner. Learn why
 pubDate: "2026-01-21"
 category: "Street Food"
 tags: ["Bungeoppang", "Lovely Runner", "Korean Drama Food", "Korean Street Food", "Byeon Woo-seok", "Kim Hye-yoon"]
-image: "https://images.pexels.com/photos/6646069/pexels-photo-6646069.jpeg?auto=compress&cs=tinysrgb&w=1280"
+image: "https://images.pexels.com/photos/30697953/pexels-photo-30697953.jpeg?auto=compress&cs=tinysrgb&w=1280"
 ---
 
 ## The Drama: Running Back to Save First Love
@@ -231,6 +231,6 @@ Make these tonight. Share them with someone. Watch the winter work its magic.
 
 *This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
-*Hero image: "Korean Sweet Pastry" via [Pexels](https://www.pexels.com/photo/6646069/)*
+*Hero image: "Making Taiyaki Japanese Fish-shaped Snack" by Airam Dato-on via [Pexels](https://www.pexels.com/photo/30697953/)*
 
 *Part of our K-Drama Kitchen series—cooking the dishes that made us hungry while watching.*
