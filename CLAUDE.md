@@ -1,7 +1,7 @@
 # K-Drama Kitchen - Project Guide
 
-> **Last Updated**: 2026-01-15
-> **Goal**: Premium K-Drama food magazine with SEO optimization + monetization
+> **Last Updated**: 2026-01-23
+> **Goal**: Premium K-Drama food magazine → Community platform
 
 ---
 
@@ -423,6 +423,66 @@ kdrama-kitchen/
 - [ ] AdSense integration (after approval)
 - [ ] Social media accounts
 - [ ] More content (target: 30 posts)
+
+---
+
+## Long-term Roadmap: Community Platform
+
+### Vision
+콘텐츠 블로그에서 K-Drama 음식 커뮤니티 플랫폼으로 진화
+
+### Phase 1: Content Foundation (Current)
+```
+목표: 양질의 콘텐츠로 트래픽 확보
+- 27개 레시피 포스트 완료
+- SEO 최적화 완료
+- 마케팅 가이드 작성 완료
+```
+
+### Phase 2: Community Engagement (Next)
+```
+목표: 외부 커뮤니티에서 신뢰 구축
+- Reddit/Pinterest/Twitter 활동
+- 자연스러운 트래픽 유입
+- 이메일 뉴스레터 시작
+- Discord 서버 개설
+```
+
+### Phase 3: Interactive Features
+```
+목표: 사이트 내 참여 기능 추가
+- 댓글 시스템 (Giscus/Disqus)
+- 레시피 평점/리뷰
+- "I made this!" 인증샷 갤러리
+- 사용자 레시피 제출 폼
+```
+
+### Phase 4: Full Community Platform
+```
+목표: 독립적인 커뮤니티 플랫폼
+- 회원 가입/프로필 시스템
+- 사용자 생성 콘텐츠 (UGC)
+- K-Drama 음식 투표/랭킹
+- 요리 챌린지 이벤트
+- 포인트/배지 시스템
+- 모바일 앱 (PWA)
+```
+
+### Tech Evolution
+| Phase | Stack |
+|-------|-------|
+| 1 (현재) | Astro Static |
+| 2 | Astro + External Services |
+| 3 | Astro + Serverless Functions |
+| 4 | Full-stack (Next.js/Remix) + DB |
+
+### Revenue Evolution
+| Phase | Revenue Model |
+|-------|---------------|
+| 1 | AdSense + Affiliate |
+| 2 | + Newsletter sponsorship |
+| 3 | + Premium recipes/content |
+| 4 | + Membership subscription |
 
 ---
 
