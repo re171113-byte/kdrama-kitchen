@@ -34,7 +34,7 @@ const relatedPosts = allPosts
   .map(p => ({
     slug: p.slug,
     title: p.data.title,
-    image: p.data.image + '?w=400',
+    image: getOptimizedImageUrl(p.data.image, 400),
     category: p.data.category
   }));
 const { Content, headings, remarkPluginFrontmatter } = await post.render();
@@ -52,6 +52,29 @@ const author = {
   bio: 'K-Drama Recipe Curator',
   description: 'Bringing the flavors of Korean dramas to your kitchen.'
 };
+
+// Helper function to check if URL is from Wikimedia Commons
+function isWikimediaUrl(url: string): boolean {
+  return url.includes('upload.wikimedia.org') || url.includes('commons.wikimedia.org');
+}
+
+// Helper function to get optimized image URL
+function getOptimizedImageUrl(url: string, width: number = 1200): string {
+  if (isWikimediaUrl(url)) {
+    // Wikimedia doesn't support query params, return original URL
+    return url;
+  }
+  // For Unsplash, Pexels, etc. - add optimization params
+  return `${url}?w=${width}&q=80&fm=webp`;
+}
+
+// Helper function to get srcset for non-Wikimedia images
+function getImageSrcset(url: string, sizes: number[]): string {
+  if (isWikimediaUrl(url)) {
+    return url; // No srcset for Wikimedia
+  }
+  return sizes.map(w => `${url}?w=${w}&q=80&fm=webp ${w}w`).join(', ');
+}
 // FAQ parsing function (supports ### Q. or ### Q1. format)
 function parseFAQs(body: string): Array<{question: string, answer: string}> {
   const faqs: Array<{question: string, answer: string}> = [];
@@ -126,9 +149,9 @@ const faqSchema = faqs.length > 0 ? {
       <!-- Mobile: Hero image with overlay -->
       <div class="post-hero-mobile">
         <img
-          src={`${post.data.image}?w=800&q=80&fm=webp`}
-          srcset={`${post.data.image}?w=400&q=80&fm=webp 400w, ${post.data.image}?w=800&q=80&fm=webp 800w`}
-          sizes="100vw"
+          src={getOptimizedImageUrl(post.data.image, 800)}
+          srcset={isWikimediaUrl(post.data.image) ? undefined : getImageSrcset(post.data.image, [400, 800])}
+          sizes={isWikimediaUrl(post.data.image) ? undefined : "100vw"}
           alt={post.data.title}
           class="hero-image"
           loading="eager"
@@ -159,9 +182,9 @@ const faqSchema = faqs.length > 0 ? {
       <!-- PC: Hero image -->
       <div class="post-hero-pc">
         <img
-          src={`${post.data.image}?w=1200&q=80&fm=webp`}
-          srcset={`${post.data.image}?w=800&q=80&fm=webp 800w, ${post.data.image}?w=1200&q=80&fm=webp 1200w`}
-          sizes="(max-width: 800px) 100vw, 800px"
+          src={getOptimizedImageUrl(post.data.image, 1200)}
+          srcset={isWikimediaUrl(post.data.image) ? undefined : getImageSrcset(post.data.image, [800, 1200])}
+          sizes={isWikimediaUrl(post.data.image) ? undefined : "(max-width: 800px) 100vw, 800px"}
           alt={post.data.title}
           loading="eager"
           fetchpriority="high"
@@ -193,7 +216,7 @@ const faqSchema = faqs.length > 0 ? {
           <div class="related-grid">
             {relatedPosts.map((related) => (
               <a href={`/posts/${related.slug}`} class="related-item">
-                <img src={`${related.image}&fm=webp`} alt={related.title} loading="lazy" decoding="async" />
+                <img src={related.image} alt={related.title} loading="lazy" decoding="async" />
                 <div class="related-info">
                   <span class="related-category">{related.category}</span>
                   <h4>{related.title}</h4>
