@@ -31,7 +31,7 @@ const paginatedPosts = posts.slice(0, POSTS_PER_PAGE);
     <div class="posts-list">
       {posts.map((post) => (
         <article class="post-item">
-          <a href={`/posts/${post.slug}`}>
+          <a href={`/posts/${post.slug}/`}>
             <div class="post-image">
               <img src={post.image} alt={post.title} loading="lazy" />
             </div>

@@ -24,7 +24,7 @@ const recommendedPosts = posts.slice(0, 5);
   <section class="hero">
     <div class="hero-single">
       {posts[0] && (
-        <a href={`/posts/${posts[0].slug}`} class="hero-main">
+        <a href={`/posts/${posts[0].slug}/`} class="hero-main">
           <img src={posts[0].image.replace('w=600', 'w=900')} alt={posts[0].title} />
           <div class="overlay"></div>
           <div class="content">
@@ -50,7 +50,7 @@ const recommendedPosts = posts.slice(0, 5);
       <div class="posts-grid" id="posts-grid">
         {posts.map((post) => (
           <article class="post-card" data-category={post.category}>
-            <a href={`/posts/${post.slug}`}>
+            <a href={`/posts/${post.slug}/`}>
               <div class="image">
                 <img src={post.image} alt={post.title} loading="lazy" />
                 <span class="badge">{post.category}</span>
@@ -75,7 +75,7 @@ const recommendedPosts = posts.slice(0, 5);
         <h4 class="section-header">Editor's Picks</h4>
         <div class="picks-list">
           {recommendedPosts.map((post, index) => (
-            <a href={`/posts/${post.slug}`} class="picks-item">
+            <a href={`/posts/${post.slug}/`} class="picks-item">
               <span class="picks-number">{index + 1}</span>
               <img class="picks-thumb" src={post.image.replace('w=600', 'w=100')} alt={post.title} loading="lazy" />
               <div class="picks-content">

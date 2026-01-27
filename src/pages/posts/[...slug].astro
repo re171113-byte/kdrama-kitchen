@@ -215,7 +215,7 @@ const faqSchema = faqs.length > 0 ? {
           <h3>Related Recipes</h3>
           <div class="related-grid">
             {relatedPosts.map((related) => (
-              <a href={`/posts/${related.slug}`} class="related-item">
+              <a href={`/posts/${related.slug}/`} class="related-item">
                 <img src={related.image} alt={related.title} loading="lazy" decoding="async" />
                 <div class="related-info">
                   <span class="related-category">{related.category}</span>

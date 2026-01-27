@@ -43,14 +43,8 @@ export async function GET() {
   </url>`
   ).join('\n');
 
-  urls += '\n' + allTags.map(tag =>
-    `  <url>
-    <loc>${site}/tag/${encodeURIComponent(tag)}/</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>`
-  ).join('\n');
+  // 태그 페이지는 sitemap에서 제외 (thin content 방지)
+  // Google이 태그 페이지를 낮은 품질로 판단할 수 있음
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

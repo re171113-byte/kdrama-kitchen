@@ -37,7 +37,7 @@ const posts = allPosts
     <div class="posts-grid">
       {posts.map((post) => (
         <article class="post-card">
-          <a href={`/posts/${post.slug}`}>
+          <a href={`/posts/${post.slug}/`}>
             <div class="image">
               <img src={post.image} alt={post.title} loading="lazy" />
               <span class="badge">{post.category}</span>

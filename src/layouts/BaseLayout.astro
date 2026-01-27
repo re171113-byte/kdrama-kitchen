@@ -23,7 +23,7 @@ const {
 } = Astro.props;
 
 const siteUrl = 'https://kdrama-kitchen.pages.dev';
-const canonicalUrl = slug ? `${siteUrl}/posts/${slug}` : new URL(Astro.url.pathname, siteUrl).href;
+const canonicalUrl = slug ? `${siteUrl}/posts/${slug}/` : new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = image || `${siteUrl}/og-default.jpg`;
 
 // 현재 경로로 네비게이션 active 상태 결정
