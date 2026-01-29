@@ -22,7 +22,7 @@ const {
   slug
 } = Astro.props;
 
-const siteUrl = 'https://kdrama-kitchen.pages.dev';
+const siteUrl = 'https://kdrama-kitchen.vercel.app';
 const canonicalUrl = slug ? `${siteUrl}/posts/${slug}/` : new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = image || `${siteUrl}/og-default.jpg`;
 
@@ -77,13 +77,16 @@ const jsonLd = type === 'article' ? {
   <meta name="description" content={description}>
 
   <!-- Naver Site Verification -->
-  <meta name="naver-site-verification" content="5b1dd0167fcc7a6bc4521805fcc785eb1beb5658" />
+  <meta name="naver-site-verification" content="1f676d779786581c3e0bb4c34fab0fdf67433950" />
 
   <!-- Yandex Site Verification -->
   <meta name="yandex-verification" content="5ef13499e8f5d6c5" />
 
   <!-- Pinterest Site Verification -->
   <meta name="p:domain_verify" content="a2a4cf73ff4fc7e6401aaa6abc2b3169" />
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9510318471579312" crossorigin="anonymous"></script>
 
   <!-- Canonical URL -->
   <link rel="canonical" href={canonicalUrl}>
@@ -331,7 +334,7 @@ const jsonLd = type === 'article' ? {
 
       searchResults.innerHTML = results.map(({ item }) => `
         <a href="/posts/${item.slug}" class="search-item">
-          <img src="${item.image}" alt="${item.title}" />
+          <img src="${item.image}" alt="${item.title}" referrerpolicy="no-referrer" />
           <div class="search-item-content">
             <span class="search-item-category">${item.category}</span>
             <span class="search-item-title">${item.title}</span>

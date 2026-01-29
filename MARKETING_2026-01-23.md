@@ -4,10 +4,10 @@
 
 | # | 드라마 | 음식 | URL |
 |---|--------|------|-----|
-| 1 | Business Proposal | Kimchi Jjigae | https://kdrama-kitchen.pages.dev/posts/business-proposal-kimchi-jjigae |
-| 2 | Our Beloved Summer | Hotteok | https://kdrama-kitchen.pages.dev/posts/our-beloved-summer-hotteok |
-| 3 | Twenty-Five Twenty-One | Naengmyeon | https://kdrama-kitchen.pages.dev/posts/twenty-five-twenty-one-naengmyeon |
-| 4 | Strong Woman Do Bong Soon | Dakgalbi | https://kdrama-kitchen.pages.dev/posts/strong-woman-do-bong-soon-dakgalbi |
+| 1 | Business Proposal | Kimchi Jjigae | https://kdrama-kitchen.vercel.app/posts/business-proposal-kimchi-jjigae |
+| 2 | Our Beloved Summer | Hotteok | https://kdrama-kitchen.vercel.app/posts/our-beloved-summer-hotteok |
+| 3 | Twenty-Five Twenty-One | Naengmyeon | https://kdrama-kitchen.vercel.app/posts/twenty-five-twenty-one-naengmyeon |
+| 4 | Strong Woman Do Bong Soon | Dakgalbi | https://kdrama-kitchen.vercel.app/posts/strong-woman-do-bong-soon-dakgalbi |
 
 ---
 

@@ -4,7 +4,7 @@ description: "Make authentic Korean cold noodles inspired by Twenty-Five Twenty-
 pubDate: "2026-01-23"
 category: "Romance"
 tags: ["Naengmyeon", "Twenty-Five Twenty-One", "Korean Drama Food", "Cold Noodles", "Kim Tae-ri"]
-image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/KOCIS_Mul-naengmyeon%2C_Chilled_Buckwheat_Noodle_Soup_%284594756202%29.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/KOCIS_Mul-naengmyeon%2C_Chilled_Buckwheat_Noodle_Soup_%284594756202%29.jpg/800px-KOCIS_Mul-naengmyeon%2C_Chilled_Buckwheat_Noodle_Soup_%284594756202%29.jpg"
 ---
 
 ## The Drama: When Dreams and Love Collide

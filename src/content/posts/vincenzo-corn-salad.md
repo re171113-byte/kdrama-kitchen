@@ -4,7 +4,7 @@ description: "Make Korean corn salad, the creamy sweet side dish that even a rut
 pubDate: "2026-01-08"
 category: "Action"
 tags: ["Corn Salad", "Vincenzo", "K-Drama Recipe", "Korean Side Dish", "Song Joong-ki", "Korean Salad"]
-image: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sweet_corn_salad.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sweet_corn_salad.jpg/800px-Sweet_corn_salad.jpg"
 ---
 
 ## The Drama: Vincenzo's Unexpected Comfort

@@ -4,7 +4,7 @@ description: "Make haemul jeongol, the spectacular Korean seafood hot pot from H
 pubDate: "2026-01-11"
 category: "Romance"
 tags: ["Haemul Jeongol", "Seafood Stew", "Hometown Cha-Cha-Cha", "K-Drama Recipe", "Kim Seon-ho", "Shin Min-a", "Korean Hot Pot"]
-image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Korean_cuisine-Haemul_jeongol-02.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Korean_cuisine-Haemul_jeongol-02.jpg/800px-Korean_cuisine-Haemul_jeongol-02.jpg"
 ---
 
 ## The Drama: Gongjin's Ocean Bounty

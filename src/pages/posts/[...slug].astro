@@ -157,6 +157,7 @@ const faqSchema = faqs.length > 0 ? {
           loading="eager"
           fetchpriority="high"
           decoding="async"
+          referrerpolicy="no-referrer"
         />
         <div class="hero-overlay">
           <div class="hero-meta">
@@ -189,6 +190,7 @@ const faqSchema = faqs.length > 0 ? {
           loading="eager"
           fetchpriority="high"
           decoding="async"
+          referrerpolicy="no-referrer"
         />
       </div>
 
@@ -216,7 +218,7 @@ const faqSchema = faqs.length > 0 ? {
           <div class="related-grid">
             {relatedPosts.map((related) => (
               <a href={`/posts/${related.slug}/`} class="related-item">
-                <img src={related.image} alt={related.title} loading="lazy" decoding="async" />
+                <img src={related.image} alt={related.title} loading="lazy" decoding="async" referrerpolicy="no-referrer" />
                 <div class="related-info">
                   <span class="related-category">{related.category}</span>
                   <h4>{related.title}</h4>

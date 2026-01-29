@@ -176,7 +176,7 @@ Display Name: K-Drama Kitchen | Korean Drama Recipes
 Bio: Recipes from your favorite K-drama food scenes.
      From Crash Landing ramyeon to Parasite jjapaguri.
      Cook what you watch. 🍜🇰🇷
-Website: https://kdrama-kitchen.pages.dev
+Website: https://kdrama-kitchen.vercel.app
 ```
 
 #### 보드 구성

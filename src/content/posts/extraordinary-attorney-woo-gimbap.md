@@ -4,7 +4,7 @@ description: "Make gimbap, the Korean seaweed rice roll that Woo Young-woo loves
 pubDate: "2026-01-15"
 category: "Comedy"
 tags: ["Gimbap", "Extraordinary Attorney Woo", "K-Drama Recipe", "Korean Rice Roll", "Park Eun-bin", "Kimbap", "Korean Comfort Food"]
-image: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Gimbap.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Gimbap.jpg/800px-Gimbap.jpg"
 ---
 
 ## The Drama: Woo Young-woo's Perfect Food

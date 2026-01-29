@@ -4,7 +4,7 @@ description: "Make juk, the Korean rice porridge that sustained starving village
 pubDate: "2026-01-13"
 category: "Thriller"
 tags: ["Juk", "Korean Porridge", "Kingdom", "K-Drama Recipe", "Ju Ji-hoon", "Bae Doona", "Joseon Cuisine", "Netflix"]
-image: "https://upload.wikimedia.org/wikipedia/commons/4/45/Korean_cuisine-Juk-01.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Korean_cuisine-Juk-01.jpg/800px-Korean_cuisine-Juk-01.jpg"
 ---
 
 ## The Drama: Hunger Before the Horde

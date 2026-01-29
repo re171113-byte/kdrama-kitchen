@@ -4,7 +4,7 @@ description: "Learn to make authentic Korean bibimbap inspired by the iconic muk
 pubDate: "2026-01-27"
 category: "Comedy"
 tags: ["Bibimbap", "Let's Eat", "Korean Rice Bowl", "Mukbang", "Korean Drama Food", "Comfort Food", "Gochujang"]
-image: "https://upload.wikimedia.org/wikipedia/commons/4/44/Dolsot-bibimbap.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dolsot-bibimbap.jpg/800px-Dolsot-bibimbap.jpg"
 ---
 
 ## The Drama: Let's Eat and the Art of Eating Alone

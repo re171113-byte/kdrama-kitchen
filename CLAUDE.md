@@ -10,7 +10,7 @@
 | Item | Details |
 |------|---------|
 | **Site Name** | K-Drama Kitchen |
-| **Domain** | kdrama-kitchen.pages.dev |
+| **Domain** | kdrama-kitchen.vercel.app |
 | **Concept** | Korean drama food recipes & culture magazine |
 | **Tech Stack** | Astro 4.x + TypeScript |
 | **Revenue** | Google AdSense + Affiliate links |

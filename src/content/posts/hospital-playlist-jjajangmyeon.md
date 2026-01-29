@@ -4,7 +4,7 @@ description: "Learn to make the iconic black bean noodles from Hospital Playlist
 pubDate: "2026-01-16"
 category: "Comfort Food"
 tags: ["Hospital Playlist", "Jjajangmyeon", "Black Bean Noodles", "Korean Comfort Food", "Friendship Food"]
-image: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Korean.cuisine-Jajangmyeon-01.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Korean.cuisine-Jajangmyeon-01.jpg/800px-Korean.cuisine-Jajangmyeon-01.jpg"
 ---
 
 ## The Drama: *Hospital Playlist* and the Power of Shared Meals

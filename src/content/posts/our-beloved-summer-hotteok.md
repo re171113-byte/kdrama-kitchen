@@ -4,7 +4,7 @@ description: "Make authentic Korean sweet pancakes inspired by Our Beloved Summe
 pubDate: "2026-01-22"
 category: "Romance"
 tags: ["Hotteok", "Our Beloved Summer", "Korean Drama Food", "Korean Street Food", "Choi Woo-shik"]
-image: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Korean_snack-Hotteok-02.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Korean_snack-Hotteok-02.jpg/800px-Korean_snack-Hotteok-02.jpg"
 ---
 
 ## The Drama: When First Love Tastes Like Brown Sugar

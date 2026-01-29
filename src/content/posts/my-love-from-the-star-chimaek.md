@@ -4,7 +4,7 @@ description: "Make crispy Korean fried chicken for the ultimate chimaek experien
 pubDate: "2026-01-10"
 category: "Romance"
 tags: ["Chimaek", "Korean Fried Chicken", "My Love from the Star", "K-Drama Recipe", "Beer", "Cheon Song-yi"]
-image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Yangnyeom_Chicken_Korean_fried_chicken.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Yangnyeom_Chicken_Korean_fried_chicken.jpg/800px-Yangnyeom_Chicken_Korean_fried_chicken.jpg"
 ---
 
 ## The Drama: My Love from the Star's Snowy Craving

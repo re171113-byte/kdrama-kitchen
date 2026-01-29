@@ -4,7 +4,7 @@ description: "Make authentic Korean kimchi stew inspired by Business Proposal. L
 pubDate: "2026-01-22"
 category: "Romance"
 tags: ["Kimchi Jjigae", "Business Proposal", "Korean Drama Food", "Korean Stew", "Ahn Hyo-seop"]
-image: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Korean.cuisine-Kimchi_jjigae-01.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Korean.cuisine-Kimchi_jjigae-01.jpg/800px-Korean.cuisine-Kimchi_jjigae-01.jpg"
 ---
 
 ## The Drama: When Business Becomes Personal

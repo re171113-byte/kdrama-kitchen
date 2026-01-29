@@ -4,7 +4,7 @@ description: "Make the warming fish cake soup from My Mister. Learn why eomuk-ta
 pubDate: "2026-01-16"
 category: "Street Food"
 tags: ["My Mister", "Eomuk-tang", "Fish Cake Soup", "Pojangmacha", "Korean Street Food"]
-image: "https://upload.wikimedia.org/wikipedia/commons/9/90/Korea_fish_cake_soup-Eomuk-Tang_%EC%96%B4%EB%AC%B5%ED%83%95-_%286768498759%29.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Korea_fish_cake_soup-Eomuk-Tang_%EC%96%B4%EB%AC%B5%ED%83%95-_%286768498759%29.jpg/800px-Korea_fish_cake_soup-Eomuk-Tang_%EC%96%B4%EB%AC%B5%ED%83%95-_%286768498759%29.jpg"
 ---
 
 ## The Drama: *My Mister* and the Pojangmacha Confessional

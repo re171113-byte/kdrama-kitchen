@@ -4,7 +4,7 @@ description: "Make galbi-jjim, the luxurious Korean braised short ribs that grac
 pubDate: "2026-01-12"
 category: "Historical"
 tags: ["Galbi-Jjim", "Braised Short Ribs", "Mr. Sunshine", "K-Drama Recipe", "Lee Byung-hun", "Kim Tae-ri", "Joseon Cuisine"]
-image: "https://upload.wikimedia.org/wikipedia/commons/9/96/Korean_braised_beef_short_ribs-Galbijjim.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Korean_braised_beef_short_ribs-Galbijjim.jpg/800px-Korean_braised_beef_short_ribs-Galbijjim.jpg"
 ---
 
 ## The Drama: A Love Story at Empire's Edge

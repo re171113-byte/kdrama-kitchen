@@ -4,7 +4,7 @@ description: "Make authentic Korean spicy stir-fried chicken inspired by Strong 
 pubDate: "2026-01-23"
 category: "Comedy"
 tags: ["Dakgalbi", "Strong Woman Do Bong Soon", "Korean Drama Food", "Chuncheon Food", "Park Bo-young"]
-image: "https://upload.wikimedia.org/wikipedia/commons/3/32/Korean_cuisine-Dakgalbi-01.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Korean_cuisine-Dakgalbi-01.jpg/800px-Korean_cuisine-Dakgalbi-01.jpg"
 ---
 
 ## The Drama: When Strength Comes in Small Packages

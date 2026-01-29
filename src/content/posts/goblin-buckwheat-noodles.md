@@ -4,7 +4,7 @@ description: "Make makguksu, the spicy buckwheat noodles that the Goblin prepare
 pubDate: "2026-01-06"
 category: "Romance"
 tags: ["Makguksu", "Buckwheat Noodles", "Goblin", "K-Drama Recipe", "Gong Yoo", "Cold Noodles"]
-image: "https://upload.wikimedia.org/wikipedia/commons/d/de/Korean_buckwheat_noodles-Memil_guksu-01.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Korean_buckwheat_noodles-Memil_guksu-01.jpg/800px-Korean_buckwheat_noodles-Memil_guksu-01.jpg"
 ---
 
 ## The Drama: Goblin's 900-Year-Old Recipe
