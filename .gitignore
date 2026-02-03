@@ -24,3 +24,8 @@ Thumbs.db
 npm-debug.log*
 
 .vercel
+
+# Temp files
+temp-images/
+*.png
+.wrangler/
