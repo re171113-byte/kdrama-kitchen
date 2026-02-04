@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 export async function GET() {
   const posts = await getCollection('posts');
   const allTags = [...new Set(posts.flatMap(post => post.data.tags))];
-  const site = 'https://kdrama-kitchen.vercel.app';
+  const site = 'https://www.kdrama-kitchen.com';
   const today = new Date().toISOString().split('T')[0];
 
   const staticPages = [

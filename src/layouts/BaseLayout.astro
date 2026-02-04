@@ -22,7 +22,7 @@ const {
   slug
 } = Astro.props;
 
-const siteUrl = 'https://kdrama-kitchen.vercel.app';
+const siteUrl = 'https://www.kdrama-kitchen.com';
 const canonicalUrl = slug ? `${siteUrl}/posts/${slug}/` : new URL(Astro.url.pathname, siteUrl).href;
 const ogImage = image || `${siteUrl}/og-default.jpg`;
 
