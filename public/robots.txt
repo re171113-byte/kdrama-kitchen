@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kdrama-kitchen.vercel.app/sitemap.xml
+Sitemap: https://www.kdrama-kitchen.com/sitemap.xml
