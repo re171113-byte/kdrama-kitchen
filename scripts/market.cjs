@@ -69,6 +69,50 @@ bong-hwan making kimchi in a royal kitchen is the most revolutionary scene in kd
     redditTitle: 'Bossam (보쌈) — why adding instant coffee to the boiling water actually works',
     redditBody: `i've been obsessed with making bossam at home for months now, and the biggest game changer was something my korean friend's mom told me — throw a spoonful of instant coffee into the boiling water with the pork belly.\n\nsounds insane, right? but the tannins in the coffee neutralize the gamey pork smell way better than just using ginger and scallions alone. the meat comes out incredibly clean-tasting.\n\nmy method that finally worked:\n\n- use pork belly with skin on (about 1kg / 2.2 lbs)\n- bring water to a boil with doenjang, garlic, ginger, scallion, whole peppercorns, and 1 tbsp instant coffee\n- simmer on LOW for about 60-70 minutes (don't boil hard or it gets tough)\n- rest for 10 min before slicing against the grain\n\nthe wrapping setup matters just as much — fresh napa cabbage leaves, salted shrimp (saeujeot), sliced garlic, ssamjang, and if you want to be proper about it, some radish kimchi (musaengchae) on the side.\n\nbossam is one of those dishes that looks simple but the details make all the difference. the coffee trick, the low simmer, slicing against the grain — skip any of these and it's just boiled pork.\n\nwhat's your go-to trick for removing pork smell? i've heard some people use soju in the water too.`,
   },
+  sundae: {
+    drama: 'Reply 1988',
+    food: 'Sundae',
+    foodKr: '순대',
+    url: 'https://www.kdrama-kitchen.com/posts/reply-1988-sundae',
+    pinImage: path.resolve(__dirname, '../temp-images/sundae-pin.jpg'),
+    tweet: `reply 1988 understood something most dramas don't.
+
+happiness isn't about big moments. it's about cold winter nights, a pojangmacha cart, and a plate of sundae shared with friends who feel like family.
+
+ssangmun-dong wasn't just a neighborhood. it was home.
+
+#Reply1988 #KoreanFood`,
+    tweetReply: `the nostalgic street food that brings back 1980s seoul:\nhttps://www.kdrama-kitchen.com/posts/reply-1988-sundae`,
+    tweetVerify: 'reply 1988 understood something',
+    pinTitle: 'Reply 1988 Sundae — Korean Blood Sausage Street Food Recipe',
+    pinDesc: `The nostalgic street food from Reply 1988 — cold winter nights in Ssangmun-dong, steam rising from a pojangmacha cart, sharing sundae with friends who feel like family.
+
+Traditional Korean blood sausage with glass noodles and vegetables. Includes step-by-step recipe + video tutorial.
+
+#KoreanFood #KDrama #Reply1988 #Sundae #StreetFood`,
+    redditTitle: 'Sundae (순대) — why most people outside korea have never tried real korean blood sausage',
+    redditBody: `sundae is probably the most underrated korean street food. everyone knows about tteokbokki and korean fried chicken, but mention blood sausage and people get nervous.
+
+here's the thing — it's not as weird as it sounds. the filling is mostly glass noodles (dangmyeon), vegetables, and rice. the blood just binds everything together and adds a subtle earthiness. if you've ever had european black pudding or boudin noir, it's a similar concept.
+
+the traditional way to eat it:
+- sliced into rounds
+- dipped in salt mixed with black pepper
+- sometimes with a side of liver and lung (the full pojangmacha experience)
+
+my simplified home version (no intestine cleaning required):
+- use natural sausage casings from amazon
+- filling: soaked glass noodles, firm tofu (instead of blood), bean sprouts, green onions, garlic
+- season with sesame oil, soy sauce, salt, pepper
+- stuff loosely (they expand when steaming)
+- steam for 40-50 minutes
+
+the tofu substitution works surprisingly well if you're not ready for the real thing. still get that savory, chewy texture.
+
+pro tip: the dipping salt is essential. plain salt + black pepper, maybe 3:1 ratio. some people add a tiny bit of sugar.
+
+has anyone here tried making sundae at home? or found a good korean market that sells it fresh?`,
+  },
 };
 
 // ========== X 자동 게시 ==========
