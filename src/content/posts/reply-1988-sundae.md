@@ -4,7 +4,7 @@ description: "Learn to make Korean blood sausage sundae, the nostalgic street fo
 pubDate: "2026-02-04"
 category: "Street Food"
 tags: ["Reply 1988", "Sundae", "Korean Street Food", "Blood Sausage", "Nostalgia"]
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Korean_blood_sausage-Sundae-01.jpg/1280px-Korean_blood_sausage-Sundae-01.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sundae.jpg/1280px-Sundae.jpg"
 ---
 
 It's a cold winter evening in Ssangmun-dong, 1988.
@@ -136,7 +136,7 @@ Making sundae at home is a labor of love. Traditional sundae requires cleaning p
 ### Video Tutorial
 
 <iframe
-  src="https://www.youtube-nocookie.com/embed/9xOJYXHzKn4"
+  src="https://www.youtube-nocookie.com/embed/CqgyuchUQ48"
   title="Korean Sundae Recipe"
   loading="lazy"
   frameborder="0"
@@ -145,7 +145,7 @@ Making sundae at home is a labor of love. Traditional sundae requires cleaning p
   style="width: 100%; aspect-ratio: 16/9;">
 </iframe>
 
-*Video by 요리왕 비룡*
+*Video by YouTube*
 
 ### Instructions
 
@@ -226,7 +226,7 @@ Whether you attempt the traditional recipe or opt for the simplified stir-fry ve
 
 ---
 
-*Hero image: "Korean blood sausage-Sundae" by Junho Jung, CC BY-SA 2.0, via Wikimedia Commons*
+*Hero image: "Sundae" by Arne Müseler, CC BY-SA 3.0, via Wikimedia Commons*
 
 *This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
 
