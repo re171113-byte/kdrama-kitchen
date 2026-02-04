@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  site: 'https://kdrama-kitchen.vercel.app',
+  site: 'https://www.kdrama-kitchen.com',
   trailingSlash: 'always',
   integrations: [mdx()],
   markdown: {

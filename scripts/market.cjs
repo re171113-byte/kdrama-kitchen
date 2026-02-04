@@ -15,6 +15,8 @@ const path = require('path');
 const DIR = 'C:/Users/noble/projects/withAi/kdrama-kitchen';
 const PROFILE_DIR = 'C:/Users/noble/ChromeX';
 const X_PROFILE = 'https://x.com/re171113';
+const SITE_URL = 'https://www.kdrama-kitchen.com';
+const OLD_SITE_URL = 'https://kdrama-kitchen.vercel.app';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // ========== 콘텐츠 데이터 ==========
@@ -23,10 +25,10 @@ const CONTENT = {
     drama: 'Doctor Slump',
     food: 'Mandu',
     foodKr: '만두',
-    url: 'https://kdrama-kitchen.vercel.app/posts/doctor-slump-mandu',
+    url: 'https://www.kdrama-kitchen.com/posts/doctor-slump-mandu',
     pinImage: path.resolve(__dirname, '../temp-images/mandu-pin.jpg'),
     tweet: `doctor slump understood something most dramas don't.\n\nhealing isn't a montage. it's sitting on a kitchen floor, folding dumplings with someone who gets your silence.\n\nha-neul and jeong-woo didn't fix each other. they just made mandu.\n\n#DoctorSlump #KoreanFood`,
-    tweetReply: `full recipe + video tutorial here:\nhttps://kdrama-kitchen.vercel.app/posts/doctor-slump-mandu`,
+    tweetReply: `full recipe + video tutorial here:\nhttps://www.kdrama-kitchen.com/posts/doctor-slump-mandu`,
     tweetVerify: 'doctor slump understood something',
     pinTitle: 'Doctor Slump Mandu — Classic Korean Dumplings Recipe',
     pinDesc: `The healing dumplings from Doctor Slump — ha-neul and jeong-woo didn't fix each other, they just made mandu together.\n\nLearn to fold classic Korean mandu with savory pork and vegetable filling. Includes step-by-step instructions + video tutorial.\n\n#KoreanFood #KDrama #DoctorSlump #Mandu`,
@@ -37,7 +39,7 @@ const CONTENT = {
     drama: 'Mr. Queen',
     food: 'Kimchi',
     foodKr: '김치',
-    url: 'https://kdrama-kitchen.vercel.app/posts/mr-queen-kimchi',
+    url: 'https://www.kdrama-kitchen.com/posts/mr-queen-kimchi',
     pinImage: path.resolve(__dirname, '../temp-images/kimchi-pin.jpg'),
     tweet: `mr. queen understood what most historical dramas don't.
 
@@ -46,7 +48,7 @@ a modern chef trapped in a joseon queen's body. no sword fights. no romance firs
 bong-hwan making kimchi in a royal kitchen is the most revolutionary scene in kdrama history.
 
 #MrQueen`,
-    tweetReply: `full recipe + the science behind traditional kimchi fermentation:\nhttps://kdrama-kitchen.vercel.app/posts/mr-queen-kimchi`,
+    tweetReply: `full recipe + the science behind traditional kimchi fermentation:\nhttps://www.kdrama-kitchen.com/posts/mr-queen-kimchi`,
     tweetVerify: 'mr. queen understood what most',
     pinTitle: 'Traditional Korean Kimchi Recipe — Mr. Queen K-Drama Fermented Cabbage',
     pinDesc: `The royal kimchi from Mr. Queen — a modern chef trapped in a Joseon queen's body revolutionizes the palace kitchen through kimchi-making.\n\nTraditional napa cabbage kimchi with step-by-step fermentation guide.\n\n#KoreanFood #KDrama #MrQueen #Kimchi`,
@@ -57,10 +59,10 @@ bong-hwan making kimchi in a royal kitchen is the most revolutionary scene in kd
     drama: 'Marry My Husband',
     food: 'Bossam',
     foodKr: '보쌈',
-    url: 'https://kdrama-kitchen.vercel.app/posts/marry-my-husband-bossam',
+    url: 'https://www.kdrama-kitchen.com/posts/marry-my-husband-bossam',
     pinImage: path.resolve(__dirname, '../temp-images/bossam-pin.jpg'),
     tweet: `marry my husband has the most satisfying revenge arc in kdrama.\n\nbut here's what nobody talks about — the bossam scene. ji-won eating late-night pork wraps with people who actually care about her.\n\nthat's not a meal. that's freedom.\n\n#MarryMyHusband #KoreanFood`,
-    tweetReply: `full recipe + video tutorial here:\nhttps://kdrama-kitchen.vercel.app/posts/marry-my-husband-bossam`,
+    tweetReply: `full recipe + video tutorial here:\nhttps://www.kdrama-kitchen.com/posts/marry-my-husband-bossam`,
     tweetVerify: 'marry my husband has the most',
     pinTitle: 'Marry My Husband Bossam — Korean Boiled Pork Wraps Recipe',
     pinDesc: `The late-night freedom meal from Marry My Husband — ji-won eating bossam with people who actually care about her.\n\nTender boiled pork belly wrapped in fresh napa cabbage with spicy radish kimchi.\n\n#KoreanFood #KDrama #MarryMyHusband #Bossam`,
