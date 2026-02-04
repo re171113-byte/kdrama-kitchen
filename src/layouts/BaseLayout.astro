@@ -121,10 +121,13 @@ const jsonLd = type === 'article' ? {
   <link rel="dns-prefetch" href="https://www.googletagmanager.com">
   <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
 
-  <!-- Google Analytics + AdSense (지연 로드) -->
+  <!-- Google AdSense (소유권 확인용 - 직접 로드) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9510318471579312"
+     crossorigin="anonymous"></script>
+
+  <!-- Google Analytics (지연 로드) -->
   <script>
     window.addEventListener('load', function() {
-      // Google Analytics
       var ga = document.createElement('script');
       ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-CJ57RJSGHS';
       ga.async = true;
@@ -135,12 +138,6 @@ const jsonLd = type === 'article' ? {
         gtag('js', new Date());
         gtag('config', 'G-CJ57RJSGHS');
       };
-      // Google AdSense
-      var ads = document.createElement('script');
-      ads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9510318471579312';
-      ads.async = true;
-      ads.crossOrigin = 'anonymous';
-      document.head.appendChild(ads);
     });
   </script>
 </head>
