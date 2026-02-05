@@ -89,13 +89,13 @@ async function createPinImage(config) {
   console.log(`  Saved: ${outputPath}`);
 }
 
-// Create sundae pin image
+// Create bulgogi pin image
 createPinImage({
-  food: 'SUNDAE',
-  subtitle: 'Korean Blood Sausage',
-  drama: 'Reply 1988',
-  imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sundae.jpg/1280px-Sundae.jpg',
-  outputName: 'sundae-pin.jpg'
+  food: 'BULGOGI',
+  subtitle: 'Korean BBQ Beef',
+  drama: 'Dinner Mate',
+  imageUrl: 'https://images.pexels.com/photos/8999080/pexels-photo-8999080.jpeg?auto=compress&cs=tinysrgb&w=1280',
+  outputName: 'bulgogi-pin.jpg'
 }).then(() => {
   console.log('\nDone!');
 }).catch(err => {

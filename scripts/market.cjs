@@ -113,6 +113,52 @@ pro tip: the dipping salt is essential. plain salt + black pepper, maybe 3:1 rat
 
 has anyone here tried making sundae at home? or found a good korean market that sells it fresh?`,
   },
+  bulgogi: {
+    drama: 'Dinner Mate',
+    food: 'Bulgogi',
+    foodKr: '불고기',
+    url: 'https://www.kdrama-kitchen.com/posts/dinner-mate-bulgogi',
+    pinImage: path.resolve(__dirname, '../temp-images/bulgogi-pin.jpg'),
+    tweet: `dinner mate understood something most dramas don't.
+
+healing isn't dramatic. it's two strangers sharing meals with no strings attached.
+
+they didn't fall in love over grand gestures. they fell in love over bulgogi.
+
+#DinnerMate #KoreanFood`,
+    tweetReply: `the recipe that brings strangers together:\nhttps://www.kdrama-kitchen.com/posts/dinner-mate-bulgogi`,
+    tweetVerify: 'dinner mate understood something',
+    pinTitle: 'Dinner Mate Bulgogi — Authentic Korean BBQ Beef Recipe',
+    pinDesc: `The dish that brings strangers together from Dinner Mate — hae-kyung and do-hee didn't fall in love over grand gestures, they fell in love over bulgogi.
+
+Tender marinated beef with the perfect balance of sweet and savory. Includes step-by-step recipe + video tutorial.
+
+#KoreanFood #KDrama #DinnerMate #Bulgogi #KoreanBBQ`,
+    redditTitle: 'Bulgogi (불고기) — the 3 marinade mistakes that make your beef taste like sad stir-fry',
+    redditBody: `i've been making bulgogi for years and the first dozen attempts were honestly disappointing. looked right, tasted... flat. here's what i was doing wrong.
+
+mistake 1: skipping the asian pear. i thought it was optional or just for sweetness. it's not. the enzymes in asian pear (or kiwi) break down the meat proteins and create that melt-in-your-mouth texture. no pear = chewy beef. grate half a pear for 500g of meat.
+
+mistake 2: not marinating long enough. 30 minutes is the minimum, but overnight is where the magic happens. the meat needs time to absorb all that flavor. i prep mine the night before now.
+
+mistake 3: cooking on low heat. bulgogi needs HIGH heat for a short time. you want caramelization on the edges, not steamed gray meat. don't overcrowd the pan — work in batches if needed.
+
+my go-to marinade for 500g beef:
+- 5 tbsp soy sauce
+- 2 tbsp sugar
+- 2 tbsp sesame oil
+- 1/2 asian pear, grated
+- 4 cloves garlic, minced
+- 1 tbsp ginger
+- 2 tbsp rice wine
+- black pepper
+
+slice the beef thin (3mm) against the grain. marinate overnight. cook on screaming hot pan for 1-2 minutes per side.
+
+wrap in lettuce with rice, garlic, and ssamjang. that's the proper way.
+
+what cut do you prefer? i usually go ribeye but sirloin works on a budget.`,
+  },
 };
 
 // ========== X 자동 게시 ==========
