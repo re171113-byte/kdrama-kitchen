@@ -4,7 +4,7 @@ description: "Learn to make authentic Korean bulgogi inspired by the K-Drama Din
 pubDate: "2025-02-05"
 category: "Romance"
 tags: ["Dinner Mate", "Bulgogi", "Korean BBQ", "Korean Beef", "K-Drama Recipe", "Romance Drama"]
-image: "https://images.pexels.com/photos/5774783/pexels-photo-5774783.jpeg?auto=compress&cs=tinysrgb&w=1280"
+image: "https://images.unsplash.com/photo-1583224964978-2257b960c3d3?w=1280"
 ---
 
 There's something intimate about sharing a meal with a stranger.
@@ -205,6 +205,6 @@ Tonight, whether you're sharing this meal with a dinner mate or enjoying your ow
 
 ---
 
-*Hero image: "Korean BBQ Beef" via [Pexels](https://www.pexels.com/photo/5774783/)*
+*Hero image: "Korean BBQ" via [Unsplash](https://unsplash.com)*
 
 *This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
