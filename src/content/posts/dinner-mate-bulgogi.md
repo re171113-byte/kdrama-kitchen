@@ -4,7 +4,7 @@ description: "Learn to make authentic Korean bulgogi inspired by the K-Drama Din
 pubDate: "2025-02-05"
 category: "Romance"
 tags: ["Dinner Mate", "Bulgogi", "Korean BBQ", "Korean Beef", "K-Drama Recipe", "Romance Drama"]
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Korean.food-Bulgogi-01.jpg/1280px-Korean.food-Bulgogi-01.jpg"
+image: "https://images.pexels.com/photos/5774783/pexels-photo-5774783.jpeg?auto=compress&cs=tinysrgb&w=1280"
 ---
 
 There's something intimate about sharing a meal with a stranger.
@@ -129,7 +129,7 @@ In *Dinner Mate*, when Hae-kyung and Do-hee share bulgogi, they're not just eati
 ### Video Tutorial
 
 <iframe
-  src="https://www.youtube-nocookie.com/embed/iuIpEbsHyls"
+  src="https://www.youtube-nocookie.com/embed/h942eNDfxmM"
   title="Korean Bulgogi Recipe by Maangchi"
   loading="lazy"
   frameborder="0"
@@ -205,6 +205,6 @@ Tonight, whether you're sharing this meal with a dinner mate or enjoying your ow
 
 ---
 
-*Hero image: "Korean Bulgogi" by Jinho Jung, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons*
+*Hero image: "Korean BBQ Beef" via [Pexels](https://www.pexels.com/photo/5774783/)*
 
 *This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
