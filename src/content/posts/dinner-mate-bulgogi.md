@@ -1,7 +1,7 @@
 ---
 title: "Dinner Mate Bulgogi - The Dish That Brings Strangers Together"
 description: "Learn to make authentic Korean bulgogi inspired by the K-Drama Dinner Mate. Tender marinated beef that turns any meal into a connection."
-pubDate: "2025-02-05"
+pubDate: "2026-02-05"
 category: "Romance"
 tags: ["Dinner Mate", "Bulgogi", "Korean BBQ", "Korean Beef", "K-Drama Recipe", "Romance Drama"]
 image: "https://images.pexels.com/photos/8999080/pexels-photo-8999080.jpeg?auto=compress&cs=tinysrgb&w=1280"
