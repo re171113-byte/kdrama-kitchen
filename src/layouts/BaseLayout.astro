@@ -1,4 +1,6 @@
 ---
+import Analytics from '@vercel/analytics/astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -466,6 +468,9 @@ const jsonLd = type === 'article' ? {
   </footer>
   <!-- Skimlinks -->
   <script type="text/javascript" src="https://s.skimresources.com/js/297463X1784950.skimlinks.js" async></script>
+
+  <!-- Vercel Analytics -->
+  <Analytics />
 </body>
 </html>
 
