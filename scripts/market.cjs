@@ -32,8 +32,18 @@ const CONTENT = {
     tweetVerify: 'doctor slump understood something',
     pinTitle: 'Doctor Slump Mandu — Classic Korean Dumplings Recipe',
     pinDesc: `The healing dumplings from Doctor Slump — ha-neul and jeong-woo didn't fix each other, they just made mandu together.\n\nLearn to fold classic Korean mandu with savory pork and vegetable filling. Includes step-by-step instructions + video tutorial.\n\n#KoreanFood #KDrama #DoctorSlump #Mandu`,
-    redditTitle: 'Mandu (만두) — the 3 filling mistakes that ruin korean dumplings every time',
-    redditBody: `i've made hundreds of mandu at this point and the first 50 were honestly terrible. here's what i kept getting wrong.\n\nmistake 1: too wet filling. if you don't squeeze the moisture out of your tofu and vegetables, the wrappers get soggy and tear. i press my tofu for at least 20 min now.\n\nmistake 2: overfilling. i know it's tempting but if you can't seal them properly they'll burst open when cooking. about 1 tablespoon per wrapper.\n\nmistake 3: not seasoning enough. the filling needs to be seasoned more than you think — sesame oil, soy sauce, garlic, ginger, and a pinch of sugar. taste the raw filling (yes, raw) to check the salt level.\n\nmy go-to filling ratio:\n- 300g ground pork\n- 200g firm tofu (pressed and crumbled)\n- 150g napa cabbage (salted, squeezed dry)\n- 4 green onions, finely chopped\n- 2 tbsp soy sauce\n- 1 tbsp sesame oil\n- 3 cloves garlic, minced\n- 1 tsp ginger\n\nfor cooking i usually pan-fry them: oil in a hot pan, place mandu flat side down, add a splash of water and cover for 3-4 min until the bottom is crispy golden.\n\nwhat filling combo do you prefer? i've seen people add glass noodles and kimchi — worth trying?`,
+    redditTitle: 'my mandu kept falling apart until i figured this out',
+    redditBody: `so i spent like a whole weekend making mandu with my gf and almost all of them fell apart when we tried to cook them lol. was so frustrating
+
+anyway turns out the problem was the filling was way too wet. nobody tells you that you gotta squeeze the hell out of your vegetables. like really wring them out. same with tofu if youre using it
+
+also i was putting way too much filling in each one trying to make them thicc. now i do maybe a tablespoon max and they actually stay closed
+
+oh and season your filling more than you think. i tasted the raw mix (i know lol but its mostly pork so just a tiny bit) and it was so bland. added more soy sauce and sesame oil and suddenly they tasted like actual restaurant mandu
+
+for pan frying - hot pan, oil, put them flat side down, then add some water and cover. the steam cooks the top while the bottom gets crispy. game changer
+
+anyone tried adding kimchi to the filling? saw some recipes with it but seems like itd make it too wet again`,
   },
   kimchi: {
     drama: 'Mr. Queen',
@@ -52,8 +62,20 @@ bong-hwan making kimchi in a royal kitchen is the most revolutionary scene in kd
     tweetVerify: 'mr. queen understood what most',
     pinTitle: 'Traditional Korean Kimchi Recipe — Mr. Queen K-Drama Fermented Cabbage',
     pinDesc: `The royal kimchi from Mr. Queen — a modern chef trapped in a Joseon queen's body revolutionizes the palace kitchen through kimchi-making.\n\nTraditional napa cabbage kimchi with step-by-step fermentation guide.\n\n#KoreanFood #KDrama #MrQueen #Kimchi`,
-    redditTitle: 'Kimchi (김치) — the 3 beginner mistakes that turn your first batch into mush',
-    redditBody: `made my first batch of kimchi about two years ago. it turned into a slimy, mushy disaster. since then i've made probably 40+ batches and finally figured out what i was doing wrong.\n\nmistake 1: not enough salt during brining. the cabbage needs to sit in salt for 6-8 hours minimum. i used to rush it to 2-3 hours and the leaves never wilted properly. properly brined cabbage should bend without snapping. if it still cracks, it needs more time.\n\nmistake 2: skipping the rice flour porridge. i thought it was optional. it's not. the porridge (just 2 tbsp sweet rice flour + 1 cup water, cooked until thick) feeds the lactobacillus bacteria during fermentation. without it, fermentation is slower and the flavor is flatter.\n\nmistake 3: not rinsing enough after salting. you need THREE full rinses under cold running water. i used to rinse once and my kimchi was way too salty. taste a piece of the rinsed cabbage before applying paste — it should taste like a well-seasoned salad, not the ocean.\n\nmy current go-to ratio for 1 napa cabbage:\n- 1/2 cup coarse sea salt (for brining)\n- 1 cup gochugaru\n- 3 tbsp fish sauce (myulchi aekjeot)\n- 3 tbsp salted shrimp (saeujeot), chopped\n- 8 cloves garlic, minced\n- 1 tsp ginger\n- 1 medium korean radish, julienned\n- 4-5 green onions\n\nfor fermentation: 1-2 days at room temperature until you see small bubbles, then move to fridge. the flavor keeps developing for weeks.\n\nwhat's your preferred fermentation time? i like mine after about 5-7 days in the fridge — slightly tangy but still crunchy.`,
+    redditTitle: 'first time making kimchi - it turned to mush. what did i do wrong?',
+    redditBody: `UPDATE: made another batch following the advice here and it actually worked!! thanks everyone
+
+---
+
+ok so i tried making kimchi for the first time last week and it turned into this slimy gross mess. tasted ok but the texture was awful
+
+i think i rushed the salting part? only did like 2 hours bc i was impatient. the cabbage was still pretty crunchy when i started adding the paste
+
+also didnt do the rice flour paste thing bc i thought it was optional. apparently not lol
+
+how long do you guys salt your cabbage for? and do you rinse it multiple times after? i only rinsed once and it was soooo salty
+
+gonna try again this weekend. any other tips for a noob? i have gochugaru, fish sauce, and salted shrimp ready to go`,
   },
   bossam: {
     drama: 'Marry My Husband',
@@ -66,8 +88,18 @@ bong-hwan making kimchi in a royal kitchen is the most revolutionary scene in kd
     tweetVerify: 'marry my husband has the most',
     pinTitle: 'Marry My Husband Bossam — Korean Boiled Pork Wraps Recipe',
     pinDesc: `The late-night freedom meal from Marry My Husband — ji-won eating bossam with people who actually care about her.\n\nTender boiled pork belly wrapped in fresh napa cabbage with spicy radish kimchi.\n\n#KoreanFood #KDrama #MarryMyHusband #Bossam`,
-    redditTitle: 'Bossam (보쌈) — why adding instant coffee to the boiling water actually works',
-    redditBody: `i've been obsessed with making bossam at home for months now, and the biggest game changer was something my korean friend's mom told me — throw a spoonful of instant coffee into the boiling water with the pork belly.\n\nsounds insane, right? but the tannins in the coffee neutralize the gamey pork smell way better than just using ginger and scallions alone. the meat comes out incredibly clean-tasting.\n\nmy method that finally worked:\n\n- use pork belly with skin on (about 1kg / 2.2 lbs)\n- bring water to a boil with doenjang, garlic, ginger, scallion, whole peppercorns, and 1 tbsp instant coffee\n- simmer on LOW for about 60-70 minutes (don't boil hard or it gets tough)\n- rest for 10 min before slicing against the grain\n\nthe wrapping setup matters just as much — fresh napa cabbage leaves, salted shrimp (saeujeot), sliced garlic, ssamjang, and if you want to be proper about it, some radish kimchi (musaengchae) on the side.\n\nbossam is one of those dishes that looks simple but the details make all the difference. the coffee trick, the low simmer, slicing against the grain — skip any of these and it's just boiled pork.\n\nwhat's your go-to trick for removing pork smell? i've heard some people use soju in the water too.`,
+    redditTitle: 'tried the instant coffee trick for bossam and wtf it actually works',
+    redditBody: `ok this sounds crazy but hear me out
+
+my friends mom is korean and she told me to put instant coffee in the water when boiling pork belly for bossam. i thought she was messing with me but tried it anyway
+
+the pork came out with zero gamey smell?? usually even with ginger and stuff it still has that pork funk but the coffee completely neutralized it. something about tannins idk
+
+i do about 1 tbsp of instant coffee with doenjang, garlic, ginger, green onion in the water. simmer low for like an hour, dont boil too hard or it gets tough
+
+slice it thin against the grain and wrap in cabbage with ssamjang and raw garlic. so good
+
+has anyone else tried this? or other tricks for the pork smell? heard soju works too but havent tested`,
   },
   sundae: {
     drama: 'Reply 1988',
@@ -90,28 +122,18 @@ ssangmun-dong wasn't just a neighborhood. it was home.
 Traditional Korean blood sausage with glass noodles and vegetables. Includes step-by-step recipe + video tutorial.
 
 #KoreanFood #KDrama #Reply1988 #Sundae #StreetFood`,
-    redditTitle: 'Sundae (순대) — why most people outside korea have never tried real korean blood sausage',
-    redditBody: `sundae is probably the most underrated korean street food. everyone knows about tteokbokki and korean fried chicken, but mention blood sausage and people get nervous.
+    redditTitle: 'anyone else obsessed with sundae? the blood sausage not the ice cream lol',
+    redditBody: `sundae is lowkey my favorite korean street food but whenever i mention it to non korean friends they get so weirded out by the blood sausage thing
 
-here's the thing — it's not as weird as it sounds. the filling is mostly glass noodles (dangmyeon), vegetables, and rice. the blood just binds everything together and adds a subtle earthiness. if you've ever had european black pudding or boudin noir, it's a similar concept.
+like yes theres blood in it but its mostly glass noodles and vegetables?? the blood just holds it together. if youve had black pudding or boudin its basically the same idea
 
-the traditional way to eat it:
-- sliced into rounds
-- dipped in salt mixed with black pepper
-- sometimes with a side of liver and lung (the full pojangmacha experience)
+the way you eat it is so simple too - just slice it up and dip in salt mixed with black pepper. thats it. some places give you liver on the side too which i know sounds gross but its actually really good
 
-my simplified home version (no intestine cleaning required):
-- use natural sausage casings from amazon
-- filling: soaked glass noodles, firm tofu (instead of blood), bean sprouts, green onions, garlic
-- season with sesame oil, soy sauce, salt, pepper
-- stuff loosely (they expand when steaming)
-- steam for 40-50 minutes
+theres a korean market near me that sells it fresh and i go there way too often ngl. the frozen stuff from hmart is ok but not the same
 
-the tofu substitution works surprisingly well if you're not ready for the real thing. still get that savory, chewy texture.
+has anyone tried making it at home? i saw you can buy casings on amazon but seems like a lot of work. also not sure where to even get the blood lol
 
-pro tip: the dipping salt is essential. plain salt + black pepper, maybe 3:1 ratio. some people add a tiny bit of sugar.
-
-has anyone here tried making sundae at home? or found a good korean market that sells it fresh?`,
+whats your go to place for sundae?`,
   },
   bulgogi: {
     drama: 'Dinner Mate',
@@ -134,30 +156,18 @@ they didn't fall in love over grand gestures. they fell in love over bulgogi.
 Tender marinated beef with the perfect balance of sweet and savory. Includes step-by-step recipe + video tutorial.
 
 #KoreanFood #KDrama #DinnerMate #Bulgogi #KoreanBBQ`,
-    redditTitle: 'Bulgogi (불고기) — the 3 marinade mistakes that make your beef taste like sad stir-fry',
-    redditBody: `i've been making bulgogi for years and the first dozen attempts were honestly disappointing. looked right, tasted... flat. here's what i was doing wrong.
+    redditTitle: 'finally figured out why my bulgogi always tasted off',
+    redditBody: `ok so i've been trying to make bulgogi at home for like 2 years now and it always came out weird?? like it looked fine but tasted nothing like what i get at korean restaurants
 
-mistake 1: skipping the asian pear. i thought it was optional or just for sweetness. it's not. the enzymes in asian pear (or kiwi) break down the meat proteins and create that melt-in-your-mouth texture. no pear = chewy beef. grate half a pear for 500g of meat.
+turns out i was skipping the pear lol. i thought it was just for sweetness but apparently the enzymes actually tenderize the meat. started grating half an asian pear into my marinade and holy shit the difference
 
-mistake 2: not marinating long enough. 30 minutes is the minimum, but overnight is where the magic happens. the meat needs time to absorb all that flavor. i prep mine the night before now.
+also was cooking it way too low. my mom (shes korean) saw me making it once and literally laughed at me. she cranked the heat all the way up and did it in like 2 mins. the char on the edges makes such a big difference
 
-mistake 3: cooking on low heat. bulgogi needs HIGH heat for a short time. you want caramelization on the edges, not steamed gray meat. don't overcrowd the pan — work in batches if needed.
+for anyone struggling like i was - marinate overnight not 30 mins, use pear or kiwi, and cook it HOT. dont crowd the pan either
 
-my go-to marinade for 500g beef:
-- 5 tbsp soy sauce
-- 2 tbsp sugar
-- 2 tbsp sesame oil
-- 1/2 asian pear, grated
-- 4 cloves garlic, minced
-- 1 tbsp ginger
-- 2 tbsp rice wine
-- black pepper
+what i use now: soy sauce, bit of sugar, sesame oil, garlic, ginger, rice wine, and the pear. nothing fancy but it works
 
-slice the beef thin (3mm) against the grain. marinate overnight. cook on screaming hot pan for 1-2 minutes per side.
-
-wrap in lettuce with rice, garlic, and ssamjang. that's the proper way.
-
-what cut do you prefer? i usually go ribeye but sirloin works on a budget.`,
+anyone else have tips? still trying to get it exactly like the place near my old apartment but getting closer`,
   },
 };
 
