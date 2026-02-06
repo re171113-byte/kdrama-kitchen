@@ -4,7 +4,7 @@ description: "Make authentic Korean sotteok sotteok inspired by True Beauty. Cri
 pubDate: "2026-02-06"
 category: "Street Food"
 tags: ["True Beauty", "Sotteok Sotteok", "Korean Street Food", "Rice Cake Skewers", "K-Drama Recipe", "Romance Drama"]
-image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=1280"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Sotteok-sotteok.jpg/1280px-Sotteok-sotteok.jpg"
 ---
 
 You know that feeling.
@@ -136,8 +136,8 @@ That's the magic of Korean street food. It makes everyone equal.
 ### Video Tutorial
 
 <iframe
-  src="https://www.youtube-nocookie.com/embed/GfwZcGnggqQ"
-  title="Korean Rice Cake Skewers Recipe by Maangchi"
+  src="https://www.youtube-nocookie.com/embed/Hnt8k5oCJ1k"
+  title="소떡소떡 만들기 - 만개의레시피"
   loading="lazy"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -145,7 +145,7 @@ That's the magic of Korean street food. It makes everyone equal.
   style="width: 100%; aspect-ratio: 16/9;">
 </iframe>
 
-*Video by [Maangchi](https://www.youtube.com/@Maangchi)*
+*Video by [만개의레시피](https://www.youtube.com/@10000recipe)*
 
 ### Instructions
 
@@ -227,6 +227,6 @@ Because some foods aren't about nutrition or Instagram. They're about happiness.
 
 ---
 
-*Hero image: "Korean Street Food Skewers" by Rosalind Chang, via [Unsplash](https://unsplash.com)*
+*Hero image: "Sotteok-sotteok" by LWY, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sotteok-sotteok.jpg)*
 
 *This post contains affiliate links. As an Amazon Associate, I earn from qualifying purchases at no extra cost to you.*
